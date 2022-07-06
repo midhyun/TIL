@@ -7,12 +7,9 @@
 ## Categories
 
 - [Markdown (typora)](#Markdown)
-
-* [Git_Hub](#Git_Hub)
-
-* [Visual Studio Code](#Visual_Studio_Code)
-
-* 
+- [Git_Hub](#Git_Hub)
+- [Visual Studio Code](#Visual_Studio_Code)
+- 
 
    
 
@@ -24,10 +21,9 @@
 
 ### Git_Hub
 
-* Definition
-* Git_Bash (terminal)
-* A basic language
-* add / commit , push / pull
+- Definition
+- Git_Bash (terminal)
+- add / commit , push / pull
 
 ### Visual_Studio_Code
 
