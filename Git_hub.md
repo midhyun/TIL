@@ -31,3 +31,9 @@ Push 실패
 
 
 
+touch .gitignore : git 버전 관리를 무시함.
+
+.gitignore
+
+http://gitignore.io
+
