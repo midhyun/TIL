@@ -8,9 +8,9 @@
 
 - [Markdown (typora)](#Markdown)
 
-* [Git / Github](#Git / Github)
+* [Git/Github](#Git/Github)
 
-* [Visual Studio Code](#Visual Studio Code)
+* [Visual Studio Code](#Visual_Studio_Code)
 
 * 
 
@@ -22,14 +22,14 @@
 
 - A basic language
 
-### Git / Github
+### Git/Github
 
 * Definition
 * Git_Bash (terminal)
 * A basic language
 * add / commit , push / pull
 
-### Visual Studio Code
+### Visual_Studio_Code
 
 
 
