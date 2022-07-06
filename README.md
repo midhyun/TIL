@@ -9,21 +9,21 @@
 - [Markdown (typora)](#Markdown)
 - [Git_Hub](#Git_Hub)
 - [Visual Studio Code](#Visual_Studio_Code)
-- 
+- ...
 
    
 
 ### Markdown
 
-- Definition
+- [Definition](https://github.com/midhyun/TIL/blob/master/Markdown/Definition.md)
 
-- A basic language
+- [A basic language](https://github.com/midhyun/TIL/blob/master/Markdown/A_basic_language.md)
 
 ### Git_Hub
 
-- Definition
-- Git_Bash (terminal)
-- add / commit , push / pull
+- [Definition](https://github.com/midhyun/TIL/blob/master/Markdown/A_basic_language.md)
+- [Git_Bash (terminal)](https://github.com/midhyun/TIL/blob/master/Git_Hub/Git_bash(terminal).md)
+- [add / commit , push / pull](https://github.com/midhyun/TIL/blob/master/Git_Hub/Add_commit.md)
 
 ### Visual_Studio_Code
 
