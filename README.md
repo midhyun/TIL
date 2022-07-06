@@ -8,8 +8,8 @@
 
 - [Markdown (typora)](#Markdown)
 
-* [Git/Github](#Git/Github)
-
+* [Git_Hub](#Git_Hub)
+_
 * [Visual Studio Code](#Visual_Studio_Code)
 
 * 
@@ -22,7 +22,7 @@
 
 - A basic language
 
-### Git/Github
+### Git_Hub
 
 * Definition
 * Git_Bash (terminal)
