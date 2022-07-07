@@ -19,25 +19,25 @@
 
 ### git init
 
-![gitinit](https://github.com/midhyun/TIL/blob/master/Git_Hub/gitinit.jpg)
+![gitinit](Add_commit.assets/gitinit.jpg)
 
 > $git init 선언 / .git 폴더 생성과 함께 버전관리
 
 ### git config
 
-![git_config](https://github.com/midhyun/TIL/blob/master/Git_Hub/git_config.jpg)
+![git_config](Add_commit.assets/git_config.jpg)
 
 > 사용자 정보 (commit author)를 설정
 
 ### git add / git commit
 
-![git_add_commit](https://github.com/midhyun/TIL/blob/master/Git_Hub/git_add_commit.jpg)
+![git_add_commit](git_add_commit.jpg)
 
 ### Git Hub 원격 저장소 만들기
 
-![nreposi](https://github.com/midhyun/TIL/blob/master/Git_Hub/nreposi.jpg)
+![nreposi](/Add_commit.assets/nreposi.jpg)
 
-1. 우측 상단 New repository 클릭![nreposi2](https://github.com/midhyun/TIL/blob/master/Git_Hub/nreposi2.jpg)
+1. 우측 상단 New repository 클릭![nreposi2](Add_commit.assets/nreposi2.jpg)
 2.  Name 적어주고 Create 
 
 
@@ -48,7 +48,7 @@
 
 >  git push <원격저장소 이름> <브랜치 이름>
 
-![git_push](https://github.com/midhyun/TIL/blob/master/Git_Hub/git_push.jpg)
+![git_push](Add_commit.assets/git_push.jpg)
 
 git hub repositories 주소를 origin에 할당한 후 push 명령어를 사용해 원격 저장소로 보낸다.
 
