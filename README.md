@@ -1,10 +1,10 @@
-# Today I Learned 
+# 😁 Today I Learned 
 
-> What I learned today . 						**Since 220704**
+> What I learned today . 🔥						🌈**Since 220704**
 
 
 
-## Categories
+## 🌈Categories
 
 - [Markdown (typora)](#Markdown)
 - [Git_Hub](#Git_Hub)
@@ -41,3 +41,4 @@
 
 > **Be strict to me**
 
+- [daily Summary](./DailySum)
