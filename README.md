@@ -20,15 +20,15 @@
 
 ### Git_Hub
 
-- [Definition](https://github.com/midhyun/TIL/blob/master/Markdown/A_basic_language.md)
+- [Definition](https://github.com/midhyun/TIL/blob/master/Git_Hub/Definition.md)
 - [Git_Bash (terminal)](https://github.com/midhyun/TIL/blob/master/Git_Hub/Git_bash(terminal).md)
 - [add / commit , push / pull](https://github.com/midhyun/TIL/blob/master/Git_Hub/Add_commit.md)
 - [Branch](https://github.com/midhyun/TIL/blob/master/Git_Hub/branch.md)
 
 ### Python
 
-- Definition
-- 
+- [Definition](https://github.com/midhyun/TIL/blob/master/Python/Definition.md)
+- [Basic](https://github.com/midhyun/TIL/blob/master/Python/Basic.md)
 - 
 
 ### Visual_Studio_Code
