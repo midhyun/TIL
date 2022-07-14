@@ -29,7 +29,8 @@
 
 - [Definition](https://github.com/midhyun/TIL/blob/master/Python/Definition.md)
 - [Basic](https://github.com/midhyun/TIL/blob/master/Python/Basic.md)
-- 
+- [Control_flow_statements]
+- [DataType_Method()]
 
 ### Visual_Studio_Code
 

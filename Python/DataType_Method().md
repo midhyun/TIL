@@ -121,4 +121,4 @@
 
 - 실습 18 번
 
-  ![image-20220714175437562](C:\Users\KHJ\Desktop\TIL\Notes\0714\0714.assets\image-20220714175437562.png)
+  ![image-20220714175437562](DataType_Method().assets/image-20220714175437562.png)
