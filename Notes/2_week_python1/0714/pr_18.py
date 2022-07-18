@@ -1,5 +1,5 @@
 word = 'banana'
-st_word = set(in_word) 
+st_word = set(word)  
 out_word = {}
 # 1
 for i in st_word:      ## 중복값을 제거 할 순 있지만,  순서가 없어서 실행마다 결과값의 순서가 다름. 
