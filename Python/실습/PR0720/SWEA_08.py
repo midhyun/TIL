@@ -42,13 +42,11 @@ T = int(input())
 for test_case in range(1, T + 1):
     # ///////////////////////////////////////////////////////////////////////////////////
     P, Q, R, S, W = map(int,input().split())
-    A = P*W
-    B = Q + (W-R)*S
+    A = P * W
+    B = Q + (W-R) * S
     if W <= R:
         B = Q
-    if A <= B:
-        print(f'#{test_case} {A}')
-    elif B <= A:
-        print(f'#{test_case} {B}')
+    print(f'#{test_case} {min(A, B)}')
+
     
     # ///////////////////////////////////////////////////////////////////////////////////
