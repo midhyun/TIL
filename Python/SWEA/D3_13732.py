@@ -10,5 +10,6 @@ for i in range(N):
     for j in a:
         m_lst.append(j)
     n_lst.append(m_lst)
-
-print(n_lst)
+for i in range(N):
+    n_lst[i].count('#')
+    
