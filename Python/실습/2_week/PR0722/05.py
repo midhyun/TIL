@@ -1,11 +1,13 @@
 import requests
 from pprint import pprint
-
+import os
+from dotenv import load_dotenv
 
 def credits(title):
     try:
 
-        api_key = '7f612bfdbaa738cd44a88077eead2d22'
+        load_dotenv()
+        api_key = os.getenv('api_key')
         URL = 'https://api.themoviedb.org/3'
         path_1 = '/search/movie'
         param_1 = {

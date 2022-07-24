@@ -1,7 +1,11 @@
 import requests
+import os
+from dotenv import load_dotenv
+
 
 def popular_count():
-    api_key = '7f612bfdbaa738cd44a88077eead2d22'
+    load_dotenv()
+    api_key = os.getenv('api_key')
     url = f'https://api.themoviedb.org/3/movie/popular?api_key={api_key}&language=en-US&page=1'
     response = requests.get(url)
 
