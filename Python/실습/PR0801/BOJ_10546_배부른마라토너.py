@@ -1,5 +1,6 @@
 import sys
-sys.stdin = ('input.txt')
+input = sys.stdin.readline
+sys.stdin = open('input.txt')
 
 num = int(input())
 sta_j = []
@@ -9,9 +10,8 @@ for i in range(num):
 
 for i in range(num-1):
     sta_g.append(input())
-
-sta_j.sort
-sta_g.sort
+sta_j.sort()
+sta_g.sort()
 
 for i in range(num-1):
     if sta_j[i] != sta_g[i]:
