@@ -1,4 +1,3 @@
-import heapq
 import sys
 sys.stdin = open('11_3.txt')
 input = sys.stdin.readline
