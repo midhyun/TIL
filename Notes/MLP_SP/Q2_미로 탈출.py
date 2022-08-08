@@ -1,7 +1,7 @@
 import sys
 sys.stdin = open('input.txt')
 from collections import deque
-
+from pprint import pprint
 
 N, M = map(int, input().split())
 
@@ -31,3 +31,4 @@ for i in range(N):
 dx = [-1,1,0,0]
 dy = [0,0,-1,1]
 print(bfs(0,0))
+pprint(graph)
