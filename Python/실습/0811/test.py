@@ -1,0 +1,3 @@
+lst = []
+
+print(len(lst))
