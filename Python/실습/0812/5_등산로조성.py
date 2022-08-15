@@ -9,16 +9,16 @@ def dfs(i, j, dist, isdig):
     for k in range(4):
         y = i + dy[k]
         x = j + dx[k]
-        if 0 <= x < N and 0 <= y < N and visited[y][x] == False:
-            if m_map[y][x] < m_map[i][j] :
+        if 0 <= x < N and 0 <= y < N and not visited[y][x]:
+            if m_map[y][x] < m_map[i][j]:
                 visited[y][x] = True
                 dfs(y, x, dist+1, isdig)
                 visited[y][x] = False
-            elif m_map[y][x] >= m_map[i][j] and isdig == False:
-                for dig in range(1, K+1):
+            elif m_map[y][x] >= m_map[i][j] and not isdig:
+                for dig in range(1, K+1):                       # 1부터 K만큼의 깊이를 한칸씩 낮춥니다.
                     m_map[y][x] -= dig
-                    isdig = True
-                    if m_map[y][x] < m_map[i][j]:
+                    isdig = True                                # 땅을 한번만 팔 수 있기 때문에 불리언으로 표시
+                    if m_map[y][x] < m_map[i][j]:               # 땅을 팠는데 현재 위치보다 낮아질 때, 방문가능 방문 표시 하면서 거리를 +1
                         visited[y][x] = True
                         dfs(y, x, dist+1, isdig)
                         visited[y][x] = False
