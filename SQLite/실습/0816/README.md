@@ -128,15 +128,15 @@ sido
 
 ### 자유롭게 조합해서 원하는 데이터를 출력해보세요.
 
-> 예) BMI 수치가 과체중인 사람의 수
+> 예) BMI 수치가 과체중이상인 사람의 수
 
 ```sqlite
-SELECT COUNT(*) FROM healthcare WHERE weight*weight/height >= 22.9;
+SELECT COUNT(*) FROM healthcare WHERE weight / (height*height*0.0001) >= 23;
 ```
 
 ```sqlite
 COUNT(*)
 --------
-544968
+595504
 ```
 
