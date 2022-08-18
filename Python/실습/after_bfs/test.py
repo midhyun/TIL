@@ -9,13 +9,13 @@ def div_3(n):
         print('YES')
         print(n,'---------------')
         return '이거 왜 안가져가?'
-
-    S = 0
-    for i in n:
-        S += int(i)
-    S = str(S)
-    cnt.append(0)
-    return div_3(S)
+    else:
+        S = 0
+        for i in n:
+            S += int(i)
+        S = str(S)
+        cnt.append(0)
+        return div_3(S)
 
 print(div_3(X))
 print(len(cnt))
