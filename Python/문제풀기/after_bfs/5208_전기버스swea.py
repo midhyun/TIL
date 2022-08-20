@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('5208.전기버스swea.txt')
+sys.stdin = open('5208_전기버스swea.txt')
 sys.setrecursionlimit(10**7)
 input = sys.stdin.readline
 
