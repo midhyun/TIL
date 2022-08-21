@@ -1,2 +1,3 @@
-N = 5
-print(bool(-1))
+a, b = (3, 5)
+
+print(a, b)
