@@ -261,20 +261,20 @@ GROUP BY B.Country
 ORDER BY CNT DESC
 LIMIT 10;
 
-+----------------+-----+
-|    Country     | CNT |
-+----------------+-----+
-| USA            | 494 |
-| Canada         | 304 |
-| France         | 190 |
-| Brazil         | 190 |
-| Germany        | 152 |
-| United Kingdom | 114 |
-| Portugal       | 76  |
-| Czech Republic | 76  |
-| India          | 74  |
-| Sweden         | 38  |
-+----------------+-----+
++----------------+-----+-------+
+|    Country     | CNT | items |
++----------------+-----+-------+
+| USA            | 494 | 91    |
+| Canada         | 304 | 56    |
+| France         | 190 | 35    |
+| Brazil         | 190 | 35    |
+| Germany        | 152 | 28    |
+| United Kingdom | 114 | 21    |
+| Portugal       | 76  | 14    |
+| Czech Republic | 76  | 14    |
+| India          | 74  | 13    |
+| Sweden         | 38  | 7     |
++----------------+-----+-------+
 ```
 
 ### 16. 2010년 에 주문한 각 나라Country 별 주문한 물건의 개수를 개수를 기준으로 내림차순으로 출력하세요.
@@ -341,3 +341,30 @@ GROUP BY B.BillingCountry;
 +----------------+-----+-------+
 ```
 
+### 17.ArtistId, Name, 각 Artist가 낸 tracks의 수 출력, 트랙 수 기준 내림차순, 10개
+
+```sql
+SELECT artists.artistId, artists.Name, COUNT(*) CNT
+FROM tracks 
+    INNER JOIN albums
+    ON tracks.AlbumId = albums.AlbumId
+    INNER JOIN artists
+    ON albums.artistId = artists.artistId
+GROUP BY artists.artistId
+ORDER BY CNT DESC
+LIMIT 10;
++----------+-----------------+-----+
+| ArtistId |      Name       | CNT |
++----------+-----------------+-----+
+| 90       | Iron Maiden     | 213 |
+| 150      | U2              | 135 |
+| 22       | Led Zeppelin    | 114 |
+| 50       | Metallica       | 112 |
+| 58       | Deep Purple     | 92  |
+| 149      | Lost            | 92  |
+| 118      | Pearl Jam       | 67  |
+| 100      | Lenny Kravitz   | 57  |
+| 21       | Various Artists | 56  |
+| 156      | The Office      | 53  |
++----------+-----------------+-----+
+```
