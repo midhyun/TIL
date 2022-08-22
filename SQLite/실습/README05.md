@@ -247,13 +247,13 @@ LIMIT 5;
 > LIMIT 10
 
 ```sql
-SELECT Country, COUNT(*) CNT, items
+SELECT Country, CNT, COUNT(*) items 
 FROM invoices AS A
     INNER JOIN customers B
     ON A.CustomerId = B.CustomerId
     INNER JOIN invoice_items C
     ON A.InvoiceId = C.InvoiceId
-    INNER JOIN (SELECT BillingCountry, COUNT(*) items
+    INNER JOIN (SELECT BillingCountry, COUNT(*) CNT
 FROM invoices
 GROUP BY BillingCountry) D
 	ON B.Country = D.BillingCountry
@@ -264,16 +264,16 @@ LIMIT 10;
 +----------------+-----+-------+
 |    Country     | CNT | items |
 +----------------+-----+-------+
-| USA            | 494 | 91    |
-| Canada         | 304 | 56    |
-| France         | 190 | 35    |
-| Brazil         | 190 | 35    |
-| Germany        | 152 | 28    |
-| United Kingdom | 114 | 21    |
-| Portugal       | 76  | 14    |
-| Czech Republic | 76  | 14    |
-| India          | 74  | 13    |
-| Sweden         | 38  | 7     |
+| USA            | 91  | 494   |
+| Canada         | 56  | 304   |
+| France         | 35  | 190   |
+| Brazil         | 35  | 190   |
+| Germany        | 28  | 152   |
+| United Kingdom | 21  | 114   |
+| Portugal       | 14  | 76    |
+| Czech Republic | 14  | 76    |
+| India          | 13  | 74    |
+| Sweden         | 7   | 38    |
 +----------------+-----+-------+
 ```
 
@@ -312,6 +312,7 @@ FROM invoices AS A
 FROM invoice_items A
 INNER JOIN invoices B
 ON A.InvoiceId = B.InvoiceId
+WHERE strftime('%Y', InvoiceDate) = '2010'
 GROUP BY B.BillingCountry) C
 	ON B.Country = C.BillingCountry
 WHERE strftime('%Y', InvoiceDate) = '2010'
@@ -328,16 +329,16 @@ GROUP BY B.BillingCountry;
 +----------------+-----+-------+
 |    Country     | CNT | items |
 +----------------+-----+-------+
-| USA            | 18  | 494   |
-| Canada         | 12  | 304   |
-| France         | 8   | 190   |
-| Brazil         | 8   | 190   |
-| United Kingdom | 5   | 114   |
-| Germany        | 4   | 152   |
-| Portugal       | 3   | 76    |
-| Italy          | 3   | 38    |
-| India          | 3   | 74    |
-| Hungary        | 3   | 38    |
+| USA            | 18  | 102   |
+| Canada         | 12  | 74    |
+| France         | 8   | 40    |
+| Brazil         | 8   | 40    |
+| United Kingdom | 5   | 31    |
+| Germany        | 4   | 26    |
+| Portugal       | 3   | 7     |
+| Italy          | 3   | 11    |
+| India          | 3   | 17    |
+| Hungary        | 3   | 25    |
 +----------------+-----+-------+
 ```
 
