@@ -9,9 +9,10 @@
 - [Markdown (typora)](#Markdown)
 - [Git_Hub](#Git_Hub)
 - [Visual Studio Code](#Visual_Studio_Code)
-- ...
-
-   
+- [Python](#Python)
+- [Algorithm](#Algorithm)
+- [SQlite](#SQlite)
+- [ORM_python](#ORM_python)
 
 ### Markdown
 
@@ -32,11 +33,20 @@
 - [Control_flow_statements]
 - [DataType_Method()]
 
-### Visual_Studio_Code
+### Algorithm
 
+- BOJ
+- Programmers
+- SWEA
+- 
 
+### SQLite
 
+- Control_DB
 
+### ORM_python
+
+- Django_ORM (import Model)
 
 
 

@@ -1,13 +1,29 @@
 import sys
-from pprint import pprint
 sys.stdin = open('15_5.txt')
 input = sys.stdin.readline
 # N-Queen_9663
-# N x N 체스판위에 퀸 N개를 서로 공격할 수없게 놓는 문제
-# 퀸을 놓는 방법의 수를 구하시오.
 
-# N*N 보드에 퀸 N개 놓으려면 한 행에 하나씩,, 들어가야되네
-N = int(input())
+n = int(input())
+ans = 0
+row = [0] * n
 
-board = [0]*N
-print(board)
+def is_promising(x):
+    for i in range(x):
+        if row[x] == row[i] or abs(row[x] - row[i]) == abs(x - i):
+            return False
+
+    return True
+
+def n_queens(x):
+    global ans
+    if x == n:
+        ans += 1
+
+    else:
+        for i in range(n):
+            row[x] = i
+            if is_promising(x):
+                n_queens(x+1)
+
+n_queens(0)
+print(ans)
