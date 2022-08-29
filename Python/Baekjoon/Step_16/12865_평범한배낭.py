@@ -10,7 +10,7 @@ for _ in range(n):
     wv.append((w, v))
 # 무게가 k 이하인 부분집합들 중에서 가치가 가장 큰값.
 # 무게가 k 이하인 조합,
-print(wv)
+
 for i in range(1, n+1):
     for j in range(1, k+1):
         w, v = wv[i][0], wv[i][1]

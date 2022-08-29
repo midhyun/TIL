@@ -15,15 +15,13 @@ for i in range(n):
     dp_up[i] += 1
 nums = nums[::-1]
 for i in range(n):
-    print(i)
     for j in range(n):
         if nums[i] > nums[j] and dp_down[i] < dp_down[j]:
             dp_down[i] = dp_down[j]
     dp_down[i] += 1
 dp_down = dp_down[::-1]
 result = 0
-print(dp_up)
-print(dp_down)
+
 for i in range(n):
     result = max(result, dp_up[i] + dp_down[i])
 
