@@ -1,0 +1,40 @@
+.card{
+  width:900px;
+  vertical-align:top;
+}
+.title {
+  text-align:center;
+  font-weight:bold;
+}
+.sub {
+  font-size:12px;
+}
+.view {
+  width:300px;
+  display:inline-block;
+  vertical-align:top;
+}
+.tl_ {
+  text-align:left;
+}
+.name{
+  font-size:14px;
+  font-weight:bold;
+}
+.category{
+  margin-left:15px;
+  font-size:12px;
+  color:#343a40;
+}
+.cont{
+  font-size:10px;
+  color:#adb5bd;
+}
+.img{
+  width:300px;
+  border-radius:1rem;
+  padding:3px;
+}
+.ls{
+  list-style-type:none
+}
