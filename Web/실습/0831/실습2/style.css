@@ -1,0 +1,46 @@
+/* 아래에 CSS를 작성해주세요. */
+*{
+  box-sizing:border-box;  
+}
+.view{
+  display:flex;
+  flex-direction:column;
+  
+  width:300px;
+  margin:10px 0;
+  
+}
+.img{
+  border-radius:1rem;
+  padding:5px;
+}
+.under{
+  margin:5px 10px;
+}
+.category{
+  margin:5px;
+  font-size:12px;
+  color:#8d99ae
+}
+.pdname{
+  letter-spacing:-1px;
+  font-size: 1rem;
+  margin:5px;
+}
+.price{
+  font-weight:bold;
+  font-size:1rem;
+  margin:5px;
+}
+.sale{
+  color:#90e0ef;
+}
+.review{
+  margin:5px;
+  font-size:14px;
+  font-weight:bold;
+  color:#8d99ae;
+}
+.score{
+  color:#2b2d42;
+}
