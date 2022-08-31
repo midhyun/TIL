@@ -1,0 +1,136 @@
+*{
+  box-sizing:border-box
+}
+body{
+  background-color:rgb(136, 136, 136);
+}
+.page{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  width:90%;
+  margin: 0px;
+}
+.sidebar{
+  width:148px;
+  height:954px;
+  background-color:#727272;
+  margin: 0px;
+  padding: 0px;
+}
+.main{
+  display: block;
+  flex-flow: column nowrap;
+  margin-left:20px;
+}
+.content{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.runningtab{
+  width:500px;
+  display:flex;
+  justify-content: space-evenly;
+  align-content: space-evenly
+}
+.posters{
+  display: flex;
+  flex-flow: row nowrap;
+  width:650;
+  justify-content: space-around;
+}
+ul{
+  list-style-type: none;
+  padding-left:0px;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-evenly;
+  width: 700px;
+  height: 400px;
+  background-color:rgb(0, 0, 0);
+}
+.ico_rating_15{
+  position:absolute;
+  left: 105px;
+  top: 5px;
+  border-radius: 5rem;
+  width: 16px;
+  height: 16px;
+  font-size: 10px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: rgb(255, 146, 45);
+}
+.ico_rating_all{
+  position:absolute;
+  left: 105px;
+  top: 5px;
+  border-radius: 5rem;
+  width: 16px;
+  height: 16px;
+  font-size: 10px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: rgb(53, 185, 70);
+}
+.ico_rating_12{
+  position:absolute;
+  left: 105px;
+  top: 5px;
+  border-radius: 5rem;
+  width: 16px;
+  height: 16px;
+  font-size: 10px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: rgb(16, 68, 180);
+}
+.ico_rating_adult{
+  position:absolute;
+  left: 105px;
+  top: 5px;
+  border-radius: 5rem;
+  width: 16px;
+  height: 16px;
+  font-size: 10px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: rgb(189, 15, 15);
+}
+.rank{
+  position:absolute;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight:bold;
+  font-style:italic;
+}
+.btn{
+  font-size: 14px;
+  color:#ffffff
+}
+li{
+  position:relative
+}
+.side_h{
+  display:block;
+  height: 40px;
+  border: 1px solid black;
+  background-color:rgb(233, 48, 48);
+  color:#FFFFFF;
+  text-align:left;
+  font-size: 12px;
+  align-items:center;
+  padding-left:5px;
+}
+.side_l{
+  display:block;
+  height: 40px;
+  border: 1px solid black;
+  background-color:rgb(31, 30, 30);
+  color:#FFFFFF;
+  text-align:left;
+  font-size: 12px;
+  padding-left:5px;
+}
