@@ -1,0 +1,56 @@
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+@font-face {
+  font-family: 'HBIOS-SYS';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/HBIOS-SYS.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  position:relative;
+  background-color:blue;
+  margin:0px;
+}
+.nav{
+  display:flex;
+  position: sticky;
+  top:0;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-content: center;
+  background-color:white;
+  padding:0px;
+  margin:0px;
+}
+
+.menu{
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content: space-around;
+  list-style-type:none;
+  margin: 5px;
+  padding:5px;
+}
+.m_list{
+  display:flex;
+  margin: 0 10px;
+
+}
+.btn {
+  font-family: 'HBIOS-SYS';
+  text-decoration: none;
+  font-size: 2rem;
+  margin:10px;
+  vertical-align: middle;
+}
+.btn:visited {
+  color:black;
+}
+.btn:hover {
+  color: aqua;
+  background-color:black;
+  border-radius:1px;
+}
+.blank{
+  height:1500px;
+}
+
