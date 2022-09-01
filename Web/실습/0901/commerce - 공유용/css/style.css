@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  min-width: 1280px;
+  color: #333333;
+}
+.nav{
+  display:flex;
+  position:sticky;
+  top:0;
+  justify-content:space-between;
+  background-color:white;
+  border-top: 0.2rem solid black;
+  padding: 1rem 0rem;
+  margin-top: 1rem;
+}
+.banner{
+  display:flex;
+  justify-content:center;
+  background-image:url('../assets/apparel.jpeg');
+  background-repeat:repeat;
+  background-size:auto;
+  height:700px;
+}
+.logo{
+  margin-left:1rem;
+}
+.menu{
+  list-style-type:none;
+  display:flex;
+  flex-flow: row wrap;
+}
+.btn{
+  font-size:1rem;
+  text-decoration:none;
+  padding: 0rem 1rem;
+}
+.btn:visited {
+  color:black
+}
+.btn:hover {
+  color:azure;
+  background-color:black;
+  border-radius:4px;
+}
+.main{
+  display:flex;
+  flex-flow : column wrap;
+  justify-content: center;
+  align-content: center;
+}
+.about{
+  width:1280px;
+  display:flex;
+  justify-content: center;
+  margin: 2rem;
+}
+.box{
+  display:flex;
+  flex-flow: column wrap;
+  margin: 1rem;
+  border-spacing: 0 1rem;
+}
+.box_row{
+  display:flex;
+  flex-flow: row wrap;
+  margin: 1rem;
+  border-spacing: 0 1rem;
+}
+.title{
+  text-align:center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.img_about{
+  border-radius: 1rem;
+  width:400px;
+}
+.script{
+  padding-left:1rem;
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+.more{
+  width:1280px;
+  display:flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-content: center;
+  margin: 2rem;
+}
+.icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 1rem;
+}
+.icon_img{
+  width:4rem;
+}
+.script_cen{
+  font-size: 1rem;
+  line-height: 1.8rem;
+  text-align:center;
+}
+.about_box{
+  display:flex;
+  flex-flow: column wrap;
+  align-content:center;
+  margin: 1rem;
+  border-spacing: 0 1rem;
+  width: 10rem;
+}
+.topbtn{
+  position:fixed;
+  bottom:5px;
+  right:5px;
+}
+.pdpage {
+  display:flex;
+  justify-content:center;
+}
+.category{
+  width:1280px;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  border-spacing: 0 4rem;
+}
+.pd{
+  border: 4px solid black;
+  width: 380px;
+  margin: 1rem;
+}
+.pd_img{
+  padding:1rem;
+}
+
