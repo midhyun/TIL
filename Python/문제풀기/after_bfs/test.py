@@ -1,1 +1,3 @@
-print(sorted(['A','N']))
+a = ['aa', 23]
+a = tuple(a)
+print(a)
