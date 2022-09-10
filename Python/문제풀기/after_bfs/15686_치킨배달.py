@@ -1,4 +1,5 @@
 import sys
+from itertools import combinations
 sys.stdin = open('15686_치킨배달.txt')
 input = sys.stdin.readline
 
@@ -13,4 +14,12 @@ for i in range(n):
         elif graph[i][j] == 2:
             shop.append((i,j))
 
-for a in 
+c_dist_min = 1e9
+for combi in combinations(shop, m):
+    c_dist = 0
+    for home in house:
+        c_dist += min([abs(home[0]-i[0]) +  abs(home[1]-i[1]) for i in combi])
+        if c_dist_min <= c_dist: break
+    if c_dist < c_dist_min: c_dist_min = c_dist
+
+print(c_dist_min)
