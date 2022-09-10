@@ -15,10 +15,11 @@ for i in range(n):
             shop.append((i,j))
 
 c_dist_min = 1e9
-for combi in combinations(shop, m):
+for combies in combinations(shop, m):
+    print(combies)
     c_dist = 0
     for home in house:
-        c_dist += min([abs(home[0]-i[0]) +  abs(home[1]-i[1]) for i in combi])
+        c_dist += min([abs(home[0]-combi[0]) +  abs(home[1]-combi[1]) for combi in combies])
         if c_dist_min <= c_dist: break
     if c_dist < c_dist_min: c_dist_min = c_dist
 
