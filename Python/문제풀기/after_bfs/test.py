@@ -1,4 +1,2 @@
-import heapq
+a = {'a','b','c','d','a'}
 
-q = []
-print(heapq.heappop(q))
