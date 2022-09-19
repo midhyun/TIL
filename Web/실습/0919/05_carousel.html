@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+      position:relative;
+      width:70%;
+      height:500px;
+      margin:auto;
+    }
+    .carousel-items{
+      position:relative;
+      display: flex;
+      width:100%;
+      height:100%;
+      overflow:hidden;
+    }
+    .carousel-item{
+      width:100%;
+      height:100%;
+      background-color:chocolate;
+      position:absolute;
+      top:0;
+      left:0;
+      display:none;
+    }
+    .active{
+      display:block;
+      animation: active 1.5s;
+    }
+    .prevbtn{
+      position:absolute;
+      
+    }
+    @keyframes active {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="carousel-items">
+      <div class="carousel-item active">0</div>
+      <div class="carousel-item">1</div>
+      <div class="carousel-item">2</div>
+      <div class="carousel-item">3</div>
+    </div>
+    <button id="prevBtn">&lt;</button>
+    <button id="nextBtn">&gt;</button>
+  </div>
+
+  <script type="text/javascript" src="./05_carousel.js"></script>
+</body>
+</html>
