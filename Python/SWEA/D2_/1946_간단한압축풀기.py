@@ -19,4 +19,3 @@ for test_case in range(1, t+1):
     print(f'#{test_case}')
     for i in lst:
         print(i)
-
