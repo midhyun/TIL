@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block container %}
+<h1 class="text-center text-white"> Lorem </h1>
+<div class="container text-white">
+    {% for i in result %}
+    {{i}}
+    <hr>
+    {% endfor %}
+</div>
+{% endblock %}

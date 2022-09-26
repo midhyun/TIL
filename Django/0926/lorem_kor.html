@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block container %}
+<h1 class="text-center text-white"> Lorem </h1>
+<div class="container">
+    <div class="mb-3 text-white">
+        <form action="/lorem_result">
+            <label for="input1" class="form-label">문단의 수</label>
+            <input type="number" class="form-control" id="input1" name="moondan" placeholder="숫자만 입력하세요."><br>
+            <label for="input2" class="form-label">문단별 단어의 수</label>
+            <input type="number" class="form-control" id="input2" name="words" placeholder="숫자만 입력하세요.">
+            <input class="m-3" type="submit">
+        </form>
+    </div>
+</div>
+{% endblock %}

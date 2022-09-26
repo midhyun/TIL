@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block container %}
+<h1 class="text-center text-white"> Dormitory Selector</h1>
+<h3 class="text-center text-white">-Hogwarts-</h3>
+
+<form class="container d-flex flex-column align-items-center" action="/dormitory_s">
+    <input class="m-3" type="text" name="name" placeholder="Name in KOR">
+    <input class="m-3" type="text" name="birthday" placeholder="Birthday ex) 0101 ">
+    <input class="m-3" type="text" name="mbti" placeholder="MBTI ex) ISTP ">
+    <input class="m-3" type="submit">
+
+</form>
+{% endblock %}
