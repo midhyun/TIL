@@ -1,0 +1,48 @@
+{% extends 'todos/base.html' %}
+
+{% block content %}
+<div class="container my-3">
+    <div class="card" style="width: 100%;">
+        <div class="card-body">
+            <h1 class="card-title">Todo.edit</h1>
+            <h6 class="card-subtitle mb-2 text-muted">Edit your todo list.</h6>
+            <form action="{% url 'todos:modify' todo.id %}">
+                <div class="row-cols-3 d-flex flex-wrap">
+                    <div class="col-4 p-3">
+                        <div class="">
+                            <label for="content_input" class="form-label">CONTENT</label>
+                            <input style="display:inline-block;" type="text" name="content_" class="form-control"
+                                id="content_input" value="{{ todo.content }}">
+                        </div>
+                    </div>
+                    <div class="col-4 p-3">
+                        <div class="">
+                            <label for="sdate_input" class="form-label">START_TO {{ todo.start_date }}</label>
+                            <input style="display:inline-block;" type="date" name="start_date" class="form-control"
+                                id="sdate_input" value="{{ todo.start_date.isoformat }}">
+                        </div>
+                    </div>
+                    <div class="col-4 p-3">
+                        <div class="">
+                            <label for="edate_input" class="form-label">DUE_TO</label>
+                            <input style="display:inline-block;" type="date" name="end_date" class="form-control"
+                                id="edate_input" value="{{ todo.end_date.isoformat }}">
+                        </div>
+                    </div>
+                    <div class="col-12 p-3">
+                        <div class="mb-3">
+                            <label for="script_input" class="form-label">SCRIPT</label>
+                            <input style="display:inline-block;" type="text" name="script" class="form-control"
+                                id="script_input" value="{{ todo.script }}">
+                        </div>
+                    </div>
+                    <div class="col-12 px-3 d-flex justify-content-end">
+                        <button class="btn btn-outline-secondary" type="submit">modify</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
