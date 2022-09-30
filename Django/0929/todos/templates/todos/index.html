@@ -19,14 +19,14 @@
                         <div class="">
                             <label for="sdate_input" class="form-label">START_TO</label>
                             <input style="display:inline-block;" type="date" name="start_date" class="form-control"
-                                id="sdate_input" placeholder="생략 시 오늘 날짜">
+                                id="sdate_input" placeholder="" value="{{ today.isoformat }}">
                         </div>
                     </div>
                     <div class="col-4 p-3">
                         <div class="">
                             <label for="edate_input" class="form-label">DUE_TO</label>
                             <input style="display:inline-block;" type="date" name="end_date" class="form-control"
-                                id="edate_input" placeholder="20220101">
+                                id="edate_input" placeholder="" value="{{ today.isoformat }}">
                         </div>
                     </div>
                     <div class="col-12 p-3">

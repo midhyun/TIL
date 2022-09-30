@@ -19,5 +19,4 @@ for test_case in range(1, 11):
             if temp == 1 and graph_col[i][j] == 2:
                 temp = 0
                 cnt += 1
-    print(cnt)
-
+    print(f'#{test_case} {cnt}')

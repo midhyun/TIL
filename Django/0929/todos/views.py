@@ -1,11 +1,14 @@
 from django.shortcuts import render, redirect
 from todos.models import Todo
+from datetime import datetime
 
 # Create your views here.
 def index(request):
     todos_ = Todo.objects.all()
+    today = datetime.today()
     context = {
-        'todos':todos_
+        'todos':todos_,
+        'today':today,
     }
 
     return render(request, 'todos/index.html', context)

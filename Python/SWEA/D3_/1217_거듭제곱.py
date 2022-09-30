@@ -1,5 +1,4 @@
 import sys
-from tkinter import N
 sys.stdin = open('1217_거듭제곱.txt')
 input = sys.stdin.readline
 

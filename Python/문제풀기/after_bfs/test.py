@@ -1,5 +1,1 @@
-a = 'S'
-if type(a) == int:
-    print('int')
-elif type(a) == str:
-    print('str')
+print(6//16)
