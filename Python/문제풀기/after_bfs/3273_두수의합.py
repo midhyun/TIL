@@ -6,11 +6,15 @@ n = int(input())
 nums = [*map(int, input().split())]
 x = int(input())
 nums.sort()
+left, right = 0, n-1
 cnt = 0
-for i in range(n):
-    for j in range(n,i,-1):
-        if i+j < x:
-            break
-        if i+j == x:
-            cnt += 1
-            break
+
+while left < right:
+    temp = nums[left] + nums[right]
+    if temp == x:
+        cnt += 1
+    if temp < x:
+        left += 1
+    else:
+        right -= 1
+print(cnt)

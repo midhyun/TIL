@@ -8,6 +8,7 @@ def zegop(n, m, result):
         return
     x = result*n
     zegop(n,m-1,x)
+    
 for test_case in range(1, 11):
     n = int(input())
     n, m = map(int, input().split())
