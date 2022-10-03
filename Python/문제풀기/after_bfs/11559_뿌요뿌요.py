@@ -12,6 +12,7 @@ def bfs(start): # 연쇄 1
     visited[start[0]][start[1]] = True
     cnt = 1
     dit = False
+    stack = [start]
     while q:
         i, j = q.popleft()
         for k in range(4):
@@ -20,23 +21,21 @@ def bfs(start): # 연쇄 1
             if 0 <= x < 12 and 0 <= y < 6 and not visited[y][x] and graph[y][x] == color:
                 visited[y][x] = True
                 q.append((y, x))
+                stack.append((y, x))
                 cnt += 1
     if cnt >= 4:
         dit=True
-        for i in range(6):
-            for j in range(12):
-                if graph[i][j] == color:
-                    graph[i][j] = '.'      
+        for s in stack:
+            graph[s[0]][s[1]] = '.'
     return dit
 
 def down():                                             # 뿌요뿌요 아래로 내리기
     for i in range(6):
-        for j in range(10,-1,-1):
+        for j in range(10, -1, -1):
             for k in range(11, j, -1):
                 if graph[i][j] != '.' and graph[i][k] == '.':
                     graph[i][j], graph[i][k] = graph[i][k], graph[i][j]
                     break
-
 
 graph_row = [[i for i in input().strip()] for _ in range(12)]
 graph = [[0]*12 for _ in range(6)]
