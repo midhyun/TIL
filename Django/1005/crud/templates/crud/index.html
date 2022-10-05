@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+
+{% block content %}
+
+
+<h1 class="text-center">Community</h1>
+<div class="container">
+    <a href="{% url 'crud:create' %}"><button class="btn btn-primary">글 작성</button><br></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Title</th>
+                <th scope="col">Created</th>
+                <th scope="col">Updated</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for cru in crud %}
+            <tr>
+                <th scope="row">{{ forloop.counter }}</th>
+                <td><a href="{% url 'crud:detail' cru.pk %}">{{ cru.title }}</a></td>
+                <td>{{ cru.created_at }}</td>
+                <td>{{ cru.updated_at }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

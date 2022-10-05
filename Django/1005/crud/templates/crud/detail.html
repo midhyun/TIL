@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+{% block content %}
+
+<div class="container">
+    <div class="card my-5">
+        <div class="card-body">
+            <h1 class="text-center">{{ crud.title }}</h1>
+            <hr>
+            <p>{{ crud.created_at }} | {{ crud.updated_at }}</p>
+            <p>Content</p>
+            <p>{{ crud.content }}</p>
+            <a href="{% url 'crud:update' crud.pk %}"><button class="btn btn-primary m-2">수정</button></a><a
+                href="{% url 'crud:delete' crud.pk %}"><button class="btn btn-primary m-2">삭제</button></a><a
+                href="{% url 'crud:index' %}"><button class="btn btn-primary m-2">목록</button></a>
+        </div>
+        {% load static %}
+        <img src="{% static 'crud/img1.gif' %}" alt="My image">
+    </div>
+</div>
+{% endblock %}
