@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1 class="text-center">DETAIL</h1>
+<div class="card">
+    <h2 class="p-3">{{ movie.title }}</h2>
+    <p class="text-secondary px-3">{{ movie.running_time }}분</p>
+</div>
+<hr>
+<div class="card">
+    <p class="p-3">{{ movie.summary }}</p>
+</div>
+<a href="{% url 'movie:update' movie.pk %}"><button class="btn btn-secondary m-2">수정</button></a><a
+    href="{% url 'movie:delete' movie.pk %}"><button class="btn btn-secondary m-2">삭제</button></a><a
+    href="{% url 'movie:index' %}"><button class="btn btn-secondary m-2">목록</button></a>
+{% endblock %}

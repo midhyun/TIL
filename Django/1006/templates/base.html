@@ -1,0 +1,33 @@
+{% load django_bootstrap5 %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+
+</head>
+
+<body>
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{% url 'movie:index' %}">
+                {% load static%}
+                <img src="{% static 'movie/logo.png' %}" alt="Logo" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                MOVIE
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+
+</html>

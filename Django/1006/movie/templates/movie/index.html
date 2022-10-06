@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+{% load static %}
+{% block content %}
+<div class="container text-center"><img src="{% static 'movie/understand.png' %}" alt="Static img"></div>
+<h1 class="text-center">INDEX</h1>
+<a href="{% url 'movie:create' %}"><button class="btn btn-secondary">글 작성</button></a>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#pk</th>
+            <th scope="col">영화 제목</th>
+            <th scope="col">상영시간</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for mov in movie %}
+        <tr>
+            <th scope="row">{{ mov.pk }}</th>
+            <td><a style="text-decoration:None; color:black" href="{% url 'movie:detail' mov.pk %}">{{ mov.title }}</a>
+            </td>
+            <td>{{ mov.running_time }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}
