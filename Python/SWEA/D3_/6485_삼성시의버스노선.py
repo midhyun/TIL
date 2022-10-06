@@ -1,4 +1,3 @@
-from re import L
 import sys
 sys.stdin = open('6485_삼성시의버스노선.txt')
 sys.stdin.readline
