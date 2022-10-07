@@ -141,3 +141,58 @@ def create(request):
 </form>
 ```
 
+##### 2. 입력받은 데이터 처리
+
+> POST http://127.0.0.1:8000/article/create/
+>
+> 게시글 DB에 생성하고 index 페이지로 redirect
+
+(1) urls.py
+
+(2)views.py
+
+- GET 요청 처리 흐름
+- POST 요청 처리 흐름(주의! invalid)
+
+```python
+def create(request):
+    if request.method == 'POST':
+        article_form = ArticleForm(request.POST)
+        if article_form.is_valid():
+            article_form.save()
+            return redirect('articles:index')
+    else:
+        article_form = ArticleForm()
+    context = {
+        'article_form': article_form
+    }
+    return render(Request, 'articles/new.html', context)
+```
+
+### 2. 게시글 목록
+
+> DB에서 게시글을 가져와서, template에 전달
+
+### 3. 상세보기
+
+> 특정한 글을 본다.
+
+> http://127.0.0.1:8000/articles/int:pk/
+
+### 4. 삭제하기
+
+> 특정한 글을 삭제한다.
+
+> http://127.0.0.1:8000/articles/int:pk/delete/
+
+### 5. 수정하기
+
+> 특정한 글을 수정한다. => 사용자에게 수정할 수 양식을 제공하고(GET) 특정한 글을 수정한다.(POST)
+
+> http://127.0.0.1:8000/articles/int:pk/update/
+
+## 추천 문서
+
+- [HTTP request & response object](https://docs.djangoproject.com/en/4.1/ref/request-response/)
+- [ModelForm](https://docs.djangoproject.com/en/4.1/topics/forms/modelforms/)
+- [Django view shortcut functions](https://docs.djangoproject.com/en/4.1/topics/http/shortcuts/)
