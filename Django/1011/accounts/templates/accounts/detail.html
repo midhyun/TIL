@@ -1,7 +1,6 @@
 {% extends 'base.html' %}
 {% load django_bootstrap5 %}
-{% block content %}
-
-<h1>{{ user.username }}님의 프로필</h1>
-
-{% endblock %}
+{% block body %}
+<h1>Detail</h1>
+{{ user.username }} 님의 Profile 페이지
+{% endblock body %}

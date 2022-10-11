@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+
+{% block body %}
+{% if review.image %}
+<h1>Detail</h1>
+<div class="container d-flex justify-content-center mt-3">
+<img src="{{ review.image.url }}" alt="이미지">
+</div>
+{% endif %}
+  <div class='mt-3'>
+    <h2>{{ review.title }}</h2>
+    <div class='d-flex align-items-center'>
+      <h4 class='me-3'>
+        {{ review.movie_name }}</h4>
+      <p>
+        grade :{{ review.grade }}
+      </p>
+    </div>
+    <div class='mt-3'>
+      <p>{{ review.content }}</p>
+    </div>
+    <div class='mt-4'>
+      <p class='text-end'>
+        작성시간 :
+        {{ review.created_at }}
+        | 수정 :
+        {{ review.updated_at }}
+      </p>
+    </div>
+
+    <div class="d-flex justify-content-center mt-5">
+      <a href="{% url 'review:update' review.pk %}" class="btn btn-primary me-3">리뷰 수정</a>
+      <a href="{% url 'review:delete' review.pk %}" class="btn btn-danger me-3">리뷰 삭제</a>
+      </form>
+    </div>
+  </div>
+{% endblock body %}

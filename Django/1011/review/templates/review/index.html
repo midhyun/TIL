@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+{% block body %}
+<h1>index</h1>
+<a href="{% url 'review:create' %}" class="btn btn-secondary">Review Add</a>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Title</th>
+        <th scope="col">Movie</th>
+        <th scope="col">Grade</th>
+      </tr>
+    </thead>
+    <tbody>
+        {% for rev in review %}
+      <tr>
+        <th scope="row">{{ rev.pk }}</th>
+        <td><a href="{% url 'review:detail' rev.pk %}">{{ rev.title }}</a></td>
+        <td>{{ rev.movie_title }}</td>
+        <td>{{ rev.grade }}</td>
+      </tr>
+        {% endfor %}
+    </tbody>
+  </table>
+{% endblock body %}
