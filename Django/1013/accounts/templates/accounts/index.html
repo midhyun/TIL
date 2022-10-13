@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+
+{% block body %}
+    <table class="table mt-3">
+        <thead>
+            <tr>
+                <th scope="col">pk</th>
+                <th scope="col">ID</th>
+                <th scope="col">E-mail</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in users %}
+            <tr>
+                <th scope="row">{{ i.pk }}</th>
+                <td><a href="{% url 'accounts:detail' i.pk %}">{{ i.username }}</a></td>
+                <td>{{ i.email }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}

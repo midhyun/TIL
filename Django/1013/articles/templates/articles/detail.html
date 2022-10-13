@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+{% block body %}
+<h1> {{ article.title }}</h1><hr>
+{{ article.content }}<hr>
+
+<a href="{% url 'articles:update' article.pk %}" class="btn btn-primary">글 수정</a>
+<a href="{% url 'articles:delete' article.pk %}" class="btn btn-danger">글 삭제</a>
+{% endblock %}

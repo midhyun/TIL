@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+
+{% block body %}
+<a href="{% url 'accounts:index' %}" class="btn btn-secondary"> 회원목록 </a>
+    <table class="table mt-3">
+        <thead>
+            <tr>
+                <th scope="col">pk</th>
+                <th scope="col">Title</th>
+                <th scope="col">작성시간</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in articles %}
+            <tr>
+                <th scope="row">{{ i.pk }}</th>
+                <td><a href="{% url 'articles:detail' i.pk %}">{{ i.title }}</a></td>
+                <td>{{ i.created_at }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}

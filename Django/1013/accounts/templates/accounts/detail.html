@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+{% block body %}
+<h1 class="text-center">{{ user.username }}님 의 Profile</h1>
+{{ user.email }} | {{ user.last_name }} {{ user.first_name }}<hr>
+<a href="{% url 'accounts:update' %}" class="btn btn-secondary">정보수정</a>
+{% endblock %}
