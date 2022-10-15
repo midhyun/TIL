@@ -11,4 +11,3 @@ for test_case in range(1, t+1):
     combies.sort()
 
     print(f'#{test_case}', combies[-5])
-    
