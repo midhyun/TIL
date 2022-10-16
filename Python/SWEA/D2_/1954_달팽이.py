@@ -11,7 +11,7 @@ for test_case in range(1, t+1):
     now = [0,0]
     graph[0][0] = 1
     k = 0
-    for i in range(2, n**2+1):
+    for i in range(2, n**2+1): # n * n +1
         now[0], now[1] = now[0]+dir[k][0], now[1]+dir[k][1]
         if 0 <= now[0] < n and 0 <= now[1] < n and graph[now[0]][now[1]] == 0:
             graph[now[0]][now[1]] = i

@@ -1,7 +1,6 @@
 import sys
 sys.stdin = open('1244_최대상금.txt')
 
-
 for tc in range(1,int(input())+1):
     data, k = input().split()                       # 숫자판의 정보, 교환횟수
     k = int(k)                                      # int(교환횟수)
@@ -19,5 +18,5 @@ for tc in range(1,int(input())+1):
                     s[i], s[j] = s[j], s[i]         # 원위치
         now,nxt = nxt,now                           # nxt에는 경우의 수가 중복없이 들어있고, now는 pop()을반복해서 비었다,
                                                     # 둘이 값을 바꾸고 이제 nxt가 빌때까지 now에 경우의 수를 담는다.
-
+    print(now,nxt)
     print('#{} {}'.format(tc,max(map(int,now))))    # 모든 경우의 수 중에서 가장큰 값을 출력한다.
