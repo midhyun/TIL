@@ -1,0 +1,19 @@
+{% extends 'base.html'%}
+{% load django_bootstrap5 %}
+{% block body %}
+<h1>Detail</h1>
+<div class="card text-center my-3 ">
+    <div class="card-head pt-3">
+        <h3>{{ article.title }}</h3><hr>
+    </div>
+    <div class="card-body">
+        {% if article.image %}
+        <img src="{{ article.image.url }}" alt="{{ article.image }}"><br>
+        {% endif %}
+        {{ article.content }}<br>
+        <a class="btn btn-primary m-2" href="{% url 'articles:update' article.pk %}">수정</a>
+        <a class="btn btn-danger m-2" href="{% url 'articles:delete' article.pk %}">삭제</a>
+    </div>
+
+</div>
+{% endblock body%}

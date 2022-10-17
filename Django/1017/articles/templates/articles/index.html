@@ -1,0 +1,22 @@
+{% extends 'base.html'%}
+{% load django_bootstrap5 %}
+{% block body %}
+<h1>index</h1>
+<a class="btn btn-primary" href="{% url 'articles:create' %}">글 작성</a>
+<div class="row row-cols-4">
+    {% for article in articles %}
+    <div class="col mt-3">
+        <div class="card">
+            {% if article.image %}
+            <img class="card-img-top" src="{{ article.image.url }}" alt="{{ article.image }}">
+            {% else %}
+            <div class="bg-secondary" ></div>
+            {% endif %}
+            <div class="card-body">
+                <a class="card-title" href="{% url 'articles:detail' article.pk %}">{{ article.title }}</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock body%}
