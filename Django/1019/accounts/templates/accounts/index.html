@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+
+{% block body %}
+<h1 class="text-center">MAIN</h1>
+<a class="btn btn-primary w-100 mt-3" href="{% url 'accounts:signup' %}">회원가입</a><br>
+<button class="btn btn-primary w-100 mt-3">회원목록</button>
+
+{% endblock body %}

@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+
+{% block body %}
+<h1>{{ user.username }}님의 Profile</h1><hr>
+<p>{{ user.email }}</p>
+{% if request.user == user %}
+<a href="{% url 'accounts:update' user.pk %}" class="btn btn-secondary">정보수정</a>
+<a href="{% url 'accounts:delete' user.pk%}" class="btn btn-secondary">회원탈퇴</a>
+{% endif %}
+<h3>등록한 게시글</h3>
+<p>{{ user.articles_set.all.count }}개의 게시글을 등록하였습니다.</p>
+<p>글 제목</p>
+{% for article in user.articles_set.all %}
+<a href="{% url 'articles:detail' article.pk %}">{{ article.title }}</a><hr>
+{% endfor %}
+<h3>등록한 덧글</h3>
+<p>{{ user.comments_set.all.count }} 개의 덧글을 등록하였습니다.</p>
+<p>글 제목</p>
+{% for comment in user.comments_set.all %}
+<a href="{% url 'articles:detail' comment.article_id %}">{{ comment.article.title }}</a><hr>
+{% endfor %}
+<a href="{% url 'articles:index' %}">메인</a>
+{% endblock body %}

@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+
+{% block body %}
+<form action="" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    <button class="btn btn-secondary" type="submit">OK</button>
+    <a class="btn btn-danger" href="{% url 'articles:index' %}">Cancel</a>
+</form>
+{% endblock body %}

@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+
+{% block body %}
+<h1>{{ article.title }}</h1>
+<a href="{% url 'accounts:detail' article.user.pk %}" class="text-muted">작성자 : {{ article.user.username }}</a><br>
+{% if user.pk == article.user.pk %}
+<a href="{% url 'articles:update' article.pk article.user.pk %}" class="btn btn-secondary">수정</a>
+<a href="{% url 'articles:delete' article.pk article.user.pk %}" class="btn btn-outline-danger">삭제</a>
+{% endif %}
+<hr>
+{% if article.image %}
+<img src="{{ article.image.url }}" alt="{{ article.image }}">
+{% endif %}
+<p>{{ article.content }}</p>
+<hr>
+<h3>덧글</h3>
+{% if article.comment_set.all %}
+<p>아직 덧글이 없어요.</p>
+{% else %}
+<p>{{ article.comments_set.count }} 개의 덧글이 있습니다.</p>
+{% endif %}
+<form action="{% url 'articles:comment' article.pk %}" method="POST">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    <button class="btn btn-secondary" type="submit">작성</button>
+</form>
+{% for comment in comments %}
+<div class="mt-2">
+    <p>{{ comment.content }}</p>
+    <a href="{% url 'accounts:detail' comment.user.pk %}" class="text-muted"> {{ comment.user }}</a>
+</div>
+{% endfor %}
+{% endblock body %}
