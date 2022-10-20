@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+{% block body %}
+    {% for use in users %}
+    <a href="{% url 'accounts:detail' use.pk %}">{{ use.username }}</a>
+    {% endfor %}
+{% endblock body %}
