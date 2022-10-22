@@ -1,0 +1,40 @@
+/* review detail */
+
+.review-main{
+  border-radius: 15px;
+  padding: 2rem;
+  background-color: rgb(231, 231, 231);
+}
+
+.review-user-img{
+  border-radius:50%;
+  height: 4rem;
+  width: 4rem;
+}
+
+.reviewimage{
+  height: 250px;
+  border-radius: 10px;
+}
+
+/* comment */
+
+.comment{
+  padding: 1rem;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.comment-user{
+  margin-bottom: 1rem;
+}
+
+.comment-image{
+  border-radius:50%;
+  height: 4rem;
+  width: 4rem;
+}
+
+.comment-user-info{
+  margin-left: 1rem;
+}
