@@ -38,6 +38,7 @@ while q_now or q_nxt:
                 if graph[i][j] == '#':
                     graph[i][j] = '.'
                     graph[i+1][j] = '#'
+
 if graph[0][7] == '.':
     print(0)
 else:

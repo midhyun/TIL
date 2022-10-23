@@ -15,7 +15,7 @@ t = int(input())
 for test_case in range(1, t+1):
     n, m = input().strip().split()
     m = int(m)
-    visited = [False] * (int(num_max)+1)
+    visited = [False] * (int(num_max)   +1)
     for visit in range(1000):
         visited[visit] = True
     now = set([n])

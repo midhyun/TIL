@@ -38,7 +38,8 @@ while True:
 
     position = s_pos+pos
     leng = len(position)
-    combies = permutations(range(1, leng), leng-1)
+    combies = list(permutations(range(1, leng), leng-1))
+    print(combies)
     dp = [[0]*leng for _ in range(leng)]
     flag = True
     for i in range(leng):
@@ -61,3 +62,5 @@ while True:
                 temp = combi[i]
             result.append(cnt)
         print(min(result))
+    for i in dp:
+        print(i)

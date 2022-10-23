@@ -15,5 +15,4 @@ for test_case in range(1, t+1):
     invites = [*map(int, input().split())]
     dp = [[INF]*(n+1) for _ in range(invite_n)]
     for invite in invites:
-
-
+        

@@ -4,8 +4,8 @@ sys.stdin = open('14395_4연산.txt')
 input = sys.stdin.readline
 
 start, end = map(int, input().split())
-INF = int(1e9)
-visited = [[]]*(INF+1)
+INF = (end*end)+1
+visited = [[] for _ in range(INF+1) ]
 
 def bfs(start, n, end):
     q = deque()
@@ -13,21 +13,24 @@ def bfs(start, n, end):
     visited[start].append(())
     while q:
         i, path = q.popleft()
-        print(visited[i])
         if i == end:
             break
-        if 1 <= i+start <= INF:
-            visited[i+start].append((i+start, path+'+'))
-            q.append((i+start, path+'+'))
-        if 1 <= i-start <= INF:
-            visited[i-start].append((i-start, path+'-'))
-            q.append((i-start, path+'-'))
-        if 1 <= i*start <= INF:
-            visited[i*start].append((i*start, path+'*'))
-            q.append((i*start, path+'*'))
-        if 1 <= int(i/start) <= INF:
-            visited[int(i/start)].append((int(i/start), path+'/'))
-            q.append((int(i/start), path+'/'))
+        if 1 <= i+i <= INF:
+            visited[i+i].append(path+'+')
+            q.append((i+i, path+'+'))
+        if 1 <= i-i <= INF:
+            visited[i-i].append(path+'-')
+            q.append((i-i, path+'-'))
+        if 1 <= i*i <= INF:
+            visited[i*i].append(path+'*')
+            q.append((i*i, path+'*'))
+        if 1 <= int(i/i) <= INF:
+            visited[int(i/i)].append(path+'/')
+            q.append((int(i/i), path+'/'))
 
-bfs(start, '', end)
-print(sorted(visited[end])[0])
+bfs(start, '-1', end)
+x = sorted(visited[end])[0]
+if len(visited[end]) == 0:
+    print(0)
+else:
+    print(x)
