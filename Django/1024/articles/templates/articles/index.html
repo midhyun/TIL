@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+
+{% block content %}
+<div class="container mt-3">
+    <a href="{% url 'articles:create' %}" class="btn btn-primary">글 작성</a><br>
+    
+    <div class="row row-cols-lg-4 row-cols-xs-2 mb-3">
+        {% for article in articles %}
+        <div class="col mt-3">
+            <div class="card shadow">
+                {% if article.image_thumbnail %}
+                <img class="card-top-img" src="{{ article.image_thumbnail.url }}" alt="없음">
+                {% else %}
+                <img class="card-top-img" src="https://dummyimage.com/295x295/000/fff" alt="">
+                {% endif %}
+                <div class="card-body p-2">
+                    <a class="card-title" style="text-decoration:none; color:black" href="{% url 'articles:detail' article.pk %}"><h5>{{ article.title }}</h5></a>
+                    <a style="text-decoration:none; color:black" href="{%url 'accounts:detail' article.user.pk %}">작성자:{{ article.user.username }}</a>
+                    <p class="text-muted">{{ article.created_at.date }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}        
+    </div>
+</div>
+{% endblock %}
