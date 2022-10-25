@@ -12,7 +12,7 @@ for i in noto:
         break
     if i == ucpc[cnt]:
         cnt += 1
-        print(i)
+
 if cnt >= 4:
     print('I love UCPC')
 else:
