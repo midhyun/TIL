@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="p-4">
+    <h2 class="me-4 my-4">{{ user.username }}님의 프로필</h2>
+    <p class="text-center">
+      이메일 : {{ user.email }}
+    </p>
+    <p class="text-center">
+      팔로잉 : {{ user.followings.all|length }}명 | 팔로워 : {{ user.followers.all|length }}명
+    </p>
+    {% if request.user == user %}
+      <div class="row justify-content-center mb-3">
+        <div class="col-sm-12 col-md-10 col-lg-8">
+          <a class="btn btn-primary form-control" href="{% url 'accounts:update' %}">회원 정보 수정</a>
+        </div>
+      </div>
+      <div class="row justify-content-center mb-3">
+        <div class="col-sm-12 col-md-10 col-lg-8">
+          <a class="btn btn-warning form-control" href="{% url 'accounts:password' %}">비밀번호 변경</a>
+        </div>
+      </div>
+      <div class="row justify-content-center mb-3">
+        <div class="col-sm-12 col-md-10 col-lg-8">
+          <a class="btn btn-danger form-control" href="{% url 'accounts:delete' %}">회원 탈퇴</a>
+        </div>
+      </div>
+    {% else %}
+      <div class="row justify-content-center mb-3">
+        <div class="col-sm-12 col-md-8 col-lg-4">
+          {% if request.user.is_authenticated %}
+            {% if request.user in user.followers.all %}
+              <a href="{% url 'accounts:follow' user.pk %}" class="btn btn-success form-control">언팔로우</a>
+            {% else %}
+              <a href="{% url 'accounts:follow' user.pk %}" class="btn btn-outline-success form-control">팔로우</a>
+            {% endif %}
+          {% else %}
+            <button class="btn btn-outline-success form-control disabled" type="submit">팔로우</button>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+{% endblock content %}
