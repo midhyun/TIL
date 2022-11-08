@@ -11,7 +11,7 @@ sy -= 1
 ex -= 1
 ey -= 1
 graph = [[*map(int, input().split())] for _ in range(n)]
-visited = [[[-1]*2 for _ in range(m)] for _ in range(n)]
+visited = [[[-1]*2 for _ in range(m)] for _ in range(n)]    # 2차원 >> 벽을 부쉈을 경우, 아직 부술수 있는 경우
 dx = [0,0,-1,1]
 dy = [-1,1,0,0]
 
@@ -33,6 +33,7 @@ def bfs(starty,startx, check):
                     visited[y][x][check] = visited[i][j][check] + 1
                     q.append((y, x, check))
     return -1
+    
 bfs(sy, sx, 1)
 if max(visited[ey][ex]) == -1 :
     print(-1)
