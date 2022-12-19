@@ -2,8 +2,6 @@
 
 > What I learned today . 🔥						🌈**Since 220704**
 
-11.01.1 비모쌤과 함께 했다.
-
 ## 🌈Categories
 
 - [Markdown (typora)](#Markdown)

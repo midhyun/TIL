@@ -31,7 +31,7 @@ def dijkstra(start):
                 heappush(q, (cost, x))
     return visited
 
-per = permutations(markets, K)
+per = list(permutations(markets, K))
 result = INF
 visited_list = [0] *(N+1)
 for i in markets:
@@ -41,18 +41,14 @@ for i in range(1, N+1):
     if i in markets:
         continue
     for permu in per:
-        temp = 0
         now = i
+        temp = 0
         for k, v in enumerate(permu):
-            if k == 0:
-                temp += visited_list[v][i]
-                now = v
-            else:
-                temp += visited_list[v][now]
-                now = v
-            print(temp)
-        temp += visited_list[v][i]
-        print(temp)
+            temp += visited_list[v][now]
+            now = v
+
+        temp += visited_list[now][i]
         result = min(result, temp)
-    
+
+
 print(result)
