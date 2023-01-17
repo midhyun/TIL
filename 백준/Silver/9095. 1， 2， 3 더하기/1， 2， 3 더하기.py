@@ -1,5 +1,4 @@
 import sys
-
 input = sys.stdin. readline
 
 t = int(input())
@@ -10,3 +9,4 @@ for i in range(4, max(nums)+1):
     dp[i] = dp[i-1] + dp[i-2] + dp[i-3]
 for i in range(t):
     print(dp[nums[i]])
+    
