@@ -1,8 +1,8 @@
 import sys
-sys.stdin = open('temp.txt')
+sys.stdin = open('15486_퇴사2.txt')
 input = sys.stdin.readline
 
-n = int(input()) # n = 7
+n = int(input())
 dp = [0] * (n+1)
 for i in range(n):
     a, b = map(int, input().split())
