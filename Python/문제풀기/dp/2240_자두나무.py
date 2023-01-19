@@ -20,4 +20,3 @@ for i in range(T):
             dp[i][j] += 1
 
 print(max(dp[-1]))
-print(dp)
