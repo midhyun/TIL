@@ -9,7 +9,7 @@ dp = [0] *(6544)
 temp = [nums[0]]
 now = nums[0]
 dp[now] = 1
-
+# num[-1] 까지 DP 초기세팅
 for i in range(1, k):
     for j in range(now+1, nums[i]):
         if 0 in [dp[j-k] for k in temp]:
@@ -21,23 +21,20 @@ for i in range(1, k):
     dp[now] = 1
 
 dp[temp[-1]] = 1
-repeat = dp[temp[0]:temp[-1]+1]
-lenrep = len(repeat)
-
-result = 0
-for i in range(temp[-1]+1, m+1):
+# DP만들기 1200개 까지
+for i in range(temp[-1]+1, 1200):
     if 0 in [dp[i-k] for k in temp]:
         dp[i] = 1
     else:
         dp[i] = 0
-    if i > temp[-1]+1 and repeat == dp[i-lenrep:i]:
-        result = i
+# loop 찾기 (nums[-1]개 부터 600개의 루프길이 예상 )
+for i in range(nums[-1],600):
+    if dp[101:101+i] == dp[101+i:101+i+i]:
+        loop = dp[101:101+i]
         break
 
-for i in range(23,200,28):
-    print(dp[i-28:i], i)
-result = result-lenrep-temp[0]
-loop = dp[temp[0]:result+temp[0]]
-x = m//result
-y = m%result
-print(x*loop.count(0) + loop[:y].count(0) + temp[0]-1)
+x = ((m-100)//i)*(loop.count(0))
+y = loop[:(m-100)%i].count(0)
+z = dp[:101].count(0) - 1
+result = x + y + z
+print(result)
