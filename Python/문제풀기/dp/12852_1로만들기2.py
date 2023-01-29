@@ -15,6 +15,7 @@ for i in range(1, n):
         dp[i*3] = min(dp[i*3], dp[i] + 1)
     except: pass
 print(dp[n])
+print(dp)
 result = [n]
 now = n
 temp = dp[n] - 1
