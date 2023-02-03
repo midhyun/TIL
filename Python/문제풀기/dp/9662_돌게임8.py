@@ -27,6 +27,7 @@ for i in range(temp[-1]+1, 1200):
         dp[i] = 1
     else:
         dp[i] = 0
+
 # loop 찾기 (nums[-1]개 부터 600개의 루프길이 예상 )
 for i in range(nums[-1],600):
     if dp[101:101+i] == dp[101+i:101+i+i]:

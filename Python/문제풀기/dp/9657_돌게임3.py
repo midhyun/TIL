@@ -11,4 +11,5 @@ for i in range(5, n+1):
         dp[i] = 1
     else:
         dp[i] = 0
+print(dp)
 print('SK') if dp[n] else print('CY')
