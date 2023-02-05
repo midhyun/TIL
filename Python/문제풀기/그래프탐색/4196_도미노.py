@@ -2,7 +2,7 @@ import sys
 sys.setrecursionlimit(10**8)
 sys.stdin = open('4196_도미노.txt')
 input = sys.stdin.readline
-
+# 타잔 알고리즘
 def dfs(cur):
     global id
     id += 1
@@ -15,7 +15,7 @@ def dfs(cur):
             parent = min(parent, dfs(nxt))
         elif on_stack[nxt]:
             parent = min(parent, visited[nxt])
-    
+    # scc를 result리스트에 추가
     if parent == visited[cur]:
         scc = []
         while True:
@@ -47,17 +47,21 @@ for _ in range(T):
     
     indegree = [0]*(len(result)+1)
     idx = 0
+    # 각 scc의 아이디값을 각요소에 부여함
     for scc in result:
         idx += 1
         for i in scc:
             visited[i] = idx
-
+    # 모든 노드를 순회하면서, 인접노드가 다른 scc에 속하는 경우
+    # 해당 scc를 밀어주는 indegree += 1
     for i in range(1, V+1):
         for nxt in graph[i]:
             if visited[i] != visited[nxt]:
                 indegree[visited[nxt]] += 1
     cnt = 0
+    # indegree가 없는 경우 밀어주는 도미노가 없음.
     for i in range(1, len(indegree)):
         if indegree[i] == 0:
             cnt += 1
+    # cnt가 0일 경우 어떤 도미노를 밀어도 모두 넘어지므로 1출력
     print(cnt) if cnt else print(1)
