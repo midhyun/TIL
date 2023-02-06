@@ -16,7 +16,7 @@ def DFS(cur):
             parent = min(parent, DFS(nxt))
         elif on_stack[nxt]:
             parent = min(parent, visited[nxt])
-    
+    # scc 마다 id값 부여
     if parent == visited[cur]:
         scc = []
         while True:
@@ -49,13 +49,13 @@ for test in range(T):
     for i in range(N):
         if visited[i] == -1:
             DFS(i)
-    
+    # 진입차수가 0인 scc가 한개만 존재해야 함
     indegree = [0]*(len(result))
     for i in range(N):
         for j in graph[i]:
             if visited[i] != visited[j]:
                 indegree[visited[j]] += 1
-
+    # 진입차수가 0인 scc의 노드들을 출력함.
     if indegree.count(0) == 1:
         for i in range(len(result)):
             if indegree[i] == 0:
@@ -65,4 +65,3 @@ for test in range(T):
     if test != T-1:
         input()
     print()
-            
