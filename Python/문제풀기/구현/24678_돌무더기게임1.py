@@ -3,7 +3,7 @@ sys.stdin = open('24678_돌무더기게임1.txt')
 input = sys.stdin.readline
 
 T = int(input())
-ans = ['B','R','R']
+
 for _ in range(T):
     nums = [*map(int, input().split())]
     cnt = 0
