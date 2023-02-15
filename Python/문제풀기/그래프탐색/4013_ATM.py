@@ -70,18 +70,18 @@ for i in range(1, N+1):
             indegree_graph[scc_idx[i]].append(scc_idx[nxt])
 
 visited_in[scc_idx[S]] = scc[scc_idx[S]]
-dfs_scc(scc[scc_idx[S]], scc_idx[S])
+# dfs_scc(scc[scc_idx[S]], scc_idx[S])
 
-# q = deque()
-# q.append((scc[scc_idx[S]], scc_idx[S]))
-# while q:
-#     cost, cur = q.popleft()
-#     if visited_in[cur] > cost : continue
+q = deque()
+q.append((scc[scc_idx[S]], scc_idx[S]))
+while q:
+    cost, cur = q.popleft()
+    if visited_in[cur] > cost : continue
 
-#     for nxt in indegree_graph[cur]:
-#         if visited_in[nxt] < cost + scc[nxt]:
-#             visited_in[nxt] = cost + scc[nxt]
-#             q.append((cost + scc[nxt], nxt))
+    for nxt in indegree_graph[cur]:
+        if visited_in[nxt] < cost + scc[nxt]:
+            visited_in[nxt] = cost + scc[nxt]
+            q.append((cost + scc[nxt], nxt))
 
 result = 0
 for outback in rest:

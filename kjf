@@ -1,0 +1,511 @@
+[33mcommit f90c619026eac7bf2fc60388ca7c787ee999054c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Thu Feb 9 17:33:57 2023 +0900
+
+    24678_돌무더기2
+
+[33mcommit 82e624dacd0ee6112e28a407c559eb41537873e7[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Thu Feb 9 17:33:08 2023 +0900
+
+    scc_그래프싱크
+
+[33mcommit 6c654d830feeac593ba9ccba7085806df60edcb9[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Thu Feb 9 17:31:23 2023 +0900
+
+    [Platinum IV] Title: 그래프의 싱크, Time: 144 ms, Memory: 36264 KB -BaekjoonHub
+
+[33mcommit c9495471cd4bfe63e5db96ebc53f9555e99776a2[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Thu Feb 9 00:07:04 2023 +0900
+
+    구현_돌무더기2
+
+[33mcommit 9ec63f4668860db018ef4ba31d5bd3de554c8bf8[m
+Merge: ac1de8e 7feda79
+Author: midhyun <kfree912@gmail.com>
+Date:   Tue Feb 7 23:47:09 2023 +0900
+
+    Merge branch 'master' of https://github.com/midhyun/TIL
+
+[33mcommit ac1de8e5f26a828036e0c768823ae7b589319a82[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Tue Feb 7 16:37:48 2023 +0900
+
+    theory_돌무더기
+
+[33mcommit 7feda79724258a4a43435781cd076efaef125fe7[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Tue Feb 7 16:37:32 2023 +0900
+
+    [Gold III] Title: 돌무더기 게임 1, Time: 444 ms, Memory: 31256 KB -BaekjoonHub
+
+[33mcommit 911c4cd5f2fd2b6c1fafdac9d7304a4bb745f1e1[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Mon Feb 6 22:27:30 2023 +0900
+
+    scc_여행계획
+
+[33mcommit ff4f47e64a2de7b987f2dbe4d4873a0b4785d21f[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Mon Feb 6 22:27:18 2023 +0900
+
+    [Platinum III] Title: 여행 계획 세우기, Time: 208 ms, Memory: 36804 KB -BaekjoonHub
+
+[33mcommit e1c391810b344684c0866e3dfef21533cefe3406[m
+Merge: 10d48c7 89dc165
+Author: midhyun <kfree912@gmail.com>
+Date:   Mon Feb 6 17:43:42 2023 +0900
+
+    Merge branch 'master' of https://github.com/midhyun/TIL
+
+[33mcommit 10d48c794d939177078ec8600a17345947bd2aa7[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Mon Feb 6 17:43:38 2023 +0900
+
+    SCC_2_sat
+
+[33mcommit 89dc165145536f3c031e2314fcfaf1bcb84930c3[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Mon Feb 6 17:43:16 2023 +0900
+
+    [Platinum IV] Title: 2-SAT - 3, Time: 232 ms, Memory: 43324 KB -BaekjoonHub
+
+[33mcommit a6df63d94bf9f7743533ee6c42872c9a0cf3f7f9[m
+Merge: e9fb0b0 d70b8a9
+Author: midhyun <kfree912@gmail.com>
+Date:   Sun Feb 5 22:01:28 2023 +0900
+
+    Merge branch 'master' of https://github.com/midhyun/TIL
+
+[33mcommit e9fb0b0031d94962c607645fddcd8299afb93538[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Sun Feb 5 20:20:48 2023 +0900
+
+    scc_indegree축구전술
+
+[33mcommit d70b8a950ce914c0c282968b01821e2f3c841f32[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Sun Feb 5 20:18:20 2023 +0900
+
+    [Platinum IV] Title: 축구 전술, Time: 1528 ms, Memory: 58688 KB -BaekjoonHub
+
+[33mcommit da41c15123e35345e21b627e9f538f50c41594ea[m
+Merge: 847b73b a284bec
+Author: midhyun <kfree912@gmail.com>
+Date:   Sun Feb 5 18:32:41 2023 +0900
+
+    Merge branch 'master' of https://github.com/midhyun/TIL
+
+[33mcommit 847b73b92b77553287de97d6be05eae9560e2596[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Sun Feb 5 18:32:36 2023 +0900
+
+    scc_즉흥여행
+
+[33mcommit a284bec0060fd7b2273a4cb9267f43a8ef6ad390[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Sun Feb 5 18:20:44 2023 +0900
+
+    [Gold I] Title: 즉흥 여행 (Easy), Time: 1552 ms, Memory: 109204 KB -BaekjoonHub
+
+[33mcommit 7f5e4bfa95cb557076ea5d2c9009d5674f803418[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Sun Feb 5 17:57:22 2023 +0900
+
+    scc_도미노
+
+[33mcommit 45aaad4e3d32742589bc8ed41265bb82a0cfa9ae[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Sun Feb 5 17:56:42 2023 +0900
+
+    [Platinum IV] Title: 도미노, Time: 1228 ms, Memory: 71516 KB -BaekjoonHub
+
+[33mcommit 4407c7a06a86a420efb9ebd1483604ddc01d730e[m
+Merge: bc92295 117a96b
+Author: midhyun <kfree912@gmail.com>
+Date:   Sat Feb 4 20:49:44 2023 +0900
+
+    Merge branch 'master' of https://github.com/midhyun/TIL
+
+[33mcommit bc922957cb2861f6bd5dc410ce8690d05e37c22a[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Sat Feb 4 20:49:39 2023 +0900
+
+    SCC_2150
+
+[33mcommit 117a96b28e0a9e43599c15e91230080ca61aa843[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Sat Feb 4 20:02:58 2023 +0900
+
+    [Platinum V] Title: Strongly Connected Component, Time: 176 ms, Memory: 36804 KB -BaekjoonHub
+
+[33mcommit 33e73c1923127257a2e245c03cdac129aad8788f[m
+Merge: 7736d3c 1bf0747
+Author: midhyun <kfree912@gmail.com>
+Date:   Sat Feb 4 19:33:02 2023 +0900
+
+    Merge branch 'master' of https://github.com/midhyun/TIL
+
+[33mcommit 7736d3c590b3609a5b6e57acaeed1cc41eaa06bf[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Sat Feb 4 19:32:58 2023 +0900
+
+    CSS_타잔알고리즘
+
+[33mcommit 1bf0747e749e5dd91fbd36e1db391eee1544792b[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Sat Feb 4 19:32:33 2023 +0900
+
+    [Platinum V] Title: 경찰서, Time: 120 ms, Memory: 114488 KB -BaekjoonHub
+
+[33mcommit 8f29b18fb7a6bd7ccbf75b1ea885d0bf8cd720f3[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Fri Feb 3 11:14:07 2023 +0900
+
+    DP_돌게임3
+
+[33mcommit 3585a1f3d6549bc3727d515927251f8dd047b18e[m
+Merge: 86511e1 44e4308
+Author: midhyun <kfree912@gmail.com>
+Date:   Thu Feb 2 20:19:46 2023 +0900
+
+    Merge branch 'master' of https://github.com/midhyun/TIL
+
+[33mcommit 86511e193baf037ebd0f5289ebec2a2c57ffe83f[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Thu Feb 2 20:19:42 2023 +0900
+
+    그리드_수들의합
+
+[33mcommit 44e4308830bde4303a91efdef7b4de7092ee701d[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Thu Feb 2 20:19:42 2023 +0900
+
+    [Silver V] Title: 수들의 합, Time: 52 ms, Memory: 31256 KB -BaekjoonHub
+
+[33mcommit 32788287a5aa3aa5bc4297560da767c533232f63[m
+Merge: 51b8cee 2036185
+Author: midhyun <kfree912@gmail.com>
+Date:   Thu Feb 2 18:43:18 2023 +0900
+
+    Merge branch 'master' of https://github.com/midhyun/TIL
+
+[33mcommit 51b8ceed8886feacd1fb6f90f37c9718ca8edf4f[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Thu Feb 2 18:43:13 2023 +0900
+
+    그래프_빵집
+
+[33mcommit 203618504005cd064d82d48d457adf8198fb8b6c[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Thu Feb 2 18:42:47 2023 +0900
+
+    [Gold II] Title: 빵집, Time: 2172 ms, Memory: 408324 KB -BaekjoonHub
+
+[33mcommit 725960ba0f6a73b81fb23039b1fb58d9e7014a34[m
+Merge: b6b69af 025a53f
+Author: midhyun <kfree912@gmail.com>
+Date:   Wed Feb 1 20:35:31 2023 +0900
+
+    Merge branch 'master' of https://github.com/midhyun/TIL
+
+[33mcommit b6b69af23ce54ebd85a2e9daa8864066309c95a7[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Wed Feb 1 20:35:27 2023 +0900
+
+    자료구조_가운데
+
+[33mcommit 025a53f4f794b8ec0f9dbc46354353c0b2eaae5c[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Wed Feb 1 20:34:22 2023 +0900
+
+    [Gold II] Title: 가운데를 말해요, Time: 404 ms, Memory: 131096 KB -BaekjoonHub
+
+[33mcommit 2a559b95fc5332247045df99e8c0119db9f58628[m
+Merge: ff06048 5256ed9
+Author: midhyun <kfree912@gmail.com>
+Date:   Wed Feb 1 19:56:59 2023 +0900
+
+    Merge branch 'master' of https://github.com/midhyun/TIL
+
+[33mcommit ff060487a7e88192bf05b2102a92b662d02c0de3[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Wed Feb 1 19:56:54 2023 +0900
+
+    그래프_로봇청소기
+
+[33mcommit 5256ed9517149837159e323460b4e77db355bf05[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Wed Feb 1 19:56:33 2023 +0900
+
+    [Gold V] Title: 로봇 청소기, Time: 160 ms, Memory: 115592 KB -BaekjoonHub
+
+[33mcommit 17da8457304923b3b95f889683af0a786f59ece6[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Tue Jan 31 19:48:34 2023 +0900
+
+    WSGI_기본구조
+
+[33mcommit 961e4863838ae7a8da1a04e15e90b7dd0a023291[m
+Merge: 8c69a5c 518ee20
+Author: midhyun <kfree912@gmail.com>
+Date:   Tue Jan 31 16:32:09 2023 +0900
+
+    Merge branch 'master' of https://github.com/midhyun/TIL
+
+[33mcommit 8c69a5ced9a6afc0ee40ccccd3327ff263fe5b1d[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Tue Jan 31 16:29:34 2023 +0900
+
+    그래프_맥주
+
+[33mcommit 518ee20c4c3e3b0a97464f508b9728183c721c18[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Tue Jan 31 16:27:23 2023 +0900
+
+    [Gold V] Title: 맥주 마시면서 걸어가기, Time: 72 ms, Memory: 34176 KB -BaekjoonHub
+
+[33mcommit 6fcac9ab4ff0f60909c5a00ba6473a2503c742d6[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Tue Jan 31 15:53:25 2023 +0900
+
+    [Silver IV] Title: 큐, Time: 80 ms, Memory: 34120 KB -BaekjoonHub
+
+[33mcommit 7f3b859f3a2a0e6cf6f32695e13488fc21929ecf[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Tue Jan 31 15:53:14 2023 +0900
+
+    구현_큐
+
+[33mcommit 0368916918db696486bc3aa40cc471d5172800a0[m
+Merge: 5db9bfb 95db91c
+Author: midhyun <kfree912@gmail.com>
+Date:   Tue Jan 31 15:45:27 2023 +0900
+
+    Merge branch 'master' of https://github.com/midhyun/TIL
+
+[33mcommit 5db9bfb60ae6d6cba4ad0ff6f2ea6364234d7d96[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Tue Jan 31 15:45:17 2023 +0900
+
+    구현_에라토스
+
+[33mcommit 95db91c7c3ad310a1aa16ff0f431837d962da136[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Tue Jan 31 15:42:11 2023 +0900
+
+    [Silver IV] Title: 에라토스테네스의 체, Time: 40 ms, Memory: 31256 KB -BaekjoonHub
+
+[33mcommit 3a13064e1a73ff4e2fcd813550a89f979dcf0303[m
+Merge: 8507d62 bb9a4ea
+Author: midhyun <kfree912@gmail.com>
+Date:   Tue Jan 31 15:33:08 2023 +0900
+
+    Merge branch 'master' of https://github.com/midhyun/TIL
+
+[33mcommit 8507d62ef9a536dc42a9a0b15af59634bf3e2aa2[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Tue Jan 31 15:33:04 2023 +0900
+
+    구현_색종이
+
+[33mcommit bb9a4eab215be0de98db74df7d70df365d509402[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Tue Jan 31 15:32:57 2023 +0900
+
+    [Silver V] Title: 색종이, Time: 40 ms, Memory: 31256 KB -BaekjoonHub
+
+[33mcommit 191521786f510d7b998615dcc2612c74a7e5c159[m
+Merge: 6f195f7 10410cf
+Author: midhyun <kfree912@gmail.com>
+Date:   Mon Jan 30 22:18:57 2023 +0900
+
+    Merge branch 'master' of https://github.com/midhyun/TIL
+
+[33mcommit 6f195f741e6f5783f14090884a1af658a8996644[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Mon Jan 30 22:18:49 2023 +0900
+
+    구현_집합
+
+[33mcommit 10410cfa3d3028d4cdf0b36c80867c3b809a3cbb[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Mon Jan 30 22:12:34 2023 +0900
+
+    [Silver V] Title: 집합, Time: 6264 ms, Memory: 30616 KB -BaekjoonHub
+
+[33mcommit 5fa06970e928f4fcabc1b3b1361a5c9d1f10b490[m
+Merge: 3635530 d726769
+Author: midhyun <kfree912@gmail.com>
+Date:   Mon Jan 30 21:53:16 2023 +0900
+
+    Merge branch 'master' of https://github.com/midhyun/TIL
+
+[33mcommit 36355308f30497cb347781ae850598158d970770[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Mon Jan 30 21:52:45 2023 +0900
+
+    구현_방번호
+
+[33mcommit d7267697e794b599f28a692fb24a4e5ec523407a[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Mon Jan 30 21:49:55 2023 +0900
+
+    [Silver V] Title: 방 번호, Time: 36 ms, Memory: 30616 KB -BaekjoonHub
+
+[33mcommit ba19085283c1ff236c20fd0f5e34c7f86947fca9[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Sun Jan 29 22:57:01 2023 +0900
+
+    after_bfs
+
+[33mcommit f8a99aed08822b7c205fd6c721db762355338040[m
+Merge: 83f2c43 0d69e80
+Author: midhyun <kfree912@gmail.com>
+Date:   Sun Jan 29 22:54:09 2023 +0900
+
+    Merge branch 'master' of https://github.com/midhyun/TIL
+
+[33mcommit 83f2c43426cc7bd1b9237a3db949fd577f426a4f[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Sun Jan 29 22:53:58 2023 +0900
+
+    DP_돌게임8
+
+[33mcommit 0d69e80cbb0c6010cdbb3f8bee3511157ffd45a4[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Sun Jan 29 22:53:13 2023 +0900
+
+    [Platinum II] Title: 돌 게임 8, Time: 132 ms, Memory: 114488 KB -BaekjoonHub
+
+[33mcommit 97f3c5e52c27d5a2af35f5d856ad8bf170ff96ec[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Sun Jan 29 22:22:47 2023 +0900
+
+    DP_돌게임8
+
+[33mcommit df0da02ed4e7f59780df1d78b5f0177dedee6ccb[m
+Merge: 9cab140 514c51b
+Author: midhyun <kfree912@gmail.com>
+Date:   Sat Jan 28 18:56:54 2023 +0900
+
+    Merge branch 'master' of https://github.com/midhyun/TIL
+
+[33mcommit 9cab140e48e5aac668920bc479b1722087860f89[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Sat Jan 28 18:56:48 2023 +0900
+
+    돌게임7
+
+[33mcommit 514c51b647b7cd1a47def101f15b8df373e8e36e[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Sat Jan 28 18:56:38 2023 +0900
+
+    [Gold III] Title: 돌 게임 7, Time: 36 ms, Memory: 30616 KB -BaekjoonHub
+
+[33mcommit 223d6753481631b7a987b91bc893b96945a9ebe2[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Sat Jan 28 18:25:44 2023 +0900
+
+    DP_돌게임7
+
+[33mcommit d97304cfb4e0d733d2195435921ec422a74dbcf1[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Fri Jan 27 16:29:19 2023 +0900
+
+    DP_돌게임5
+
+[33mcommit 85552a0afd03848a8264d6b1421fe19d259e1be1[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Fri Jan 27 16:00:16 2023 +0900
+
+    DP_돌게임4
+
+[33mcommit b32f9c86ffc97a9129bb328b18182370c878da57[m
+Merge: 6da6c86 71ef36b
+Author: midhyun <kfree912@gmail.com>
+Date:   Fri Jan 27 15:41:18 2023 +0900
+
+    Merge branch 'master' of https://github.com/midhyun/TIL
+
+[33mcommit 6da6c86df01aa35279b8494fb2014ec6439ff39e[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Fri Jan 27 14:03:41 2023 +0900
+
+    7579_앱
+
+[33mcommit 71ef36ba44422f729dcc11e07add869755c33ec5[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Thu Jan 26 23:05:59 2023 +0900
+
+    DP_돌게임, 색상환
+
+[33mcommit 4b55d4e473d2319f3fe5de41bfef1bc474d6e629[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Thu Jan 26 19:51:40 2023 +0900
+
+    [Gold III] Title: 색상환, Time: 128 ms, Memory: 120916 KB -BaekjoonHub
+
+[33mcommit 19d272e08f053014cd08a69fd0ddcc99d8c4e4a2[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Thu Jan 26 15:36:13 2023 +0900
+
+    [Silver III] Title: 돌 게임 3, Time: 112 ms, Memory: 114328 KB -BaekjoonHub
+
+[33mcommit 997ffb36ea079c1bcf7f7053cd185a31a930c161[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Wed Jan 25 20:48:28 2023 +0900
+
+    [Gold IV] Title: 타일 채우기, Time: 68 ms, Memory: 30840 KB -BaekjoonHub
+
+[33mcommit 6f890fcc66ecb14b07494eba834185b5078852e0[m
+Merge: d339a54 7750ef8
+Author: midhyun <kfree912@gmail.com>
+Date:   Wed Jan 25 19:11:34 2023 +0900
+
+    Merge branch 'master' of https://github.com/midhyun/TIL
+
+[33mcommit d339a54cce344b298c31d0feecdd1f4d838098bd[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Wed Jan 25 19:11:22 2023 +0900
+
+    DP_팰린드롬
+
+[33mcommit 7750ef89d084973d19848fea251299a9d5b0bf2e[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Wed Jan 25 17:49:46 2023 +0900
+
+    [Gold V] Title: 암호코드, Time: 132 ms, Memory: 114488 KB -BaekjoonHub
+
+[33mcommit e0a9b45019dd7086c392ffe5a7f47e43b8187fbe[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Wed Jan 25 14:24:09 2023 +0900
+
+    [Silver V] Title: 돌 게임, Time: 116 ms, Memory: 113248 KB -BaekjoonHub
+
+[33mcommit c4e5fc4c0ffec25abeba5ab83f40720bf356d6f9[m
+Author: HyunJung Kim <108651809+midhyun@users.noreply.github.com>
+Date:   Wed Jan 25 13:54:55 2023 +0900
+
+    [Gold IV] Title: 팰린드롬?, Time: 976 ms, Memory: 174340 KB -BaekjoonHub
+
+[33mcommit b8474e9f905070d1474fede13e4214af1c9c5577[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Tue Jan 24 19:56:56 2023 +0900
+
+    DP_가장큰정사각형
+
+[33mcommit e19219f15530a65a7110d6e46f6c9848cc81af2c[m
+Merge: 0a7300a 3e6819e
+Author: midhyun <kfree912@gmail.com>
+Date:   Tue Jan 24 19:14:34 2023 +0900
+
+    Merge branch 'master' of https://github.com/midhyun/TIL
+
+[33mcommit 0a7300a13d9500f2b4fbca0be2d570bfc21aad6d[m
+Author: midhyun <kfree912@gmail.com>
+Date:   Tue Jan 24 19:14:30 2023 +0900
+
+    DP_제곱수의합
