@@ -1,4 +1,5 @@
 import sys
+sys.setrecursionlimit(10**7)
 sys.stdin = open('3747_완벽한선거.txt')
 
 def SCC(cur):
