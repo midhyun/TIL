@@ -1,4 +1,5 @@
 import sys
+sys.setrecursionlimit(10**7)
 sys.stdin = open('2207_가위바위보.txt')
 input = sys.stdin.readline
 
