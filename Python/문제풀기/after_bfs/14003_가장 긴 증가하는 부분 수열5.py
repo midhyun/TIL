@@ -16,7 +16,7 @@ for i in range(1, n):
         idx = bisect.bisect_left(dp, nums[i])
         dp[idx] = nums[i]
         result[i] = idx + 1
-        
+
 temp = len(dp)
 print(temp)
 res = []

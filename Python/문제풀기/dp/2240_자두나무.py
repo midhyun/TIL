@@ -18,5 +18,6 @@ for i in range(T):
         dp[i][j] = max(dp[i-1][j], dp[i-1][j-1])
         if (x == 1 and j % 2 == 0) or (x == 2 and j % 2 == 1):
             dp[i][j] += 1
-
+for i in dp:
+    print(i)
 print(max(dp[-1]))
