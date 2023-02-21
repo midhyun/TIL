@@ -1,18 +1,22 @@
 {
   "main": {
-    "id": "0d29d0e0785f43d0",
+    "id": "3f7ede32fa846716",
     "type": "split",
     "children": [
       {
-        "id": "33f98fb48248dd32",
+        "id": "7e42b4090c55bda8",
         "type": "tabs",
         "children": [
           {
-            "id": "16f72d712c480c71",
+            "id": "d7b35177899b9c8b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "tutorial1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -21,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "37e6bb3ed99993d7",
+    "id": "a8cd7f1d12d11249",
     "type": "split",
     "children": [
       {
-        "id": "e750e1699fff758b",
+        "id": "f11e172b6ab9c381",
         "type": "tabs",
         "children": [
           {
-            "id": "1732b2e0629b95a1",
+            "id": "83c8e1bdf682d328",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +43,7 @@
             }
           },
           {
-            "id": "14d6ec7036d79928",
+            "id": "f2d05a6ead61c041",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +58,7 @@
             }
           },
           {
-            "id": "52c697fc0e847d02",
+            "id": "3d5796b62f5e1cad",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -65,23 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "4b3436180510078d",
+    "id": "d013c149f797ac07",
     "type": "split",
     "children": [
       {
-        "id": "5c435562abc38c9c",
+        "id": "665b5f7c841af6f2",
         "type": "tabs",
         "children": [
           {
-            "id": "58e6d907bfad07cd",
+            "id": "b83017777db10a02",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "tutorial1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,18 +97,19 @@
             }
           },
           {
-            "id": "dcd73f0672bea08c",
+            "id": "7a36db120ed52e2a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "tutorial1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "a2b266085e7b0dbd",
+            "id": "018c815e05d14855",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -115,11 +120,13 @@
             }
           },
           {
-            "id": "96fa1a460ac99ea4",
+            "id": "927eee857e582c1a",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "tutorial1.md"
+              }
             }
           }
         ]
@@ -139,9 +146,6 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "16f72d712c480c71",
-  "lastOpenFiles": [
-    "DART.md",
-    "DART02.md"
-  ]
+  "active": "d7b35177899b9c8b",
+  "lastOpenFiles": []
 }

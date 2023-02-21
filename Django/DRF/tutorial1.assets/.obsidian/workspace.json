@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "0d29d0e0785f43d0",
+    "id": "38f6599b41017445",
     "type": "split",
     "children": [
       {
-        "id": "33f98fb48248dd32",
+        "id": "a2adcffea5e9fb1a",
         "type": "tabs",
         "children": [
           {
-            "id": "16f72d712c480c71",
+            "id": "8e0227b174ae5ed3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -21,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "37e6bb3ed99993d7",
+    "id": "b5d714f897eb9f3d",
     "type": "split",
     "children": [
       {
-        "id": "e750e1699fff758b",
+        "id": "662deac5cad4f196",
         "type": "tabs",
         "children": [
           {
-            "id": "1732b2e0629b95a1",
+            "id": "6460f8b8b4d2a3f0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +39,7 @@
             }
           },
           {
-            "id": "14d6ec7036d79928",
+            "id": "c7ce7e76f10f7b08",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +54,7 @@
             }
           },
           {
-            "id": "52c697fc0e847d02",
+            "id": "fb46492b7a4d7ce2",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -65,19 +65,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "4b3436180510078d",
+    "id": "fd908a6e6a8cd9da",
     "type": "split",
     "children": [
       {
-        "id": "5c435562abc38c9c",
+        "id": "c8139e919aeaf067",
         "type": "tabs",
         "children": [
           {
-            "id": "58e6d907bfad07cd",
+            "id": "965278b7df6d057b",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -93,7 +92,7 @@
             }
           },
           {
-            "id": "dcd73f0672bea08c",
+            "id": "e2c91218e13e2062",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -104,7 +103,7 @@
             }
           },
           {
-            "id": "a2b266085e7b0dbd",
+            "id": "95f983655459522a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -115,7 +114,7 @@
             }
           },
           {
-            "id": "96fa1a460ac99ea4",
+            "id": "4ef24d44a51bc9a1",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -139,9 +138,6 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "16f72d712c480c71",
-  "lastOpenFiles": [
-    "DART.md",
-    "DART02.md"
-  ]
+  "active": "8e0227b174ae5ed3",
+  "lastOpenFiles": []
 }

@@ -1,6 +1,6 @@
 - 상품을 구매한 회원 비율 구하기
 	- `USER_INFO` 테이블과 `ONLINE_SALE` 테이블에서 2021년에 가입한 전체 회원들 중 상품을 구매한 회원수와 상품을 구매한 회원의 비율(=2021년에 가입한 회원 중 상품을 구매한 회원수 / 2021년에 가입한 전체 회원 수)을 년, 월 별로 출력하는 SQL문을 작성해주세요. 상품을 구매한 회원의 비율은 소수점 두번째자리에서 반올림하고, 전체 결과는 년을 기준으로 오름차순 정렬해주시고 년이 같다면 월을 기준으로 오름차순 정렬해주세요.
-```
+```MYSQL
 SELECT YEAR, MONTH, COUNT(*) AS PUCHASED_USERS,
 	ROUND((COUNT(*)/ (SELECT COUNT(*)
 					FROM USER_INFO WHERE YEAR(JOINED) = 2021)), 1) AS PUCHASED_RATIO
@@ -33,7 +33,7 @@ ORDER BY YEAR, MONTH;
 
 - **5월 식품들의 총매출 조회하기**
 	- `FOOD_PRODUCT`와 `FOOD_ORDER` 테이블에서 생산일자가 2022년 5월인 식품들의 식품 ID, 식품 이름, 총매출을 조회하는 SQL문을 작성해주세요. 이때 결과는 총매출을 기준으로 내림차순 정렬해주시고 총매출이 같다면 식품 ID를 기준으로 오름차순 정렬해주세요.
-```
+```MYSQL
 SELECT A.PRODUCT_ID, A.PRODUCT_NAME, B.TOTAL*PRICE AS TOTAL_SALES
 FROM FOOD_PRODUCT AS A
 JOIN (
@@ -43,4 +43,38 @@ JOIN (
     GROUP BY PRODUCT_ID
 ) AS B ON A.PRODUCT_ID = B.PRODUCT_ID
 ORDER BY TOTAL_SALES DESC, A.PRODUCT_ID ASC;
+```
+
+- **특정 기간동안 대여 가능한 자동차들의 대여비용 구하기**
+	- 3개의 테이블을 ID, TYPE으로 JOIN
+	- 기간과, 할인정책을 조건으로 NOT IN 사용
+	- CAR_ID로 그룹화 HAVING 절로 조건에 맞는 값만.
+	- 
+```MYSQL
+SELECT A.CAR_ID, A.CAR_TYPE, ROUND(A.DAILY_FEE*30*(100-C.DISCOUNT_RATE)/100) AS FEE
+FROM CAR_RENTAL_COMPANY_CAR AS A
+JOIN CAR_RENTAL_COMPANY_RENTAL_HISTORY AS B ON A.CAR_ID = B.CAR_ID
+JOIN CAR_RENTAL_COMPANY_DISCOUNT_PLAN AS C ON A.CAR_TYPE = C.CAR_TYPE
+WHERE A.CAR_ID NOT IN (
+    SELECT CAR_ID
+    FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY
+    WHERE END_DATE > '2022-11-01' AND START_DATE < '2022-12-01'
+) AND C.DURATION_TYPE = '30일 이상'
+GROUP BY A.CAR_ID
+HAVING A.CAR_TYPE IN ('SUV','세단') AND (FEE >= 500000 AND FEE < 2000000)
+ORDER BY FEE DESC, CAR_TYPE, CAR_ID DESC;
+```
+
+- **그룹별 조건에 맞는 식당 목록 출력하기**
+```MYSQL
+SELECT C.MEMBER_NAME, A.REVIEW_TEXT, DATE_FORMAT(A.REVIEW_DATE, '%Y-%m-%d') AS REVIEW_DATE
+FROM REST_REVIEW AS A
+JOIN (
+    SELECT MEMBER_ID, COUNT(REVIEW_ID) AS CNT
+    FROM REST_REVIEW
+    GROUP BY MEMBER_ID
+    ORDER BY CNT DESC LIMIT 1
+) AS B ON A.MEMBER_ID = B.MEMBER_ID
+JOIN MEMBER_PROFILE AS C ON A.MEMBER_ID = C.MEMBER_ID
+ORDER BY REVIEW_DATE ASC, REVIEW_TEXT ASC;
 ```

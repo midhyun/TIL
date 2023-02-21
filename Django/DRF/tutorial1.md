@@ -15,7 +15,7 @@ pip install djangorestframework
 pip install pygments  # We'll be using this for the code highlighting
 ```
 
-장고를 설치해주고, djangorestframework을 설치해주자, pygments는 코드하이러이팅을 해주는데 사용한다고 하는데, 이따 모델을 만들어 줄때 사용하는데, 해당 튜툐리얼을 진행하면서 작성하는 텍스트 문구에 코드를 입력하는거 같다. 그래서 그걸 사용하는데 쓰이는거 같다. 
+장고를 설치해주고, djangorestframework을 설치해주자, pygments는 코드하이라이팅을 해주는데 사용한다고 하는데, 이따 모델을 만들어 줄때 사용하는데, 해당 튜토리얼을 진행하면서 작성하는 텍스트 문구에 코드를 입력하는거 같다. 그래서 그걸 사용하는데 쓰이는거 같다. 
 
 ```bash
 python manage.py startapp snippets
