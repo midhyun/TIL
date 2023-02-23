@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "33f98fb48248dd32",
+        "id": "9cced42ae717e4e6",
         "type": "tabs",
         "children": [
           {
-            "id": "16f72d712c480c71",
+            "id": "cac5da50fc00dd27",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -139,9 +139,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "16f72d712c480c71",
+  "active": "cac5da50fc00dd27",
   "lastOpenFiles": [
-    "DART.md",
-    "DART02.md"
+    "DART02.md",
+    "DART.md"
   ]
 }

@@ -48,3 +48,44 @@ void main() {
 	print(greeting);
 }
 ```
+
+### 2.3 Collection For
+Dart는 조건문(if) 및 반복(for)을 사용하여 컬렉션을 구축하는 데 사용할 수 있는 컬렉션 if 및 컬렉션 for도 제공합니다.
+```dart
+void main() {
+	var oldFriends = ['nico', 'lynn'];
+	var newFriends = [
+		'lewis',
+		'ralph',
+		'darren',
+		for(var friend in oldFriends) "❤ $friend",
+	];
+	print(newFriends)
+```
+
+### 2.4 Maps
+일반적으로 맵은 key와 value를 연결하는 객체입니다. 키와 값 모두 모든 유형의 객체가 될 수 있습니다. 각 키는 한 번만 발생하지만 동일한 값을 여러 번 사용할 수 있습니다.
+```dart
+void main() {
+	var player = {
+		'name': 'name',
+		'xp': 19.99,
+		'superpower': false,
+	};
+	Map<int, bool> player = {
+		1: true,
+		2: false,
+		3: true,
+	};
+}
+```
+
+### 2.5 Sets
+Set에 속한 모든 아이템들이 유니크해야될 때 사용한다.  
+유니크할 필요가 없다면 List를 사용하면 된다.
+```dart
+void main() {
+	var numbers = {1, 2, 3, 4};
+	Set<int> numbers = {1, 2, 3, 4};
+}
+```
