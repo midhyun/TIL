@@ -72,20 +72,20 @@ for res in result:
 wv = [0]
 dp = [[0]*(K+1)]
 line = [0]*(K+1)
-for i in range(len(cmn)):
-    for j in range(cmn[i],cmx[i]+1):
-        if j > K:
-            break
 
 
 print(cmn, cmx)
-for i in range(1, len(wv)):
-    w, v = wv[i][0], wv[i][1]
-    dp.append(line)
-    for j in range(1, K+1):
-        if j < w:
-            dp[i][j] = dp[i-j][j]
-        else:
-            dp[i][j] = max(v + dp[i-1][j-w], dp[i-1][j])
+print(wv)
+for i in range(len(cmn)):
+    for k in range(cmn[i], cmx[i]+1):
+        w, v = k, k
+        if k > K:
+            break
+        print(k)
+        for j in range(1, K+1):
+            if j < w:
+                dp[i][j] = dp[i-j][j]
+            else:
+                dp[i][j] = max(v + dp[i-1][j-w], dp[i-1][j])
 
-print(dp[-1][-1])
+print(dp)
