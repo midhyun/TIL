@@ -69,23 +69,14 @@ for res in result:
         cmn.append(res[0])
         cmx.append(len(temp))
 
-wv = [0]
-dp = [[0]*(K+1)]
-line = [0]*(K+1)
+dp = [[0]*(K+1) for _ in range(len(cmn)+1)]
 
+for i in range(1, len(cmn)+1):
+    
+    for k in range(K+1):
+        dp[i][k] = dp[i-1][k]
+        for j in range(cmn[i-1], cmx[i-1]+1):
+            if k - j >= 0:
+                dp[i][k] = max(dp[i-1][k-j] + j, dp[i][k])
 
-print(cmn, cmx)
-print(wv)
-for i in range(len(cmn)):
-    for k in range(cmn[i], cmx[i]+1):
-        w, v = k, k
-        if k > K:
-            break
-        print(k)
-        for j in range(1, K+1):
-            if j < w:
-                dp[i][j] = dp[i-j][j]
-            else:
-                dp[i][j] = max(v + dp[i-1][j-w], dp[i-1][j])
-
-print(dp)
+print(max(dp[-1]))
