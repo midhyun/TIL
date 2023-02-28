@@ -30,7 +30,7 @@ def SCC(cur):
                 break
 
     return parent
-
+# 
 def DFS(cur):
     for nxt in graph[cur]:
         if not visited[nxt]:

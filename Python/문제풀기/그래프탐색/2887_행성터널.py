@@ -1,20 +1,21 @@
 import sys
 sys.stdin = open('2887_행성터널.txt')
 input = sys.stdin.readline
-
-def find_parent(cur):
-    if parent_table[cur] == cur:
-        return cur
-    else:
-        parent_table[cur] = find_parent(parent_table[cur])
-        return parent_table[cur]
+# 특정 원소가 속한 집합 찾기
+def find_parent(x):
+    # 루트 노드를 찾을 때까지 재귀 호출
+    if parent_table[x] != x:
+        parent_table[x] = find_parent(parent_table[x])
+    return parent_table[x]
 
 def union_parent(a, b):
     a = find_parent(a)
     b = find_parent(b)
-
-    parent_table[b] = a
-
+    # 더 작은 부모로 합집합 연산
+    if a < b:
+        parent_table[b] = a
+    else:
+        parent_table[a] = b
 
 result = 0
 N = int(input())
@@ -24,16 +25,21 @@ for i in range(N):
     locations.append((x, y, z, i))
 
 dist = []
+# x, y, z 좌표별 간선정보 추가
 for pos in range(3):
+    # 정렬 수행으로 x좌표간 최소거리 간선정보
     locations.sort(key=lambda v: v[pos])
-    before_location = locations[0][3]
+
     for i in range(1, N):
-        cur_location = locations[i][3]
-        dist.append((before_location, cur_location, abs(locations[i][pos] - locations[i-1][pos])))
+        dist.append((locations[i-1][3], locations[i][3], abs(locations[i][pos] - locations[i-1][pos])))
+# 비용순으로 정렬함.
 dist.sort(key=lambda v: v[2])
 
+# 부모 테이블 상에서, 부모를 자기자신으로 초기화
 parent_table = [i for i in range(N)]
+# 정렬된 간선들을 하나씩 확인하며
 for a, b, distance in dist:
+    # 사이클이 발생하지 않는 경우에만 집합에 포함
     if find_parent(a) != find_parent(b):
         result += distance
         union_parent(a, b)
