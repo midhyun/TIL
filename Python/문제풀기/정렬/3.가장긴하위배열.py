@@ -4,12 +4,12 @@ for i in range(1, len(a)):
     a[i] += a[i-1]
 
 dp = [0] *(len(a))
-
+tmp = 0
 for i in range(1, len(a)):
     length = 0
-    for j in range(i):
+    for j in range(tmp, i):
         
-        if a[i]-a[j] <= k: length = i - j; break
+        if a[i]-a[j] <= k: length = i - j; tmp = j; break
     dp[i] = length
-
+print(dp)
 print(max(dp))
