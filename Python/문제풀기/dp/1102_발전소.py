@@ -29,13 +29,13 @@ def solution(time, now):
     elif time == 0:
         return -1
     else:
-        q.append((now, 0))
+        q.append((0, now))
         
     while time < P:
         size = len(q)
-        print(q)
+
         for _ in range(size):
-            now, cost = q.popleft()
+            cost, now = q.popleft()
             for i in range(N):
                 # 현재 i 번째 발전소가 꺼져있는 경우
                 if (1 << i) & now == 0:
@@ -45,13 +45,11 @@ def solution(time, now):
                         if (1 << j) & now == 1 << j:
                             tmp = min(tmp, graph[N-1-j][N-1-i])
                     if dp[now + (1 << i)] > cost + tmp:
-                        q.append((now + (1 << i), cost + tmp))
+                        q.append((cost + tmp, now + (1 << i)))
                         dp[now + (1 << i)] = cost + tmp
         time += 1
     
-    while q:
-        _, cost = q.pop()
-        answer = min(answer, cost)
+    answer = min(list(q))[0]
     return answer
 
 print(solution(time, now))
