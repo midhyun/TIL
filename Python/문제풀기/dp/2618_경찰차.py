@@ -42,8 +42,8 @@ dp = [[-1]*(W+2) for _ in range(W+2)]
 for _ in range(W):
     events.append(tuple(map(int, input().split())))
 
-# dp[i][j] = 경찰차1 i번째 사건, 경찰차2 j번째 사건을 해결한 상황일때
+# dp[i][j] = 경찰차1 i번째 사건, 경찰차2 j번째 사건을 해결한 상황일때 최소비용
 # 앞으로의 이동거리 중 최솟값
 
-print(solution(0,1))
+print(solution(0,1)) # 2, 3, 4, 5 
 route(0, 1)
