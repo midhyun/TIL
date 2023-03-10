@@ -16,11 +16,11 @@ for i in range(1, N+1):
         # 현재 블럭을 추가하지 않는 경우,
         dp[i][j] = dp[i-1][j]
         # 현재블럭을 추가해서 max값이 변하는 경우,
+        # 더 높은 탑에 height[i] 블럭 추가
         if j >= height[i] and dp[i-1][j-height[i]] != -1:
-            # 더 높은 탑에 height[i] 블럭 추가
             dp[i][j] = max(dp[i][j], dp[i-1][j-height[i]] + height[i])
+        # 더 낮은 탑에 height[i] 블럭 추가
         if j < height[i] and dp[i-1][height[i]-j] != -1:
-            # 더 낮은 탑에 height[i] 블럭 추가
             dp[i][j] = max(dp[i][j], dp[i-1][height[i]-j] + j)
         # 현재블럭을 추가해도 max값이 변하지 않는 경우,
         if j+height[i] <= MX:
