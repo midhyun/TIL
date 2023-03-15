@@ -11,8 +11,12 @@
             "id": "3102537b83f3315d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SQLD.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SQLD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SQLD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SQLD.md"
+              }
             }
           }
         ]
@@ -140,6 +148,7 @@
   },
   "active": "3102537b83f3315d",
   "lastOpenFiles": [
+    "SQLD.md",
     "SQL 코딩테스트(GROUP BY).md",
     "SQL 코딩테스트(JOIN).md",
     "SQL 코딩테스트(SELECT).md"
