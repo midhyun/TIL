@@ -21,7 +21,7 @@ def dijkstra():
             nxt_cost = min(costs[nxt], cost)
             if dp[nxt][cost] > dist + cost * nxt_dist:
                 dp[nxt][cost] = dist + cost * nxt_dist
-                heappush(q, (nxt, min(cost, costs[nxt]), dist + cost * nxt_dist))
+                heappush(q, (nxt, nxt_cost, dist + cost * nxt_dist))
 
 INF = sys.maxsize
 N, M = map(int, input().split())
