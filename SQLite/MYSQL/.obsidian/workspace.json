@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5f1f7e94aba87cbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQLD.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,8 +159,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3102537b83f3315d",
+  "active": "5f1f7e94aba87cbb",
   "lastOpenFiles": [
+    "SQL_.md",
     "SQLD.md",
     "SQL 코딩테스트(GROUP BY).md",
     "SQL 코딩테스트(JOIN).md",
