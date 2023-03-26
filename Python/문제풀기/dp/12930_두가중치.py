@@ -11,15 +11,19 @@ input = sys.stdin.readline
 N = int(input())
 INF = sys.maxsize
 MAX = N*10+1
+# 인접행렬 생성
 graph1 = []
 graph2 = []
 for _ in range(N):
     graph1.append(list(map(lambda x: int(x) if x != '.' else 0, input().strip())))
 for _ in range(N):
     graph2.append(list(map(lambda x: int(x) if x != '.' else 0, input().strip())))
+# 시작점에서 각 정점까지 가는 최단거리를 저장할 dp리스트
+# dp[i][j] : 시작점에서 i번 정점까지 가는 가중치 1의 합이 j일 때, 가중치 2의 최솟값
 dp = [[INF]*(MAX) for _ in range(N)]
 dp[0][0] = 0
 
+# 우선순위 큐를 이용한 다익스트라 알고리즘
 q = []
 heappush(q, (0, 0, 0))
 while q:
