@@ -3,28 +3,30 @@ sys.setrecursionlimit(10**6)
 sys.stdin = open('1693_트리색칠.txt')
 input = sys.stdin.readline
 
-
 n = int(input())
-graph = [[] for _ in range(n+1)]
+graph = [[] for _ in range(n + 1)]
+dp = [[0] * 17 for _ in range(n + 1)]
+visited = [False] * (n + 1)
+def dfs(idx):
+    for i in graph[idx]:
+        if visited[i]:
+            continue
+        visited[i] = True
+        dfs(i)
+        for j in range(1, 17):
+            m_num = 100000000
+            for k in range(1, 17):
+                if j != k:
+                    if m_num > dp[i][k]:
+                        m_num = dp[i][k]
+            dp[idx][j] += m_num
+    for i in range(1, 17):
+        dp[idx][i] += i
 
-for _ in range(n-1):
-    u, v = map(int, input().split())
-    graph[u].append(v)
-    graph[v].append(u)
-
-visited = [False] * (n+1)
-dp = [[0]*(n+1) for _ in range(2)]
-
-def dfs(u):
-    visited[u] = True
-    dp[0][u] = dp[1][u] = 1
-    
-    for v in graph[u]:
-        if not visited[v]:
-            dfs(v)
-            dp[0][u] += dp[1][v]
-            dp[1][u] += min(dp[0][v], dp[1][v])
-
+for i in range(n - 1):
+    a, b = map(int, input().split())
+    graph[a].append(b)
+    graph[b].append(a)
+visited[1] = True
 dfs(1)
-print(min(dp[0][1], dp[1][1]))
-print(dp)
+print(min(dp[1][1:]))
