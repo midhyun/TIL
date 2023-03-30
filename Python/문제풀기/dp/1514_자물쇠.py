@@ -15,14 +15,14 @@ dp = [[[[-1]*10 for _ in range(10)] for _ in range(10)] for _ in range(101)]
 def DP(now, x, y, z):
     if now > n:
         return 0
+    
     ret = dp[now][x][y][z]
-
     if ret != -1:
         return ret
     
     ret = 1e9
-    ck = (b[now] - x + 10) % 10
-    d = [ck, 10 - ck]
+    diff = (b[now] - x + 10) % 10
+    d = [diff, 10 - diff]
     
     for i in range(2):
         for j in range(d[i]+1):
