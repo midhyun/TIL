@@ -1,23 +1,30 @@
 import sys
 input = sys.stdin.readline
 
+def getTakes(mid):
+    takes = 0
+    for height in heights:
+        if height > mid:
+            takes += height - mid
+    return takes
+
 N, M = map(int, input().split())
 heights = [*map(int, input().split())]
 
-low = 0
-high = max(heights)
+def solution():
+    low = 0
+    high = max(heights)
 
-while low <= high:
-    mid = (low + high) // 2
+    while low <= high:
+        mid = (low + high) // 2
 
-    takes = 0
-    for i in range(N):
-        if heights[i] > mid:
-            takes += heights[i] - mid
+        takes = getTakes(mid)
 
-    if takes >= M:
-        low = mid + 1
-    else:
-        high = mid - 1
+        if takes >= M:
+            low = mid + 1
+        else:
+            high = mid - 1
 
-print(high)
+    return high
+
+print(solution())
