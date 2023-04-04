@@ -31,3 +31,9 @@ print(end)
 # 이분 탐색은 off-by-one error가 발생하기 쉬워서 늘 헷갈립니다.
 # 이분 탐색 문제를 풀다보면 탈출 조건으로 lo <= hi, lo < hi, lo + 1 < hi 중 어느 걸 선택해야 할 지,
 # 정답이 lo인지 hi인지 (lo + hi) / 2인지 모르겠고, 심지어는 while문이 끝나지 않아서 시간초과를 받기도 합니다.
+
+# [lo, hi]가 Check(lo) != Check(hi)가 되도록 구간을 설정
+
+# while (lo + 1 < hi)동안 mid = (lo + hi) / 2에서 Check(mid) = Check(lo)라면 lo = mid, 아니라면 hi = mid
+
+# 구한 경계에서 답이 lo인지 hi인지 생각해보고 출력
