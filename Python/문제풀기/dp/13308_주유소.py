@@ -29,6 +29,7 @@ def dijkstra():
                 dp[next][cost] = dist + cost * next_dist
                 heappush(q, (dist + cost * next_dist, next_cost, next))
 
+
 N, M = map(int, input().split())
 costs = [-1] + [*map(int, input().split())]
 graph = [[] for _ in range(N+1)]
