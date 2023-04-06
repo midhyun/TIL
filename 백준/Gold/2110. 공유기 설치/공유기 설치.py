@@ -9,7 +9,7 @@ for _ in range(N):
 houses.sort()
 lo, hi = 1, houses[N-1] - houses[0]
 
-while lo < hi:
+while lo <= hi:
     mid = (lo+hi)//2
     cnt = 1
     share = houses[0]
@@ -22,9 +22,9 @@ while lo < hi:
     if cnt >= C:
         lo = mid + 1
     else:
-        hi = mid
+        hi = mid - 1
 
 if C == 2:
     print(houses[N-1] - houses[0])
 else:
-    print(lo-1)
+    print(hi)
