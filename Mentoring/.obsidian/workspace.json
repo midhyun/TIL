@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d9e174130f019a5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "랜덤코딩디펜스.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6706abff5574dd4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "오리엔테이션 멘토링.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "오리엔테이션 멘토링.md",
+                "file": "랜덤코딩디펜스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "오리엔테이션 멘토링.md",
+                "file": "랜덤코딩디펜스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "오리엔테이션 멘토링.md"
+                "file": "랜덤코딩디펜스.md"
               }
             }
           }
@@ -147,9 +172,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "70f117b4ef7b03fa",
+  "active": "d9e174130f019a5e",
   "lastOpenFiles": [
+    "Pasted image 20230406231409.png",
+    "Pasted image 20230406224918.png",
+    "Pasted image 20230406220444.png",
+    "Pasted image 20230406220320.png",
     "오리엔테이션 멘토링.md",
+    "랜덤코딩디펜스.md",
+    "카카오에 Exit 한 개발자 이야기.md",
     "1. 1차미션.md",
     "0. 프리미션.md"
   ]
