@@ -13,11 +13,7 @@ for i in range(2, N+1):
             check[j] = True
 
 dp = [0]*(N+1)
-for i in range(1, N+1):
-    if i % 2 == 0:
-        dp[i] = 1
-
-for i in range(1, len(nums)):
+for i in range(len(nums)):
     dp[nums[i]] += 1
     for j in range(nums[i], N+1):
         dp[j] += dp[j-nums[i]]
