@@ -237,3 +237,102 @@ CSS 선택자로는 세 가지가 있습니다. 세 선택자를 사용해 각�
 ```
 
 
+## **CSS 속성의 상속**
+
+부모 태그 `<header> <footer>`의 CSS 속성은 자식 태그 `<h1> <p>`가 상속 받습니다.
+
+반대로 자식 태그의 CSS 속성은 부모 태그에 영향을 미치지 않습니다.
+
+각 태그의 속성값을 바꿔보며 CSS 속성의 상속에 대해 알아봅시다!
+
+## 캐스케이딩
+> CSS의 우선순위를 결정하는 세 가지 요소
+
+1. 순서
+	- 나중에 작성한 선택자의 우선순위가 높음
+2. 디테일
+	- 더 구체적으로 작성된 선택자의 우선순위가 높음
+3. 선택자
+	- style > id > class > type
+
+
+## **CSS 캐스케이딩**
+
+CSS의 우선 순위를 결정하는 요소는 다음 세 가지입니다.
+
+**1. 나중에 작성한 코드가 우선 순위를 갖습니다.**
+
+```
+p { color: red; } 
+p { color: blue; }
+/* blue */
+```
+
+**2. 더 구체적으로 작성한 코드가 우선 순위를 갖습니다.**
+
+```
+h3 { color: red; }
+header h3 { color: blue; }
+/* blue */
+```
+
+**3. 스타일, 아이디, 클래스, 타입 순으로 우선 순위를 갖습니다.**
+
+```
+h3 { color: green; }
+#color { color: blue; }
+/* blue */
+```
+
+특정 요소에 여러 속성을 적용하였을 때, 최종 결과물에 반영되는 CSS 코드가 무엇인지 알아봅시다!
+
+## **CSS 주요 속성 1**
+
+-   **`width`**, **`height`** – 요소의 넓이와 높이를 설정합니다.
+
+```
+.paragraph { width: 500px; height: 500px; }
+```
+
+-   **`font-`** – 글자 크기, 글꼴, 두께 등, 글자와 관련된 속성을 설정합니다.
+
+```
+.paragraph { 
+font-size: 50px;
+font-family: Arial, sans-serif;
+font-style: italic;
+font-weight: bold;
+}
+```
+
+`<body>` 안에서 `<h1>`를 사용해 **Nice to meet you**를 출력합니다.
+
+`<style>` 태그 안에서 클래스 이름을 호출하고, `.paragraph`의 넓이, 높이, 배경색, 그리고 글자 속성을 결정합니다.
+
+width, height, background-color, font- 속성을 이용해 .paragraph 클래스의 넓이와 높이, 배경색 그리고 글꼴을 설정해봅시다!
+
+## **CSS 주요 속성 2**
+
+-   **`border-`** – 테두리의 두께, 색 등을 설정합니다.
+    
+    ```
+    .paragraph { 
+        border-style: dotted;
+        border-width: 1px;
+        border-color: blue;
+    }
+    ```
+    
+-   **`background-`** – 배경 색상, 이미지 등을 설정합니다.
+    
+    ```
+    .paragraph {
+        background-color: blue;
+        background-image: url(이미지 경로);
+        background-repeat: repeat-x;
+        background-position: top;
+    }
+    ```
+    
+
+`border-`, `background-` 속성을 사용해, 앞서 다룬 `.paragraph` 클래스의 테두리와 배경도 설정해봅시다!

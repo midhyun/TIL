@@ -4,28 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "7d510c1c93733559",
+        "id": "7b4fb0e34a3e31bd",
         "type": "tabs",
         "children": [
           {
-            "id": "dcf3aee03a793854",
+            "id": "db446c0f15c1c40b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "오리엔테이션 멘토링.md",
+                "file": "사전학습_HTML/HTML.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e5e66c5f3f0847f7",
+            "id": "36223952bc64da40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "주영민 멘토님 UXBX.md",
+                "file": "사전학습_HTML/무제 파일.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9f33b48eaa2461b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "사전학습_HTML/Layout_summary.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "주영민 멘토님 UXBX.md",
+                "file": "사전학습_HTML/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "주영민 멘토님 UXBX.md",
+                "file": "사전학습_HTML/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "주영민 멘토님 UXBX.md"
+                "file": "사전학습_HTML/무제 파일.md"
               }
             }
           }
@@ -160,12 +172,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e5e66c5f3f0847f7",
+  "active": "36223952bc64da40",
   "lastOpenFiles": [
+    "사전학습_HTML/HTML.md",
+    "사전학습_HTML/무제 파일.md",
+    "사전학습_HTML/Layout.md",
+    "사전학습_HTML/Layout_summary.md",
+    "사전학습_HTML/HTML_summary.md",
     "오리엔테이션 멘토링.md",
     "주영민 멘토님 UXBX.md",
     "카카오에 Exit 한 개발자 이야기.md",
-    "사전학습_HTML/HTML.md",
     "랜덤코딩디펜스/2026_소풍.py",
     "랜덤코딩디펜스/2026_소풍.txt",
     "랜덤코딩디펜스.md",
