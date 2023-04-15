@@ -3,6 +3,7 @@ sys.stdin = open('5568_카드놓기.txt')
 input = sys.stdin.readline
 
 def dfs(depth, cur):
+    # 종료조건을 넣고 리턴을 안넣어서 실제로 재귀가 종료되지 않았다.
     if depth == K:
         result.add(cur)
         return
