@@ -5,8 +5,6 @@ input = sys.stdin.readline
 N = int(input())
 S = input().rstrip()
 
-
-
 def solution():
     cur = None
     cnt_B = 0
