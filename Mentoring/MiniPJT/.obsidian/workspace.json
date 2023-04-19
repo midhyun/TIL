@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "a5f6d62ca6fe86a7",
+    "id": "139be643b2f45ce4",
     "type": "split",
     "children": [
       {
-        "id": "2564f2c59cfcb086",
+        "id": "f78acd3876116cc1",
         "type": "tabs",
         "children": [
           {
-            "id": "3ec7b689c23c20b5",
+            "id": "33daac89ce1ac476",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "사전학습_JS/JavaScript.md",
+                "file": "사전_화면구성.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6ae8ce97eda6c08d",
+    "id": "7a5a108f141a1d6a",
     "type": "split",
     "children": [
       {
-        "id": "e984de3d21089c9b",
+        "id": "bb18681779265c45",
         "type": "tabs",
         "children": [
           {
-            "id": "91437d7123c714d9",
+            "id": "4910b3e0c0d9b2ce",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "0a02d7d4ac848dee",
+            "id": "a86a0f2c24ed3d45",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "b1b0382c7afc3657",
+            "id": "b4bb8250470ade4f",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -69,24 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "488d4d5fe2663bdc",
+    "id": "5372e1dee7b9b90e",
     "type": "split",
     "children": [
       {
-        "id": "fbabcd03c4cc7d9a",
+        "id": "1709ae1e81c12af5",
         "type": "tabs",
         "children": [
           {
-            "id": "4c02468702533cce",
+            "id": "1d4c53ddf813d4f6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "사전학습_JS/JavaScript.md",
+                "file": "사전_화면구성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,19 +97,19 @@
             }
           },
           {
-            "id": "01b6be24f2062750",
+            "id": "7766b0567814c84b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "사전학습_JS/JavaScript.md",
+                "file": "사전_화면구성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "ebe1872e362b4cd5",
+            "id": "fb4b688cc55e47bf",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -121,12 +120,12 @@
             }
           },
           {
-            "id": "21d3c195100f62ae",
+            "id": "bab554d51336665d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "사전학습_JS/JavaScript.md"
+                "file": "사전_화면구성.md"
               }
             }
           }
@@ -147,33 +146,8 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3ec7b689c23c20b5",
+  "active": "33daac89ce1ac476",
   "lastOpenFiles": [
-    "MiniPJT/사전_화면구성.md",
-    "MiniPJT/무제 파일.md",
-    "MiniPJT",
-    "사전학습_JS/JavaScript.md",
-    "사전학습_JS",
-    "사전학습_HTML/Transform_summary.md",
-    "사전학습_HTML/Transform.md",
-    "사전학습_HTML/반응형웹사이트제작_summary.md",
-    "사전학습_HTML/반응형웹사이트제작.md",
-    "사전학습_HTML/Layout_summary.md",
-    "사전학습_HTML/HTML.md",
-    "사전학습_HTML/Layout.md",
-    "사전학습_HTML/HTML_summary.md",
-    "오리엔테이션 멘토링.md",
-    "주영민 멘토님 UXBX.md",
-    "카카오에 Exit 한 개발자 이야기.md",
-    "랜덤코딩디펜스/2026_소풍.py",
-    "랜덤코딩디펜스/2026_소풍.txt",
-    "랜덤코딩디펜스.md",
-    "사전학습_HTML",
-    "Pasted image 20230406231409.png",
-    "Pasted image 20230406224918.png",
-    "Pasted image 20230406220444.png",
-    "Pasted image 20230406220320.png",
-    "1. 1차미션.md",
-    "0. 프리미션.md"
+    "사전_화면구성.md"
   ]
 }
