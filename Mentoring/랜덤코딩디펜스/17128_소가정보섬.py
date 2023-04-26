@@ -16,8 +16,9 @@ def solution():
     for treat in treat_cow:
         for i in range(treat-1, treat+3):
             idx = i % N
+            summary -= result[idx]
             result[idx] = -result[idx]
-        print(result)
-        print(sum(result))
+            summary += result[idx]
+        print(summary)
 
 solution()
