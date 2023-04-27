@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2564f2c59cfcb086",
+        "id": "01264ffe031471f2",
         "type": "tabs",
         "children": [
           {
-            "id": "3ec7b689c23c20b5",
+            "id": "b9fd3872748d4dde",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "사전학습_JS/JavaScript.md",
+                "file": "0427_Undefined.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "사전학습_JS/JavaScript.md",
+                "file": "0427_Undefined.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "사전학습_JS/JavaScript.md",
+                "file": "0427_Undefined.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "사전학습_JS/JavaScript.md"
+                "file": "0427_Undefined.md"
               }
             }
           }
@@ -147,13 +147,24 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3ec7b689c23c20b5",
+  "active": "b9fd3872748d4dde",
   "lastOpenFiles": [
+    "랜덤코딩디펜스/16937_두스티커.py",
+    "랜덤코딩디펜스/16937_두스티커.txt",
+    "0427_Undefined.md",
+    "사전학습_JS/JavaScript.md",
+    "사전학습_JS/JavaScript_기초.md",
+    "랜덤코딩디펜스/11508_2+1세일.py",
+    "랜덤코딩디펜스/11508_2+1세일.txt",
+    "사전학습_JS/자바스크립트문법 및 활용.pdf",
+    "사전학습_JS/미확인 169163.crdownload",
+    "랜덤코딩디펜스/17396_백도어.py",
+    "랜덤코딩디펜스/17396_백도어.txt",
+    "랜덤코딩디펜스/11502_세개의소수.py",
+    "랜덤코딩디펜스/11502_세개의소수.txt",
+    "랜덤코딩디펜스/1414_불우이웃돕기.py",
     "MiniPJT/사전_화면구성.md",
     "MiniPJT/무제 파일.md",
-    "MiniPJT",
-    "사전학습_JS/JavaScript.md",
-    "사전학습_JS",
     "사전학습_HTML/Transform_summary.md",
     "사전학습_HTML/Transform.md",
     "사전학습_HTML/반응형웹사이트제작_summary.md",
@@ -165,10 +176,7 @@
     "오리엔테이션 멘토링.md",
     "주영민 멘토님 UXBX.md",
     "카카오에 Exit 한 개발자 이야기.md",
-    "랜덤코딩디펜스/2026_소풍.py",
-    "랜덤코딩디펜스/2026_소풍.txt",
     "랜덤코딩디펜스.md",
-    "사전학습_HTML",
     "Pasted image 20230406231409.png",
     "Pasted image 20230406224918.png",
     "Pasted image 20230406220444.png",
