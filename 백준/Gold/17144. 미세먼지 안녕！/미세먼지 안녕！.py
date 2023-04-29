@@ -32,10 +32,8 @@ def wind(x, n):
 
         if graph[y][x] == -1:
             break
-        
+
         graph[y][x], tmp = tmp, graph[y][x]
-
-
 
 def cycle():
     tmp = [[0]*C for _ in range(R)]
@@ -57,6 +55,7 @@ def cycle():
     
 for _ in range(T):
     cycle()
+    
 result = 2
 for g in graph:
     result += sum(g)
