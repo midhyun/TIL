@@ -12,19 +12,17 @@ for _ in range(N):
 result = 0
 
 for i in range(N):
-    r = H - stickers[i][0]
-    c = W - stickers[i][0]
-    sticker1 = (stickers[i][0]*stickers[i][1])
+    r1, c1 = stickers[i]
+    sticker1 = r1*c1
     for j in range(i+1, N):
-        if (r - stickers[j][0]) >= 0 and (stickers[j][1] <= W):
-            result = max(result, sticker1+(stickers[j][0]*stickers[j][1]))
-        elif (r - stickers[j][1]) >= 0 and (stickers[j][0]) <= H:
-            result = max(result, sticker1+(stickers[j][0]*stickers[j][1]))
-
-    for j in range(i+1, N):
-        if (c - stickers[j][0]) >= 0 and (stickers[j][1] <= H):
-            result = max(result, sticker1+(stickers[j][0]*stickers[j][1]))
-        elif (c - stickers[j][1]) >= 0 and (stickers[j][0]) <= W:
-            result = max(result, sticker1+(stickers[j][0]*stickers[j][1]))
+        r2, c2 = stickers[j]
+        if ((r1 + r2) <= H and max(c1, c2) <= W) or (max(r1, r2) <= H and c1 + c2 <= W ):
+            result = max(result, sticker1+(r2*c2))
+        if ((r1 + c2) <= H and max(c1, r2) <= W) or (max(r1, c2) <= H and c1 + r2 <= W ):
+            result = max(result, sticker1+(r2*c2))
+        if ((c1 + r2) <= H and max(r1, c2) <= W) or (max(c1, r2) <= H and r1 + c2 <= W ):
+            result = max(result, sticker1+(r2*c2))
+        if ((c1 + c2) <= H and max(r1, r2) <= W) or (max(c1, c2) <= H and r1 + r2 <= W ):
+            result = max(result, sticker1+(r2*c2))
 
 print(result)
