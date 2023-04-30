@@ -28,6 +28,9 @@ def binary_Search(s, e, B, x):
         else:
             s = mid
 
+# 랜선자르기, 나무자르기 Low, high 중간점 mid ~
+0 ,1, 2
+# 0 ~ 2의 인덱스의 값 0 ~ 2 B = [8, 12, 16]  A 가 14일때
 
 def solution():
     N, M = map(int, input().split())
