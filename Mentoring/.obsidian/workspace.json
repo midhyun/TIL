@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "01264ffe031471f2",
+        "id": "e04922bede28ef68",
         "type": "tabs",
         "children": [
           {
-            "id": "b9fd3872748d4dde",
+            "id": "2e47710cbafbf303",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0427_Undefined.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0427_Undefined.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0427_Undefined.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "0427_Undefined.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,11 +139,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b9fd3872748d4dde",
+  "active": "2e47710cbafbf303",
   "lastOpenFiles": [
+    "0427_Undefined.md",
     "랜덤코딩디펜스/16937_두스티커.py",
     "랜덤코딩디펜스/16937_두스티커.txt",
-    "0427_Undefined.md",
     "사전학습_JS/JavaScript.md",
     "사전학습_JS/JavaScript_기초.md",
     "랜덤코딩디펜스/11508_2+1세일.py",
@@ -162,7 +154,6 @@
     "랜덤코딩디펜스/17396_백도어.txt",
     "랜덤코딩디펜스/11502_세개의소수.py",
     "랜덤코딩디펜스/11502_세개의소수.txt",
-    "랜덤코딩디펜스/1414_불우이웃돕기.py",
     "MiniPJT/사전_화면구성.md",
     "MiniPJT/무제 파일.md",
     "사전학습_HTML/Transform_summary.md",
