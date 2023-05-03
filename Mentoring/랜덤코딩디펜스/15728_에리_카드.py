@@ -11,9 +11,9 @@ team_cards = sorted([*map(int, input().split())])
 s, e = 0, -1
 min_card, max_card = share_cards[0], share_cards[-1]
 for _ in range(K):
-    if share_cards[0]*team_cards[s] < share_cards[-1]*team_cards[e]:
+    if max(min_card*team_cards[s], max_card*team_cards[s]) < max(min_card*team_cards[e], max_card*team_cards[e]):
         e -= 1
     else:
         s += 1
 
-print(max(share_cards[0]*team_cards[s], share_cards[-1]*team_cards[e]))
+print(max(min_card*team_cards[s], max_card*team_cards[e], min_card*team_cards[e], max_card*team_cards[s]))
