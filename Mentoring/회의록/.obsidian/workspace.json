@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "2fd33487db280490",
+    "type": "split",
+    "children": [
+      {
+        "id": "a035273241fa1acd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "650023acefb72ab2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0427_Undefined.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf1ca0574461f859",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기획안_현중.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5750231f23ad07de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0501_Undefined.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc62e617e86033e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0508_Undefined.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a62c95daee027aa0",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d8d3ef29e196015",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7dae58c0d0f4489d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "550feaf27d2ce5a1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "def25ac75b424c64",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b7024e776762dd09",
+    "type": "split",
+    "children": [
+      {
+        "id": "61a94001f0f7dc73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7be3750b544a444c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "0508_Undefined.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cd5cf073085f70b5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "0508_Undefined.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d5ed71012de44e6c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5cf61f10ace27606",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "0508_Undefined.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "dc62e617e86033e9",
+  "lastOpenFiles": [
+    "0501_Undefined.md",
+    "0508_Undefined.md",
+    "0427_Undefined.md",
+    "기획안_현중.md",
+    "Pasted image 20230501021137.png",
+    "Pasted image 20230501021133.png",
+    "기획_004.jpg",
+    "기획_003.jpg",
+    "기획_002.jpg",
+    "기획_001.jpg"
+  ]
+}
