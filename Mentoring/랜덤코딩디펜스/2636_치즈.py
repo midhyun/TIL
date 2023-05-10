@@ -30,6 +30,7 @@ def bfs(i, j):
                         visited[y][x] = True
                         matrix[y][x] = 0
     return cnt
+
 check = [[False]*M for _ in range(N)]
 result, last_cheese = 0, []
 
