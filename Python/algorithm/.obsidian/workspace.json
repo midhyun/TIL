@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "94435960f4c52bfa",
+    "type": "split",
+    "children": [
+      {
+        "id": "ebb67c8212db20e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f113181be005cf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "다익스트라_최단경로.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b72d61742fe80daa",
+    "type": "split",
+    "children": [
+      {
+        "id": "8189df268d07b60b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6f433f209343c62",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6e5b99927c6f5de6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "576ef8fcea7388a1",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b96021eb174454f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "a75c72073fc80207",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8f10fe6a3a52fe00",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "다익스트라_최단경로.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9beb1bcfb1d06a3f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "다익스트라_최단경로.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c95b2cf26f271d12",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "df2a5b15632c6733",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "다익스트라_최단경로.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "6f113181be005cf2",
+  "lastOpenFiles": [
+    "플루이드 워셜.md",
+    "피보나치_메모이제이션.md",
+    "다익스트라_최단경로.md",
+    "그리디.md"
+  ]
+}

@@ -1,0 +1,5 @@
+2
+nil nil nil G F nil nil C nil nil E nil D B A end
+nil nil C nil nil E nil D B nil nil G nil F A end
+nil nil nil E D nil nil C B nil nil nil G F A end
+nil nil nil E C nil nil D B nil nil nil G F A end

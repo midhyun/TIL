@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "139be643b2f45ce4",
+    "type": "split",
+    "children": [
+      {
+        "id": "f78acd3876116cc1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "33daac89ce1ac476",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "사전_화면구성.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7a5a108f141a1d6a",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb18681779265c45",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4910b3e0c0d9b2ce",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a86a0f2c24ed3d45",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b4bb8250470ade4f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5372e1dee7b9b90e",
+    "type": "split",
+    "children": [
+      {
+        "id": "1709ae1e81c12af5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d4c53ddf813d4f6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "사전_화면구성.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7766b0567814c84b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "사전_화면구성.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fb4b688cc55e47bf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bab554d51336665d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "사전_화면구성.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "33daac89ce1ac476",
+  "lastOpenFiles": [
+    "사전_화면구성.md"
+  ]
+}

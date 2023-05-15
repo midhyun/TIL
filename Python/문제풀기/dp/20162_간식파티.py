@@ -20,4 +20,7 @@ for i in range(1, N):
             temp = max(temp, scores[i])
     dp[i] = temp
 
+print(scores)
+print(dp)
+
 print(max(dp))

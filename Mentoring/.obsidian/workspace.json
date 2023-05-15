@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "a5f6d62ca6fe86a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "e04922bede28ef68",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e47710cbafbf303",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "오리엔테이션 멘토링.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6ae8ce97eda6c08d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e984de3d21089c9b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91437d7123c714d9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0a02d7d4ac848dee",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b1b0382c7afc3657",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "79c3b6c67f907555",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "488d4d5fe2663bdc",
+    "type": "split",
+    "children": [
+      {
+        "id": "fbabcd03c4cc7d9a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c02468702533cce",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "오리엔테이션 멘토링.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "01b6be24f2062750",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "오리엔테이션 멘토링.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ebe1872e362b4cd5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "21d3c195100f62ae",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "오리엔테이션 멘토링.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "2e47710cbafbf303",
+  "lastOpenFiles": [
+    "주영민 멘토님 UXBX.md",
+    "0509_박재범멘토님.md",
+    "랜덤코딩디펜스.md",
+    "0427_Undefined.md",
+    "랜덤코딩디펜스/16937_두스티커.py",
+    "랜덤코딩디펜스/16937_두스티커.txt",
+    "사전학습_JS/JavaScript.md",
+    "사전학습_JS/JavaScript_기초.md",
+    "랜덤코딩디펜스/11508_2+1세일.py",
+    "랜덤코딩디펜스/11508_2+1세일.txt",
+    "사전학습_JS/자바스크립트문법 및 활용.pdf",
+    "사전학습_JS/미확인 169163.crdownload",
+    "랜덤코딩디펜스/17396_백도어.py",
+    "랜덤코딩디펜스/17396_백도어.txt",
+    "랜덤코딩디펜스/11502_세개의소수.py",
+    "랜덤코딩디펜스/11502_세개의소수.txt",
+    "MiniPJT/사전_화면구성.md",
+    "MiniPJT/무제 파일.md",
+    "사전학습_HTML/Transform_summary.md",
+    "사전학습_HTML/Transform.md",
+    "사전학습_HTML/반응형웹사이트제작_summary.md",
+    "사전학습_HTML/반응형웹사이트제작.md",
+    "사전학습_HTML/Layout_summary.md",
+    "사전학습_HTML/HTML.md",
+    "사전학습_HTML/Layout.md",
+    "사전학습_HTML/HTML_summary.md",
+    "오리엔테이션 멘토링.md",
+    "카카오에 Exit 한 개발자 이야기.md",
+    "Pasted image 20230406231409.png",
+    "Pasted image 20230406224918.png",
+    "Pasted image 20230406220444.png",
+    "Pasted image 20230406220320.png",
+    "1. 1차미션.md",
+    "0. 프리미션.md"
+  ]
+}

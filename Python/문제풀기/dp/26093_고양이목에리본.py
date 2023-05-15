@@ -21,4 +21,10 @@ for i in range(1, N):
             dp[i][j] = satis[i][j] + tmp[0]
     temp = sorted(dp[i])
 
+for i in satis:
+    print(i)
+print('------------------------')
+for i in dp:
+    print(i)
+
 print(max(dp[-1]))
