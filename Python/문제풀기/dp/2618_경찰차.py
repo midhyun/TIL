@@ -47,3 +47,4 @@ for _ in range(W):
 
 print(solution(0,1)) # 2, 3, 4, 5 
 route(0, 1)
+>>>>>>> 0f3a832a362b5f151aadeed71033f93bc453f73e
