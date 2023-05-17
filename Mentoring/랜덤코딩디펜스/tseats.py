@@ -1,4 +1,1 @@
-a = 'abcd'
-t = 'a'
-
-print(t in a)
+print('123'.rstrip('3'))
