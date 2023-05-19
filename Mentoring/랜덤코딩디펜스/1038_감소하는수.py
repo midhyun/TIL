@@ -3,9 +3,6 @@ sys.stdin = open('1038_감소하는수.txt')
 input = sys.stdin.readline
 
 N = int(input())
-MAX = 9876543210
-cur = 0
-cnt = 0
 result = []
 def dfs(cur):
     if len(cur) > 10:
