@@ -1,1 +1,1 @@
-print('123'.rstrip('3'))
+print(4%4)
