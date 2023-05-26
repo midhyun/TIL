@@ -1,5 +1,6 @@
 import sys
 sys.stdin = open('1967_트리의지름.txt')
+sys.setrecursionlimit(10**9)
 input = sys.stdin.readline
 N = int(input())
 graph = [[] for _ in range(N+1)]

@@ -1,1 +1,2 @@
-print(4%4)
+print(ord('Z'))
+65 ~ 90
