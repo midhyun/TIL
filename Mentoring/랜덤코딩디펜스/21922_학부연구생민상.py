@@ -23,6 +23,8 @@ def wind(dir, i, j):
     y, x = i + ny, j + nx
     while 0 <= y < N and 0 <= x < M:
         visited[y][x] = 1
+        if matrix[y][x] == 9:
+            break
 
         if matrix[y][x] == 3:
             ny, nx = -nx, -ny
