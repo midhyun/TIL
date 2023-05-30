@@ -1,0 +1,7 @@
+/**
+ * ControlCode
+ */
+public class ControlCode {
+
+    
+}
