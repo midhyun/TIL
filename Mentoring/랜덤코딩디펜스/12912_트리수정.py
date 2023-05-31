@@ -19,24 +19,29 @@ for _ in range(N-1):
 모든 노드를 탐색해야 함.
 '''
 
-def dfs(visited, cur, d, not_node):
-    res = 0
-    for nxt, dist in graph[cur]:
-        if visited[nxt] == -1 and nxt != not_node:
-            visited[nxt] = d + dist
-            res = max(res, dfs(visited, nxt, d + dist, not_node) + dist)
-    
-    return res
+def dfs(cur, not_node):
+    visited = [-1]*N
+    visited[cur] = 0
+    stack = []
+    stack.append(cur)
+
+    while stack:
+        cur = stack.pop()
+        for nxt, dist in graph[cur]:
+            if visited[nxt] == -1 and nxt != not_node:
+                stack.append(nxt)
+                visited[nxt] = visited[cur] + dist
+    distance = max(visited)
+
+    return (distance, visited.index(distance))
+
+
 
 def get_diameter(N, start, not_node):
-    visited = [-1]*N
-    visited[start] = 0
-    diam = dfs(visited, start, 0, not_node)
 
-    s_node = visited.index(diam)
-    visited = [-1]*N
-    visited[s_node] = 0
-    diam = dfs(visited, s_node, 0, not_node)
+    s_node = dfs(start, not_node)[1]
+
+    diam = dfs(s_node, not_node)[0]
 
     return diam
 
