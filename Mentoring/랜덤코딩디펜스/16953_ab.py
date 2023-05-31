@@ -16,7 +16,7 @@ def bfs():
         if x <= B:
             q.append((x*2, cnt+1))
             q.append((x*10+1, cnt+1))
-    
+
     return -1
 
 print(bfs())
