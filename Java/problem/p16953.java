@@ -53,7 +53,6 @@ public class p16953 {
        
         System.out.println(bfs());
 
-
     }
     
 }
