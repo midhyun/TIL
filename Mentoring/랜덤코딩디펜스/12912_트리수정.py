@@ -18,7 +18,7 @@ for _ in range(N-1):
 가장 긴 지름이 아닌 두 부분 트리를 더한 값이 더 긴 경우가 있으므로
 모든 노드를 탐색해야 함.
 '''
-
+# 재귀로 dfs 구현 시 시간초과가 발생함. 반복문으로 통과
 def dfs(cur, not_node):
     visited = [-1]*N
     visited[cur] = 0
