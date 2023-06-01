@@ -18,11 +18,9 @@ public class p2163 {
         
         int result = (N*M) - 1;
         System.out.println(result);
-
-
-
         
 
     }
     
 }
+S
