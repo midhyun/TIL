@@ -53,4 +53,4 @@ def bfs(ri, rj, bi, bj, cur):
                     q.append([nri, nrj, nbi, nbj, cur + 1])
     print(0)
 
-bfs(r[0], r[1], b[0], b[1], 0)
+bfs(r[0], r[1], b[0], b[1], 1)
