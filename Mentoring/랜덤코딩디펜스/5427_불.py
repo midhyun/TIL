@@ -4,7 +4,7 @@ sys.stdin = open('5427_불.txt')
 input = sys.stdin.readline
 
 def bfs(pos, fire):
-        q = deque(pos + fire)
+        q = deque(fire + pos)
         while q:
             i, j = q.popleft()
             for k in range(4):
