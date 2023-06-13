@@ -14,7 +14,6 @@ result = graph1[0][0][0]
 graph1[0][0] = 0
 
 def dfs(graph, pos):
-    graph = copy.deepcopy(graph)
     res = 0
     # 물고기 이동
     for num in range(1, 17):
@@ -38,6 +37,9 @@ def dfs(graph, pos):
                     else:
                         flag = True
                         break
+    for g in graph:
+        print(g)
+    print('-------------------', pos)
     # 상어 이동
     for k in range(1, 4):
         i, j, dir = pos
@@ -48,8 +50,6 @@ def dfs(graph, pos):
             npos = (y, x, graph[y][x][1])
             ngraph[y][x] = 0
             res = max(res, dfs(ngraph, npos) + graph[y][x][0])
-        else:
-            return res
 
     return res
 
