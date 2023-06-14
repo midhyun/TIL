@@ -1,10 +1,4 @@
-list = [1,2,3,4,5]
+test1 = 0b1001
+test2 = 0b0100
 
-def test(list1):
-    list1 = list1[:]
-    list1[1] = 'a'
-    return list1
-
-print(test(list))
-print('---------------')
-print(list)
+print(not(test1&(1<<0)))
