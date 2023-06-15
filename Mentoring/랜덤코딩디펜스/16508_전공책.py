@@ -20,6 +20,7 @@ def find(cur):
 
 for i in range(len(T)):
     find(i)
+
 INF = sys.maxsize
 result = INF
 bit = [0]*N
