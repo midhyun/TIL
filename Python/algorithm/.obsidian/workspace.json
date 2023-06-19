@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ebb67c8212db20e6",
+        "id": "41aacc8dc9cbf33b",
         "type": "tabs",
         "children": [
           {
-            "id": "6f113181be005cf2",
+            "id": "85b5b305f23c137d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "다익스트라_최단경로.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -64,6 +60,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "791a65f43c3274f0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "다익스트라_최단경로.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "다익스트라_최단경로.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "다익스트라_최단경로.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,10 +146,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6f113181be005cf2",
+  "active": "85b5b305f23c137d",
   "lastOpenFiles": [
     "플루이드 워셜.md",
     "피보나치_메모이제이션.md",
+    "트리 순회.md",
+    "이항계수.md",
+    "위상정렬.md",
+    "분할정복.md",
+    "백트래킹.md",
     "다익스트라_최단경로.md",
     "그리디.md"
   ]
