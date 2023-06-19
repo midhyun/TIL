@@ -3,20 +3,29 @@ sys.stdin = open('20040_사이클게임.txt')
 input = sys.stdin.readline
 
 N, M = map(int, input().split())
-parent = [0]*(N+1)
-for i in range(1, N+1):
+parent = [0]*(N)
+for i in range(N):
     parent[i] = i
 
 def find(x):
-    if parent[x] == x:
-        return x
-    return find(parent[x])
+    while x != parent[x]:
+        x = parent[x]
+    return x
 
 def union(a, b):
-    parent[a] = find(a)
-    parent[b] = find(b)
-    if parent[a] != parent[b]:
+    parent_a = find(a)
+    parent_b = find(b)
+    if parent_a < parent_b:
+        parent[parent_b] = parent_a
+    else: parent[parent_a] = parent_b
         
 
-for _ in range(M):
+for i in range(M):
     a, b = map(int, input().split())
+    if find(a) != find(b):
+        union(a, b)
+    else:
+        print(i+1)
+        break
+else:
+    print(0)
