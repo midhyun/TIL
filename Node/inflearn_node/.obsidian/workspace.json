@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "44cc35ca9af3c078",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b0c7909ae7eb9fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c95b0d1034025501",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "노드 교과서 3장.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f9a4827838172ce8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "aa21438674e3746e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "노드 교과서 1장.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "691df29ef9f0b2ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "a24df607809b5f4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71a06692152a1adc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c3b7f84068e26463",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "761dca8b76625ae4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "e8cc828b2b34843c",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8a3477a86cd89e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35d24461ce39e2bb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "노드 교과서 1장.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "642291be8040609c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "노드 교과서 1장.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e84acb38e9fe9cc5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a6240398db4967c0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "노드 교과서 1장.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "aa21438674e3746e",
+  "lastOpenFiles": [
+    "노드 교과서 1장.md",
+    "노드 교과서 3장.md",
+    "Untitled.md"
+  ]
+}
