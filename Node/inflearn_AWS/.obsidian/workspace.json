@@ -1,72 +1,39 @@
 {
   "main": {
-    "id": "44cc35ca9af3c078",
+    "id": "9a35dc951e680e55",
     "type": "split",
     "children": [
       {
-        "id": "9b0c7909ae7eb9fc",
+        "id": "012298e5b0ea3bac",
         "type": "tabs",
         "children": [
           {
-            "id": "c95b0d1034025501",
+            "id": "ca65af8bcc4de915",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "노드 교과서 3장.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cdca55cee713803c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "노드 교과서 2장.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9a4827838172ce8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "aa21438674e3746e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "노드 교과서 1장.md",
+                "file": "AWS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "691df29ef9f0b2ad",
+    "id": "47f824c907bd4954",
     "type": "split",
     "children": [
       {
-        "id": "a24df607809b5f4f",
+        "id": "ff70eaa067f3b837",
         "type": "tabs",
         "children": [
           {
-            "id": "71a06692152a1adc",
+            "id": "ceec0f98d8fc9ce1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -76,7 +43,7 @@
             }
           },
           {
-            "id": "c3b7f84068e26463",
+            "id": "318f38e8d13fbbe5",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -91,7 +58,7 @@
             }
           },
           {
-            "id": "761dca8b76625ae4",
+            "id": "b20d24a2c066a5ba",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -102,24 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "e8cc828b2b34843c",
+    "id": "4eba9a685024e412",
     "type": "split",
     "children": [
       {
-        "id": "e8a3477a86cd89e2",
+        "id": "f9bdc8c877ec9496",
         "type": "tabs",
         "children": [
           {
-            "id": "35d24461ce39e2bb",
+            "id": "f161f492cb62f72e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "노드 교과서 2장.md",
+                "file": "AWS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,19 +97,19 @@
             }
           },
           {
-            "id": "642291be8040609c",
+            "id": "48da4a3e560c0a28",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "노드 교과서 2장.md",
+                "file": "AWS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "e84acb38e9fe9cc5",
+            "id": "35b5eed0398198c6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -154,12 +120,12 @@
             }
           },
           {
-            "id": "a6240398db4967c0",
+            "id": "b7420bc63caf3181",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "노드 교과서 2장.md"
+                "file": "AWS.md"
               }
             }
           }
@@ -180,11 +146,8 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "cdca55cee713803c",
+  "active": "ca65af8bcc4de915",
   "lastOpenFiles": [
-    "노드 교과서 3장.md",
-    "노드 교과서 2장.md",
-    "노드 교과서 1장.md",
-    "Untitled.md"
+    "AWS.md"
   ]
 }
