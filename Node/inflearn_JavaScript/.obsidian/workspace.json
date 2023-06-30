@@ -1,42 +1,34 @@
 {
   "main": {
-    "id": "44cc35ca9af3c078",
+    "id": "446a9721c949654f",
     "type": "split",
     "children": [
       {
-        "id": "4af074e2a312f272",
+        "id": "a7d8c99f48cc257f",
         "type": "tabs",
         "children": [
           {
-            "id": "c95b0d1034025501",
+            "id": "2fad016a974abe7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "노드 교과서 3장.md",
+                "file": "22장_this.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cdca55cee713803c",
+            "id": "07631e7f1d466da3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "노드 교과서 2장.md",
+                "file": "19장_프로토타입.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "3025d9c2dfa9ca65",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ],
@@ -46,15 +38,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "691df29ef9f0b2ad",
+    "id": "ecc5197aad18b5f1",
     "type": "split",
     "children": [
       {
-        "id": "a24df607809b5f4f",
+        "id": "d4fda91708e1e012",
         "type": "tabs",
         "children": [
           {
-            "id": "71a06692152a1adc",
+            "id": "7aacb588767b234d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -64,7 +56,7 @@
             }
           },
           {
-            "id": "c3b7f84068e26463",
+            "id": "9a46773025f6d430",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -79,7 +71,7 @@
             }
           },
           {
-            "id": "761dca8b76625ae4",
+            "id": "e813e069652dfcb8",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -90,24 +82,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "e8cc828b2b34843c",
+    "id": "854e42a98ca82f38",
     "type": "split",
     "children": [
       {
-        "id": "e8a3477a86cd89e2",
+        "id": "f69e9ecb96f429c2",
         "type": "tabs",
         "children": [
           {
-            "id": "35d24461ce39e2bb",
+            "id": "b82cfc5f1649606b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "노드 교과서 2장.md",
+                "file": "19장_프로토타입.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,19 +110,19 @@
             }
           },
           {
-            "id": "642291be8040609c",
+            "id": "8ff547ea082bdb93",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "노드 교과서 2장.md",
+                "file": "19장_프로토타입.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "e84acb38e9fe9cc5",
+            "id": "285d4eaac7dfbcfc",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -142,12 +133,12 @@
             }
           },
           {
-            "id": "a6240398db4967c0",
+            "id": "208e6b8ccb4c22c0",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "노드 교과서 2장.md"
+                "file": "19장_프로토타입.md"
               }
             }
           }
@@ -168,17 +159,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cdca55cee713803c",
+  "active": "07631e7f1d466da3",
   "lastOpenFiles": [
-    "node_learn/restServer.js",
-    "node_learn/restFront.js",
-    "node_learn/restFront.html",
-    "node_learn/restFront.css",
-    "node_learn/ㅁㄴㅇㄹㅁㄴ",
-    "node_learn/about.html",
-    "노드 교과서 3장.md",
-    "노드 교과서 2장.md",
-    "노드 교과서 1장.md",
-    "Untitled.md"
+    "22장_this.md",
+    "19장_프로토타입.md"
   ]
 }
