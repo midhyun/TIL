@@ -18,12 +18,11 @@ http.createServer(async (req, res) => {
   const cookies = parseCookies(req.headers.cookie);
   try {
       if (req.method === 'GET') {
-          if (!(cookies.session && session[cookies.session].expires > new Date())) {
-            const data = await fs.readFile(path.join(__dirname, 'login.html'));
-            res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8'});
-            res.end(data);
+          if (cookies.session && session[cookies.session].expires > new Date()) {
+            res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
+            res.end(`${session[cookies.session].name}님 안녕하세요`);
           } else if (req.url === '/') {
-              const data = await fs.readFile(path.join(__dirname, 'restFront.html'));
+              const data = await fs.readFile(path.join(__dirname, 'login.html'));
               res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8'});
               return res.end(data);
           } else if (req.url === '/about') {
@@ -115,9 +114,10 @@ http.createServer(async (req, res) => {
             res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
             return res.end(JSON.stringify(users));
           }
+        } else {
+          res.writeHead(404);
+          return res.end('NOT FOUND');
         }
-        res.writeHead(404);
-        return res.end('NOT FOUND');
       } catch (err) {
         console.error(err);
         res.writeHead(500, { 'Content-Type': 'text/plain; charset=utf-8' });
