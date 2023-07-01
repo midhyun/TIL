@@ -1,6 +1,9 @@
+const cluster = require('cluster');
 const http = require('http');
 const fs = require('fs').promises;
 const path = require('path');
+const numCpus = require('os').cpus().length;
+
 // 쿠키 변환함수
 const parseCookies = (cookie = '') =>
   cookie
@@ -13,6 +16,23 @@ const parseCookies = (cookie = '') =>
 
 const session = {}; // 세션 저장용
 const users = {} // 데이터 저장용
+
+if (cluster.isMaster) {
+  console.log(`마스터 프로세스 ID: ${process.pid}`);
+  // CPU개수 만큼 워커 생산.
+  for (let i = 0; i < numCpus; i++) {
+    cluster.fork();
+  }
+  // 워커가 종료되었을 때
+  cluster.on('exit', (worker, code, signal) => {
+    console.log(`${worker.process.pid}번 워커가 종료되었습니다.`);
+    console.log('code', code, 'signal', signal);
+    cluster.fork();
+  });
+} else {
+  // 워커들이 포트에서 대기
+  
+}
 
 http.createServer(async (req, res) => {
   const cookies = parseCookies(req.headers.cookie);
@@ -47,10 +67,6 @@ http.createServer(async (req, res) => {
               'Set-Cookie': `session=${uniqueInt}; Expires=${expires.toGMTString()}; HttpOnly; Path=/`,
             });
             res.end();
-          // 세션쿠키가 존재하고, 만료기간이 지나지 않았다면
-          // } else if (cookies.session && session[cookies.session].expires > new Date()) { // 쿠키가 있고 만료되지 않았다면
-          //   res.writeHead(200, { 'Content-type': 'text/plain; charset=utf-8' });
-          //   res.end(`${session[cookies.session].name}님 안녕하세요`);
           } else {
             try {
               const data = await fs.readFile(path.join(__dirname, 'login.html'));
