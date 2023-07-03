@@ -30,9 +30,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "34f547947744958d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basic_Array_function.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e20f90f21255cc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basic_Prototype_Class.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b2f4f7b113e28f1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Promise.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24d09e38568e4061",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "async_await.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -82,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "854e42a98ca82f38",
@@ -98,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "19장_프로토타입.md",
+                "file": "Promise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "19장_프로토타입.md",
+                "file": "Promise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "19장_프로토타입.md"
+                "file": "Promise.md"
               }
             }
           }
@@ -159,9 +208,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "07631e7f1d466da3",
+  "active": "b2f4f7b113e28f1b",
   "lastOpenFiles": [
-    "22장_this.md",
-    "19장_프로토타입.md"
+    "async_await.md",
+    "Promise.md",
+    "Basic_Prototype_Class.md",
+    "Basic_Array_function.md",
+    "19장_프로토타입.md",
+    "22장_this.md"
   ]
 }

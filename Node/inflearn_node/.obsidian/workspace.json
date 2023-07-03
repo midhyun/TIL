@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "노드 교과서 3장.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "노드 교과서 2장.md",
+                "file": "노드 교과서 1장.md",
                 "mode": "source",
                 "source": false
               }
@@ -39,8 +39,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e8cc828b2b34843c",
@@ -107,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "노드 교과서 2장.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "노드 교과서 2장.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "노드 교과서 2장.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -168,17 +166,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cdca55cee713803c",
+  "active": "c95b0d1034025501",
   "lastOpenFiles": [
+    "노드 교과서 3장.md",
+    "노드 교과서 1장.md",
+    "노드 교과서 2장.md",
+    "Untitled.md",
     "node_learn/restServer.js",
     "node_learn/restFront.js",
     "node_learn/restFront.html",
     "node_learn/restFront.css",
     "node_learn/ㅁㄴㅇㄹㅁㄴ",
-    "node_learn/about.html",
-    "노드 교과서 3장.md",
-    "노드 교과서 2장.md",
-    "노드 교과서 1장.md",
-    "Untitled.md"
+    "node_learn/about.html"
   ]
 }
