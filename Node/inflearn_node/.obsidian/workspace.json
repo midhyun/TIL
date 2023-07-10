@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9b0c7909ae7eb9fc",
+        "id": "5c720e081b4b1cf7",
         "type": "tabs",
         "children": [
           {
-            "id": "c95b0d1034025501",
+            "id": "70a12bcf9073bf78",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,41 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "cdca55cee713803c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "노드 교과서 2장.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9a4827838172ce8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "aa21438674e3746e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "노드 교과서 1장.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e8cc828b2b34843c",
@@ -119,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "노드 교과서 2장.md",
+                "file": "노드 교과서 3장.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "노드 교과서 2장.md",
+                "file": "노드 교과서 3장.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "노드 교과서 2장.md"
+                "file": "노드 교과서 3장.md"
               }
             }
           }
@@ -180,11 +146,48 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "cdca55cee713803c",
+  "floating": {
+    "id": "0beab369526cf803",
+    "type": "floating",
+    "children": [
+      {
+        "id": "aa2b804d8bdb65ea",
+        "type": "window",
+        "children": [
+          {
+            "id": "0dcb170058102bce",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "cdca55cee713803c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "노드 교과서 2장.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 308,
+        "y": 15,
+        "width": 600,
+        "height": 600,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "70a12bcf9073bf78",
   "lastOpenFiles": [
-    "노드 교과서 3장.md",
     "노드 교과서 2장.md",
     "노드 교과서 1장.md",
+    "노드 교과서 3장.md",
     "Untitled.md"
   ]
 }
