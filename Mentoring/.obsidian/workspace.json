@@ -4,22 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "e04922bede28ef68",
+        "id": "912d0e0b5cd9d9e8",
         "type": "tabs",
         "children": [
           {
-            "id": "2e47710cbafbf303",
+            "id": "9f57f630a16d1f86",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "80903e548aed5452",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "오리엔테이션 멘토링.md",
+                "file": "Mentoring/0623 정규멘토링 (박태준).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d4f051eed07520bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mentoring/0630 정규멘토링 (박태준).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "오리엔테이션 멘토링.md",
+                "file": "Mentoring/0630 정규멘토링 (박태준).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "오리엔테이션 멘토링.md",
+                "file": "Mentoring/0630 정규멘토링 (박태준).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "오리엔테이션 멘토링.md"
+                "file": "Mentoring/0630 정규멘토링 (박태준).md"
               }
             }
           }
@@ -146,19 +167,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "2e47710cbafbf303",
+  "active": "d4f051eed07520bb",
   "lastOpenFiles": [
-    "주영민 멘토님 UXBX.md",
-    "0509_박재범멘토님.md",
-    "랜덤코딩디펜스.md",
+    "Mentoring/0623 정규멘토링 (박태준).md",
+    "Mentoring/0630 정규멘토링 (박태준).md",
+    "etc/Pasted image 20230406231409.png",
+    "etc",
+    "Mentoring/주영민 멘토님 UXBX.md",
+    "Mentoring/오리엔테이션 멘토링.md",
+    "etc/카카오에 Exit 한 개발자 이야기.md",
+    "etc/랜덤코딩디펜스.md",
+    "etc/0509_박재범멘토님.md",
+    "etc/1. 1차미션.md",
+    "etc/0. 프리미션.md",
+    "Mentoring",
     "0427_Undefined.md",
     "랜덤코딩디펜스/16937_두스티커.py",
     "랜덤코딩디펜스/16937_두스티커.txt",
@@ -170,8 +200,6 @@
     "사전학습_JS/미확인 169163.crdownload",
     "랜덤코딩디펜스/17396_백도어.py",
     "랜덤코딩디펜스/17396_백도어.txt",
-    "랜덤코딩디펜스/11502_세개의소수.py",
-    "랜덤코딩디펜스/11502_세개의소수.txt",
     "MiniPJT/사전_화면구성.md",
     "MiniPJT/무제 파일.md",
     "사전학습_HTML/Transform_summary.md",
@@ -182,13 +210,8 @@
     "사전학습_HTML/HTML.md",
     "사전학습_HTML/Layout.md",
     "사전학습_HTML/HTML_summary.md",
-    "오리엔테이션 멘토링.md",
-    "카카오에 Exit 한 개발자 이야기.md",
-    "Pasted image 20230406231409.png",
-    "Pasted image 20230406224918.png",
-    "Pasted image 20230406220444.png",
-    "Pasted image 20230406220320.png",
-    "1. 1차미션.md",
-    "0. 프리미션.md"
+    "etc/Pasted image 20230406224918.png",
+    "etc/Pasted image 20230406220444.png",
+    "etc/Pasted image 20230406220320.png"
   ]
 }
