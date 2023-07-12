@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "swealgo2",
+            "request": "launch",
+            "mainClass": "swealgo2",
+            "projectName": "랜덤코딩디펜스_2f90a2a5"
+        },
+        {
+            "type": "java",
+            "name": "StronglyConnectedComponents",
+            "request": "launch",
+            "mainClass": "StronglyConnectedComponents",
+            "projectName": "랜덤코딩디펜스_2f90a2a5"
+        },
+        {
+            "type": "java",
+            "name": "TarjanAlgorithm",
+            "request": "launch",
+            "mainClass": "TarjanAlgorithm",
+            "projectName": "랜덤코딩디펜스_2f90a2a5"
+        },
+        {
+            "type": "java",
             "name": "dinamic",
             "request": "launch",
             "mainClass": "dinamic",
