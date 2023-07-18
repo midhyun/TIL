@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
+        "id": "5c720e081b4b1cf7",
+=======
         "id": "4af074e2a312f272",
+>>>>>>> 573c6b717670dc1ae73e6412006166e6e232df13
         "type": "tabs",
         "children": [
           {
-            "id": "c95b0d1034025501",
+            "id": "70a12bcf9073bf78",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,6 +34,8 @@
                 "source": false
               }
             }
+<<<<<<< HEAD
+=======
           },
           {
             "id": "cdca55cee713803c",
@@ -50,9 +56,9 @@
               "type": "empty",
               "state": {}
             }
+>>>>>>> 573c6b717670dc1ae73e6412006166e6e232df13
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +124,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
+                "file": "노드 교과서 3장.md",
+=======
                 "file": "Nest.js 도커라이징.md",
+>>>>>>> 573c6b717670dc1ae73e6412006166e6e232df13
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +145,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
+                "file": "노드 교과서 3장.md",
+=======
                 "file": "Nest.js 도커라이징.md",
+>>>>>>> 573c6b717670dc1ae73e6412006166e6e232df13
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +172,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
+                "file": "노드 교과서 3장.md"
+=======
                 "file": "Nest.js 도커라이징.md"
+>>>>>>> 573c6b717670dc1ae73e6412006166e6e232df13
               }
             }
           }
@@ -179,6 +197,51 @@
       "command-palette:Open command palette": false
     }
   },
+<<<<<<< HEAD
+  "floating": {
+    "id": "0beab369526cf803",
+    "type": "floating",
+    "children": [
+      {
+        "id": "aa2b804d8bdb65ea",
+        "type": "window",
+        "children": [
+          {
+            "id": "0dcb170058102bce",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "cdca55cee713803c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "노드 교과서 2장.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 308,
+        "y": 15,
+        "width": 600,
+        "height": 600,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "70a12bcf9073bf78",
+  "lastOpenFiles": [
+    "노드 교과서 2장.md",
+    "노드 교과서 1장.md",
+    "노드 교과서 3장.md",
+    "Untitled.md"
+=======
   "active": "72425b903f35203a",
   "lastOpenFiles": [
     "Untitled.md",
@@ -192,5 +255,6 @@
     "node_learn/restFront.css",
     "node_learn/ㅁㄴㅇㄹㅁㄴ",
     "node_learn/about.html"
+>>>>>>> 573c6b717670dc1ae73e6412006166e6e232df13
   ]
 }
