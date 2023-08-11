@@ -4,20 +4,16 @@
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "5c720e081b4b1cf7",
-=======
         "id": "4af074e2a312f272",
->>>>>>> 573c6b717670dc1ae73e6412006166e6e232df13
         "type": "tabs",
         "children": [
           {
-            "id": "70a12bcf9073bf78",
+            "id": "c95b0d1034025501",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "porest_docs/Schema_Porest.md",
                 "mode": "source",
                 "source": false
               }
@@ -29,13 +25,47 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nest.js 도커라이징.md",
+                "file": "capture/Nest.js 도커라이징.md",
                 "mode": "source",
                 "source": false
               }
             }
-<<<<<<< HEAD
-=======
+          },
+          {
+            "id": "5c06936ff50ea9bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "porest_docs/Nest.js.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13d888c905b9dbe1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "porest_docs/MongoDB.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d92b8935441df72b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "하계대학생 알고특강.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           },
           {
             "id": "cdca55cee713803c",
@@ -43,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "노드 교과서 1장.md",
+                "file": "node_bible/노드 교과서 1장.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,9 +86,9 @@
               "type": "empty",
               "state": {}
             }
->>>>>>> 573c6b717670dc1ae73e6412006166e6e232df13
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -108,7 +138,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e8cc828b2b34843c",
@@ -124,11 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "노드 교과서 3장.md",
-=======
-                "file": "Nest.js 도커라이징.md",
->>>>>>> 573c6b717670dc1ae73e6412006166e6e232df13
+                "file": "하계대학생 알고특강.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,11 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "노드 교과서 3장.md",
-=======
-                "file": "Nest.js 도커라이징.md",
->>>>>>> 573c6b717670dc1ae73e6412006166e6e232df13
+                "file": "하계대학생 알고특강.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,11 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "노드 교과서 3장.md"
-=======
-                "file": "Nest.js 도커라이징.md"
->>>>>>> 573c6b717670dc1ae73e6412006166e6e232df13
+                "file": "하계대학생 알고특강.md"
               }
             }
           }
@@ -197,64 +216,31 @@
       "command-palette:Open command palette": false
     }
   },
-<<<<<<< HEAD
-  "floating": {
-    "id": "0beab369526cf803",
-    "type": "floating",
-    "children": [
-      {
-        "id": "aa2b804d8bdb65ea",
-        "type": "window",
-        "children": [
-          {
-            "id": "0dcb170058102bce",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "cdca55cee713803c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "노드 교과서 2장.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 308,
-        "y": 15,
-        "width": 600,
-        "height": 600,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "70a12bcf9073bf78",
+  "active": "71a06692152a1adc",
   "lastOpenFiles": [
+    "노드 교과서 3장.md",
     "노드 교과서 2장.md",
     "노드 교과서 1장.md",
-    "노드 교과서 3장.md",
-    "Untitled.md"
-=======
-  "active": "72425b903f35203a",
-  "lastOpenFiles": [
     "Untitled.md",
     "Nest.js 도커라이징.md",
-    "노드 교과서 3장.md",
-    "노드 교과서 1장.md",
-    "노드 교과서 2장.md",
-    "node_learn/restServer.js",
-    "node_learn/restFront.js",
-    "node_learn/restFront.html",
-    "node_learn/restFront.css",
-    "node_learn/ㅁㄴㅇㄹㅁㄴ",
-    "node_learn/about.html"
->>>>>>> 573c6b717670dc1ae73e6412006166e6e232df13
+    "porest_docs/MongoDB.md",
+    "하계대학생 알고특강.md",
+    "porest_docs/Nest.js.md",
+    "porest_docs/Schema_Porest.md",
+    "node_bible/노드 교과서 1장.md",
+    "porest_docs",
+    "capture/Nest.js 도커라이징.md",
+    "node_bible",
+    "capture",
+    "NestJS_learn/node_modules/@nestjs/mapped-types/index.d.ts",
+    "NestJS_learn/node_modules/@nestjs/mapped-types/README.md",
+    "NestJS_learn/node_modules/@nestjs/mapped-types/package.json",
+    "NestJS_learn/node_modules/@nestjs/mapped-types/index.js",
+    "NestJS_learn/node_modules/@nestjs/mapped-types/dist/types/remove-fields-with-type.type.d.ts",
+    "NestJS_learn/node_modules/@nestjs/mapped-types/dist/types/remove-fields-with-type.type.js",
+    "NestJS_learn/node_modules/@nestjs/mapped-types/dist/types",
+    "NestJS_learn/node_modules/@nestjs/mapped-types/dist/type-helpers.utils.js",
+    "node_bible/노드 교과서 3장.md",
+    "node_bible/노드 교과서 2장.md"
   ]
 }
