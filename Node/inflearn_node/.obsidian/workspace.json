@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "하계대학생 알고특강.md",
+                "file": "porest_docs/Memo.md",
                 "mode": "source",
                 "source": false
               }
@@ -138,8 +138,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e8cc828b2b34843c",
@@ -155,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "하계대학생 알고특강.md",
+                "file": "porest_docs/Memo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "하계대학생 알고특강.md",
+                "file": "porest_docs/Memo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "하계대학생 알고특강.md"
+                "file": "porest_docs/Memo.md"
               }
             }
           }
@@ -216,17 +215,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "71a06692152a1adc",
+  "active": "d92b8935441df72b",
   "lastOpenFiles": [
+    "porest_docs/MongoDB.md",
+    "porest_docs/Memo.md",
+    "porest_docs/Nest.js.md",
+    "porest_docs/Schema_Porest.md",
     "노드 교과서 3장.md",
     "노드 교과서 2장.md",
     "노드 교과서 1장.md",
     "Untitled.md",
     "Nest.js 도커라이징.md",
-    "porest_docs/MongoDB.md",
     "하계대학생 알고특강.md",
-    "porest_docs/Nest.js.md",
-    "porest_docs/Schema_Porest.md",
     "node_bible/노드 교과서 1장.md",
     "porest_docs",
     "capture/Nest.js 도커라이징.md",
