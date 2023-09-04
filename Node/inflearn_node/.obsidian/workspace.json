@@ -4,7 +4,6 @@
     "type": "split",
     "children": [
       {
-<<<<<<< Updated upstream
         "id": "4af074e2a312f272",
         "type": "tabs",
         "children": [
@@ -62,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "하계대학생 알고특강.md",
+                "file": "porest_docs/Memo.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,13 +81,6 @@
           },
           {
             "id": "3025d9c2dfa9ca65",
-=======
-        "id": "0cdb0727733885f2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f8304d0173a527ae",
->>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -146,8 +138,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7945e290a7b32535",
@@ -163,10 +154,14 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
                 "file": "하계대학생 알고특강.md",
 =======
 >>>>>>> Stashed changes
+=======
+                "file": "porest_docs/Memo.md",
+>>>>>>> b99a210fd1417b8b95249916f6a4be3f9251c8bf
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,10 +178,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
                 "file": "하계대학생 알고특강.md",
 =======
 >>>>>>> Stashed changes
+=======
+                "file": "porest_docs/Memo.md",
+>>>>>>> b99a210fd1417b8b95249916f6a4be3f9251c8bf
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +209,7 @@
               "type": "outline",
 <<<<<<< Updated upstream
               "state": {
-                "file": "하계대학생 알고특강.md"
+                "file": "porest_docs/Memo.md"
               }
 =======
               "state": {}
@@ -234,18 +233,23 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   "active": "71a06692152a1adc",
+=======
+  "active": "d92b8935441df72b",
+>>>>>>> b99a210fd1417b8b95249916f6a4be3f9251c8bf
   "lastOpenFiles": [
+    "porest_docs/MongoDB.md",
+    "porest_docs/Memo.md",
+    "porest_docs/Nest.js.md",
+    "porest_docs/Schema_Porest.md",
     "노드 교과서 3장.md",
     "노드 교과서 2장.md",
     "노드 교과서 1장.md",
     "Untitled.md",
     "Nest.js 도커라이징.md",
-    "porest_docs/MongoDB.md",
     "하계대학생 알고특강.md",
-    "porest_docs/Nest.js.md",
-    "porest_docs/Schema_Porest.md",
     "node_bible/노드 교과서 1장.md",
     "porest_docs",
     "capture/Nest.js 도커라이징.md",
