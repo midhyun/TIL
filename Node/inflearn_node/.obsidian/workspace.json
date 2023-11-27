@@ -1,108 +1,35 @@
 {
   "main": {
-    "id": "95f99a8a5af8b559",
+    "id": "00c4c8b98f8ee1c2",
     "type": "split",
     "children": [
       {
-        "id": "4af074e2a312f272",
+        "id": "55ab0fd66ce11a76",
         "type": "tabs",
         "children": [
           {
-            "id": "c95b0d1034025501",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "porest_docs/Schema_Porest.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "72425b903f35203a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "capture/Nest.js 도커라이징.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c06936ff50ea9bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "porest_docs/Nest.js.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "13d888c905b9dbe1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "porest_docs/MongoDB.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d92b8935441df72b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "porest_docs/Memo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cdca55cee713803c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "node_bible/노드 교과서 1장.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3025d9c2dfa9ca65",
+            "id": "88d3e1b213731cb1",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "2c9b145c6e0663b0",
+    "id": "45966eeb100e03b8",
     "type": "split",
     "children": [
       {
-        "id": "4d29d7385b4c33bc",
+        "id": "3747295463cf8884",
         "type": "tabs",
         "children": [
           {
-            "id": "544a7c716dacb013",
+            "id": "ce860b98903aec10",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -112,7 +39,7 @@
             }
           },
           {
-            "id": "ab59d6ad3b85883f",
+            "id": "6ae350df73271a9b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -127,7 +54,7 @@
             }
           },
           {
-            "id": "f96227af9d95d2a0",
+            "id": "64ea9c6c11eb55e9",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -141,27 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "7945e290a7b32535",
+    "id": "3cc1925ff0644caa",
     "type": "split",
     "children": [
       {
-        "id": "75c867ecd82d8042",
+        "id": "612bdbdb14f1b1cd",
         "type": "tabs",
         "children": [
           {
-            "id": "accb46078740e655",
+            "id": "823efdc4258060ae",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-                "file": "하계대학생 알고특강.md",
-=======
->>>>>>> Stashed changes
-=======
-                "file": "porest_docs/Memo.md",
->>>>>>> b99a210fd1417b8b95249916f6a4be3f9251c8bf
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,26 +92,18 @@
             }
           },
           {
-            "id": "81e77ba324eba78f",
+            "id": "8a971a7d3f31582e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-                "file": "하계대학생 알고특강.md",
-=======
->>>>>>> Stashed changes
-=======
-                "file": "porest_docs/Memo.md",
->>>>>>> b99a210fd1417b8b95249916f6a4be3f9251c8bf
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "526611a179f2d86a",
+            "id": "9ed3787ff227ffe6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -203,17 +114,11 @@
             }
           },
           {
-            "id": "45420cbfb67241bb",
+            "id": "ea6abd2ae45dd539",
             "type": "leaf",
             "state": {
               "type": "outline",
-<<<<<<< Updated upstream
-              "state": {
-                "file": "porest_docs/Memo.md"
-              }
-=======
               "state": {}
->>>>>>> Stashed changes
             }
           }
         ]
@@ -233,41 +138,6 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-  "active": "71a06692152a1adc",
-=======
-  "active": "d92b8935441df72b",
->>>>>>> b99a210fd1417b8b95249916f6a4be3f9251c8bf
-  "lastOpenFiles": [
-    "porest_docs/MongoDB.md",
-    "porest_docs/Memo.md",
-    "porest_docs/Nest.js.md",
-    "porest_docs/Schema_Porest.md",
-    "노드 교과서 3장.md",
-    "노드 교과서 2장.md",
-    "노드 교과서 1장.md",
-    "Untitled.md",
-    "Nest.js 도커라이징.md",
-    "하계대학생 알고특강.md",
-    "node_bible/노드 교과서 1장.md",
-    "porest_docs",
-    "capture/Nest.js 도커라이징.md",
-    "node_bible",
-    "capture",
-    "NestJS_learn/node_modules/@nestjs/mapped-types/index.d.ts",
-    "NestJS_learn/node_modules/@nestjs/mapped-types/README.md",
-    "NestJS_learn/node_modules/@nestjs/mapped-types/package.json",
-    "NestJS_learn/node_modules/@nestjs/mapped-types/index.js",
-    "NestJS_learn/node_modules/@nestjs/mapped-types/dist/types/remove-fields-with-type.type.d.ts",
-    "NestJS_learn/node_modules/@nestjs/mapped-types/dist/types/remove-fields-with-type.type.js",
-    "NestJS_learn/node_modules/@nestjs/mapped-types/dist/types",
-    "NestJS_learn/node_modules/@nestjs/mapped-types/dist/type-helpers.utils.js",
-    "node_bible/노드 교과서 3장.md",
-    "node_bible/노드 교과서 2장.md"
-  ]
-=======
-  "active": "f8304d0173a527ae",
+  "active": "88d3e1b213731cb1",
   "lastOpenFiles": []
->>>>>>> Stashed changes
 }
