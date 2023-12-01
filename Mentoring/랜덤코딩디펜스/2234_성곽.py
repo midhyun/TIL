@@ -37,33 +37,14 @@ for i in range(M):
 print(len(area))
 print(max(area))
 
-
-def bfs2(i, j, cur):
-    q = deque()
-    q.append((i, j))
-    visited2[i][j] = True
-    inlist = [False]*(len(area)+1)
-    while q:
-        i, j = q.popleft()
-        for k in range(4):
-            y = i + dy[k]
-            x = j + dx[k]
-            if 0 <= x < N and 0 <= y < M and not visited2[y][x]:
-                if visited[y][x] == cur:
-                    q.append((y, x))
-                    visited2[y][x] = True
-                else:
-                    inlist[visited[y][x]] = True
-    return inlist
-
-visited2 = [[False]*N for _ in range(M)]
 result = 0
 for i in range(M):
     for j in range(N):
-        if not visited2[i][j]:
-            inlist = bfs2(i, j, visited[i][j])
-            for n, isAdj in enumerate(inlist):
-                if isAdj:
-                    res = area[visited[i][j]-1] + area[n-1]
-                    result = max(res, result)
+        for k in range(4):
+            y = i + dy[k]
+            x = j + dx[k]
+            if 0 <= x < N and 0 <= y < M:
+                if visited[i][j] != visited[y][x]:
+                    result = max(result, area[visited[i][j]-1] + area[visited[y][x]-1])
+
 print(result)
