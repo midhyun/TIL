@@ -11,6 +11,8 @@ def solution():
     result = 0
 
     def dfs(i, j, cur):
+        # 지역변수를 사용하기 위한 nonlocal 키워드.
+        # 가장 가까운 함수부터 지역변수를 찾는다.
         nonlocal result
         if i == 0 and j == C-1 and cur == K:
             result += 1
