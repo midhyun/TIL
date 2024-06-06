@@ -1,5 +1,6 @@
 import os
 import time
+import re
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
@@ -10,6 +11,8 @@ try:
     time.sleep(1)
     problem_name = driver.find_element(By.XPATH, '//*[@id="problem_title"]').text
     file_name = f'{problem_number}_{problem_name}'
+    safe_problem_name = re.sub('[^a-zA-Z0-9\n\.]', '', problem_name)
+    file_name = f'{problem_number}_{safe_problem_name}'
     sample_input = driver.find_element(By.XPATH, '//*[@id="sample-input-1"]').text
 
     python_file = file_name + ".py"
@@ -23,6 +26,9 @@ input = sys.stdin.readline
     with open(text_file, "x") as f:
         f.write(f'''{sample_input}''')
 
+    print(python_file, text_file)
+    os.system(f"code {python_file}")
+    os.system(f"code {text_file}")
     print(f"Files '{python_file}' and '{text_file}' created successfully.")
 except FileExistsError:
     print("File already exists.")
