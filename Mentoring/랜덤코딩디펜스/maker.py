@@ -23,6 +23,11 @@ try:
         f.write(f'''import sys
 sys.stdin = open('{file_name}.txt')
 input = sys.stdin.readline
+
+def solution():
+    return
+
+solution()
 ''')
 
     text_file = file_name + ".txt"
