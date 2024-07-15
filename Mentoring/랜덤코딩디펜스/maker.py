@@ -18,6 +18,10 @@ try:
     sample_input = driver.find_element(By.XPATH, '//*[@id="sample-input-1"]').text
     driver.quit()
 
+    text_file = file_name + ".txt"
+    with open(text_file, "x") as f:
+        f.write(f'''{sample_input}''')
+
     python_file = file_name + ".py"
     with open(python_file, "x") as f:
         f.write(f'''import sys
@@ -29,11 +33,7 @@ def solution():
 
 solution()
 ''')
-
-    text_file = file_name + ".txt"
-    with open(text_file, "x") as f:
-        f.write(f'''{sample_input}''')
-
+        
     print(python_file, text_file)
     os.system(f"code {python_file}")
     os.system(f"code {text_file}")
