@@ -10,37 +10,38 @@ class Node():
 
 def solution():
     def preOrder(Node):
-        print(Node.root, end='')
-        if Node.left != ".":
-            preOrder(tree[Node.left])
-        if Node.right != ".":
-            preOrder(tree[Node.right])
+        print(Node, end='')
+        if tree[Node][0] != ".":
+            preOrder(tree[Node][0])
+        if tree[Node][1] != ".":
+            preOrder(tree[Node][1])
     
     def inOrder(Node):
-        if Node.left != ".":
-            inOrder(tree[Node.left])
-        print(Node.root, end='')
-        if Node.right != ".":
-            inOrder(tree[Node.right])
+        if tree[Node][0] != ".":
+            inOrder(tree[Node][0])
+        print(Node, end='')
+        if tree[Node][1] != ".":
+            inOrder(tree[Node][1])
     
     def postOrder(Node):
-        if Node.left != ".":
-            postOrder(tree[Node.left])
-        if Node.right != ".":
-            postOrder(tree[Node.right])
-        print(Node.root, end='')
-
+        if tree[Node][0] != ".":
+            postOrder(tree[Node][0])
+        if tree[Node][1] != ".":
+            postOrder(tree[Node][1])
+        print(Node, end='')
+    
     N = int(input())
-    tree = {}
+    tree = defaultdict(list)
+
     for _ in range(N):
         root, left, right = input().split()
-        tree[root] = Node(root, left, right)
-    
-    preOrder(tree["A"])
+        tree[root] = [left, right]
+
+    preOrder("A")
     print()
-    inOrder(tree["A"])
+    inOrder("A")
     print()
-    postOrder(tree["A"])
+    postOrder("A")
     print()
         
 solution()
