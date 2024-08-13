@@ -7,7 +7,6 @@ def solution(indegree, singer):
     for key, value in indegree.items():
         if value == 0:
             q.append(key)
-
     while q:
         cur = q.popleft()
         for nxt in singer[cur]:
@@ -21,13 +20,14 @@ def solution(indegree, singer):
     return result
 
 N, M = map(int, input().split())
-singer = [[] for _ in range(N+1)]
+singer = [set() for _ in range(N+1)]
 indegree = defaultdict(int)
 for _ in range(M):
     order = [*map(int, input().split())]
     for idx in range(1, len(order)-1):
-        singer[order[idx]].append(order[idx+1])
-        indegree[order[idx+1]] += 1
+        if order[idx+1] not in singer[order[idx]]:
+            indegree[order[idx+1]] += 1
+        singer[order[idx]].add(order[idx+1])
 
 for i in range(1, N+1):
     indegree[i]
