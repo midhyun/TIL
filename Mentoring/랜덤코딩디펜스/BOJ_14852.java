@@ -13,7 +13,8 @@ public class BOJ_14852 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
 
-        dp = new long[N+1][2];
+        dp = new long[1000001][2];
+
         System.out.println(findCase(N));
 
         }
