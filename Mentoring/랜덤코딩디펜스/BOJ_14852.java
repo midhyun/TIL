@@ -9,7 +9,7 @@ public class BOJ_14852 {
     static long[][] dp;
 
     public static void main(String[] args) throws IOException {
-        System.setIn(new FileInputStream("Mentoring/랜덤코딩디펜스/14852.txt"));
+        System.setIn(new FileInputStream("Mentoring/랜덤코딩디펜스/BOJ_14852.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
 
