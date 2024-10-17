@@ -2,8 +2,6 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.List;
 import java.util.PriorityQueue;
 
 public class BOJ_1261 {
@@ -23,7 +21,7 @@ public class BOJ_1261 {
         }
     }
 
-    static List<Integer> dy, dx;
+    static int[] dy, dx;
     static int N, M;
     static int[][] map;
     static boolean[][] visited;
@@ -38,12 +36,12 @@ public class BOJ_1261 {
         N = Integer.parseInt(input[1]);
         visited = new boolean[N][M];
         pq = new PriorityQueue<Status>();
-        pq.add(new Status(0, 0, 0));
-        dy = Arrays.asList(-1, 1, 0, 0);
-        dx = Arrays.asList(0, 0, -1, 1);
+        dy = new int[] {1, -1, 0, 0};
+        dx = new int[] {0, 0, 1, -1};
         map = new int[N][M];
         for (int i = 0; i < N; i++) {
             String line = br.readLine();
+            // python code: map[i] = list(map(int, list(line)))
             for (int j = 0; j < M; j++) {
                 map[i][j] = line.charAt(j) - '0';
             }
@@ -56,14 +54,15 @@ public class BOJ_1261 {
     static public void dijkstra() {
         while (!pq.isEmpty()) {
             Status cur = pq.poll();
+            // 골인지점에 도달할 경우 종료
             if (cur.y == N - 1 && cur.x == M -1 ) {
                 System.out.println(cur.cnt);
                 return;
             }
-
+            // 4방향 탐색 진행
             for (int k = 0; k < 4; k++) {
-                int ny = cur.y + dy.get(k);
-                int nx = cur.x + dx.get(k);
+                int ny = cur.y + dy[k];
+                int nx = cur.x + dx[k];
 
                 if (ny < 0 || nx < 0 || ny >= N || nx >= M) {
                     continue;
