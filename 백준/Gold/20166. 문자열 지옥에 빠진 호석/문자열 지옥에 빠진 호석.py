@@ -1,34 +1,38 @@
-import sys
-sys.setrecursionlimit(10**8)
-input = sys.stdin.readline
+from sys import stdin, setrecursionlimit
 
-def dfs(i, j, cur):
-    if len(cur) > 5:
+setrecursionlimit(10 ** 9)
+
+n, m, k = map(int, stdin.readline().split())
+ans, arr, res = {}, [], []
+dx, dy = [1, 0, -1, 0, 1, 1, -1, -1], [0, 1, 0, -1, -1, 1, 1, -1]
+ans_list = []
+
+for i in range(n):
+    arr.append(list(stdin.readline().rstrip()))
+
+for _ in range(k):
+    data = stdin.readline().rstrip()
+    ans[data] = 0
+    ans_list.append(data)
+
+
+def solve(x, y, cnt, string):
+    if cnt > 5:
         return
-    
-    if god_string.get(cur):
-        god_string[cur] += 1
-        return
-    
-    for k in range(8):
-        y, x = (i + dy[k]) % N, (j + dx[k]) % M
-        dfs(y, x, cur+graph[y][x])
 
-dy, dx = [0, 0, -1, 1, -1, 1, -1, 1], [-1, 1, 0, 0, -1, 1, 1, -1]
-N, M, K = map(int, input().split())
-graph = [list(input().rstrip()) for _ in range(N)]
-god_string, result = {}, []
+    if string in ans:
+        ans[string] += 1
 
-for _ in range(K):
-    gs = input().rstrip()
-    result.append(gs)
-    god_string[gs] = 1
-    
+    for i in range(8):
+        nx, ny = (x + n + dx[i]) % n, (y + m + dy[i]) % m
+        solve(nx, ny, cnt + 1, string + arr[nx][ny])
 
 
-for i in range(N):
-    for j in range(M):
-        dfs(i, j, graph[i][j])
+for i in range(n):
+    for j in range(m):
+        start = ''
+        solve(i, j, 1, start + arr[i][j])
 
-for res in result:
-    print(god_string[res]-1)
+for k in ans_list:
+    if k in ans:
+        print(ans[k])
