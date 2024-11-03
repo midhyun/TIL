@@ -10,13 +10,10 @@ public class BOJ_17071 {
         int k = Integer.parseInt(st.nextToken());
 
         int[][] visited = new int[500001][2];
-        for (int i = 0; i < 500001; i++) {
-            Arrays.fill(visited[i], -1);
-        }
 
         Queue<Integer> q = new LinkedList<>();
         q.add(n);
-        visited[n][0] = 0;
+        visited[n][0] = 1;
         int time = 0;
         if (n == k) {
             System.out.println(0);
@@ -36,25 +33,25 @@ public class BOJ_17071 {
                 if (cur == null) continue;
 
                 int next = cur + 1;
-                if (next <= 500000 && visited[next][time % 2] == -1) {
+                if (next <= 500000 && visited[next][time % 2] == 0) {
                     visited[next][time % 2] = time;
                     q.add(next);
                 }
 
                 next = cur - 1;
-                if (next >= 0 && visited[next][time % 2] == -1) {
+                if (next >= 0 && visited[next][time % 2] == 0) {
                     visited[next][time % 2] = time;
                     q.add(next);
                 }
 
                 next = cur * 2;
-                if (next <= 500000 && visited[next][time % 2] == -1) {
+                if (next <= 500000 && visited[next][time % 2] == 0) {
                     visited[next][time % 2] = time;
                     q.add(next);
                 }
             }
 
-            if (visited[k][time % 2] != -1 && visited[k][time % 2] <= time) {
+            if (visited[k][time % 2] != 0 && visited[k][time % 2] <= time) {
                 System.out.println(time);
                 return;
             }
