@@ -17,35 +17,23 @@ public class Main {
         }
         TrieNode root = trie.getRoot();
         trie.printAllPath(0, root);
-        System.out.println(Trie.sb.toString());
+        System.out.println(trie.sb.toString());
     }
 }
 
-class TrieNode implements Comparable<TrieNode> {
-    TreeSet<TrieNode> children; // 자식 노드를 저장하는 맵
-    String value; // 현재 노드의 값;
+class TrieNode {
+    Map<String, TrieNode> children; // 자식 노드를 저장하는 맵
     boolean isEndOfWord;
 
     //생성자
     public TrieNode() {
-        children = new TreeSet<>();
+        children = new HashMap<>();
         isEndOfWord = false;
-    }
-
-    public TrieNode(String value) {
-        this();
-        this.value = value;
-    }
-
-    // compareTo 메소드 구현
-    @Override
-    public int compareTo(TrieNode o) {
-        return value.compareTo(o.value);
     }
 }
 
 class Trie {
-    static StringBuilder sb = new StringBuilder();
+    StringBuilder sb = new StringBuilder();
     private final TrieNode root;
     // 생성자: 루트노드를 초기화
     public Trie() {
@@ -59,25 +47,21 @@ class Trie {
     public void insert(String[] path) {
         TrieNode currentNode = root;
         for (String dir : path) {
-            TrieNode finalCurrentNode = currentNode;
-            currentNode = currentNode.children.stream()
-                    .filter(node -> node.value.equals(dir))
-                    .findFirst()
-                    .orElseGet(() -> {
-                        TrieNode newNode = new TrieNode(dir);
-                        finalCurrentNode.children.add(newNode);
-                        return newNode;
-                    });
+            currentNode = currentNode.children.computeIfAbsent(dir, k -> new TrieNode());
         }
         currentNode.isEndOfWord = true;
     }
 
     public void printAllPath(int depth, TrieNode node) {
-        for (TrieNode child : node.children) {
-            String value = child.value;
-            sb.append(" ".repeat(Math.max(0, depth)));
-            sb.append(value).append("\n");
+        List<String> children = new ArrayList<>(node.children.keySet());
 
+        Collections.sort(children);
+        for (String key : children) {
+            TrieNode child = node.children.get(key);
+            for (int i = 0; i < depth; i++) {
+                sb.append(" ");
+            }
+            sb.append(key).append("\n");
             printAllPath(depth + 1, child);
         }
     }
