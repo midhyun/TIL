@@ -17,21 +17,35 @@ public class Main {
         }
         TrieNode root = trie.getRoot();
         trie.printAllPath(0, root);
+        System.out.println(Trie.sb.toString());
     }
 }
 
-class TrieNode {
-    Map<String, TrieNode> children; // 자식 노드를 저장하는 맵
+class TrieNode implements Comparable<TrieNode> {
+    TreeSet<TrieNode> children; // 자식 노드를 저장하는 맵
+    String value; // 현재 노드의 값;
     boolean isEndOfWord;
 
     //생성자
     public TrieNode() {
-        children = new HashMap<>();
+        children = new TreeSet<>();
         isEndOfWord = false;
+    }
+
+    public TrieNode(String value) {
+        this();
+        this.value = value;
+    }
+
+    // compareTo 메소드 구현
+    @Override
+    public int compareTo(TrieNode o) {
+        return value.compareTo(o.value);
     }
 }
 
 class Trie {
+    static StringBuilder sb = new StringBuilder();
     private final TrieNode root;
     // 생성자: 루트노드를 초기화
     public Trie() {
@@ -45,21 +59,25 @@ class Trie {
     public void insert(String[] path) {
         TrieNode currentNode = root;
         for (String dir : path) {
-            currentNode = currentNode.children.computeIfAbsent(dir, k -> new TrieNode());
+            TrieNode finalCurrentNode = currentNode;
+            currentNode = currentNode.children.stream()
+                    .filter(node -> node.value.equals(dir))
+                    .findFirst()
+                    .orElseGet(() -> {
+                        TrieNode newNode = new TrieNode(dir);
+                        finalCurrentNode.children.add(newNode);
+                        return newNode;
+                    });
         }
         currentNode.isEndOfWord = true;
     }
 
     public void printAllPath(int depth, TrieNode node) {
-        List<String> children = new ArrayList<>(node.children.keySet());
+        for (TrieNode child : node.children) {
+            String value = child.value;
+            sb.append(" ".repeat(Math.max(0, depth)));
+            sb.append(value).append("\n");
 
-        Collections.sort(children);
-        for (String key : children) {
-            TrieNode child = node.children.get(key);
-            for (int i = 0; i < depth; i++) {
-                System.out.print(" ");
-            }
-            System.out.println(key);
             printAllPath(depth + 1, child);
         }
     }
