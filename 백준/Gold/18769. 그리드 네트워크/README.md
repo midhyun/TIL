@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 14248 KB, 시간: 108 ms
+메모리: 312592 KB, 시간: 1856 ms
 
 ### 분류
 
@@ -12,7 +12,7 @@
 
 ### 제출 일자
 
-2025년 2월 8일 15:47:27
+2025년 2월 8일 16:17:33
 
 ### 문제 설명
 
@@ -23,16 +23,16 @@
 <table class="table table-bordered" style="width: 100%;">
 	<tbody>
 		<tr>
-			<td style="width: 50%; vertical-align: middle; text-align: center"><img alt="" src="" style="width: 385px; height: 223px;"></td>
-			<td style="width: 50%; vertical-align: middle; text-align: center"><img alt="" src="" style="width: 386px; height: 223px;"></td>
+			<td style="width: 50%; vertical-align: middle; text-align: center"><img alt="" src="https://upload.acmicpc.net/60cb8704-1ffe-4767-b9bc-91d3dcb379d6/-/preview/" style="width: 385px; height: 223px;"></td>
+			<td style="width: 50%; vertical-align: middle; text-align: center"><img alt="" src="https://upload.acmicpc.net/c9272c2b-4fad-431a-a2e2-9e7f3eb41a61/-/preview/" style="width: 386px; height: 223px;"></td>
 		</tr>
 		<tr>
 			<td style="width: 50%; vertical-align: middle; text-align: center">(a)</td>
 			<td style="width: 50%; vertical-align: middle; text-align: center">(b)</td>
 		</tr>
 		<tr>
-			<td style="width: 50%; vertical-align: middle; text-align: center"><img alt="" src="" style="width: 386px; height: 223px;"></td>
-			<td style="width: 50%; vertical-align: middle; text-align: center"><img alt="" src="" style="width: 383px; height: 223px;"></td>
+			<td style="width: 50%; vertical-align: middle; text-align: center"><img alt="" src="https://upload.acmicpc.net/93b2a9ec-b17c-4f30-aa4d-25f748219d38/-/preview/" style="width: 386px; height: 223px;"></td>
+			<td style="width: 50%; vertical-align: middle; text-align: center"><img alt="" src="https://upload.acmicpc.net/bf20c4c4-c71d-4df6-bed8-bbb270b65dd0/-/preview/" style="width: 383px; height: 223px;"></td>
 		</tr>
 		<tr>
 			<td style="width: 50%; vertical-align: middle; text-align: center">(c)</td>
